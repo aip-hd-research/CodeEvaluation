@@ -40,10 +40,10 @@ def test_isinstance_partial_overlap():
 
 
 def test_isinstance_missing_types():
-    """Ensure isinstance fails if types are missing."""
+    """Ensure isinstance works for bigger boPs implementing smaller ones."""
     boP = BoP[ID, CodeJava]()
-    assert not isinstance(boP, BoP[ID])  # ❌ False (missing one type)
-    assert not isinstance(boP, BoP[CodeJava])  # ❌ False (missing one type)
+    assert isinstance(boP, BoP[ID])  # ✅ True (missing one type)
+    assert isinstance(boP, BoP[CodeJava])  # ✅ True (missing one type)
 
 
 def test_bop_invalid_type():
@@ -87,12 +87,12 @@ def test_isinstance_no_generic_params():
 # === Test: issubclass() Behavior === #
 def test_issubclass_subset():
     """Ensure issubclass works when one type set is a subset of another."""
-    assert issubclass(BoP[ID, CodeJava], BoP[ID, CodeJava, Status])  # ✅ True (subset)
+    assert issubclass(BoP[ID, CodeJava, Status], BoP[ID, CodeJava])  # ✅ True (special implementation with one more column)
 
 
 def test_issubclass_superset():
     """Ensure issubclass fails when one type set is a superset."""
-    assert not issubclass(BoP[ID, CodeJava, Status], BoP[ID, CodeJava])  # ❌ False
+    assert not issubclass(BoP[ID, CodeJava], BoP[ID, CodeJava, Status])  # ❌ False (Status misses, no subclass)
 
 
 def test_issubclass_base_class():
@@ -114,8 +114,8 @@ def test_issubclass_symmetric():
 
 def test_issubclass_large_subset():
     """Ensure issubclass correctly identifies large subsets."""
-    assert issubclass(BoP[ID, CodeJava], BoP[ID, CodeJava, Status])  # ✅ True
-    assert not issubclass(BoP[ID, CodeJava, Status], BoP[ID, CodeJava])  # ❌ False
+    assert not issubclass(BoP[ID, CodeJava], BoP[ID, CodeJava, Status])  # ❌ False
+    assert issubclass(BoP[ID, CodeJava, Status], BoP[ID, CodeJava])  # ✅ True
 
 
 def test_issubclass_partial_overlap():
