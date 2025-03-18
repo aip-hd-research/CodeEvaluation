@@ -64,35 +64,29 @@ class BoPMeta(type):
         if not isinstance(instance_cls, BoPMeta):
             return False
 
-        if cls is BoP:
-            return hasattr(instance_cls, "_type_params")
+        instance_types = get_typ_params_or_empty_set(instance_cls)
+        class_types = get_typ_params_or_empty_set(cls)
 
-        if not hasattr(instance_cls, "_type_params") or not hasattr(
-            cls, "_type_params"
-        ):
-            return False
-
-        instance_types = set(instance_cls._type_params)
-        class_types = set(cls._type_params)
-
-        return instance_types == class_types
+        return class_types.issubset(instance_types)
 
     def __subclasscheck__(cls, subclass):
         """Allow subset checking in issubclass."""
+
         if not isinstance(subclass, BoPMeta):
             return False
 
-        if cls is BoP:
-            return hasattr(subclass, "_type_params")
+        subclass_types = get_typ_params_or_empty_set(subclass)
+        class_types = get_typ_params_or_empty_set(cls)
 
-        if not hasattr(subclass, "_type_params") or not hasattr(cls, "_type_params"):
-            return False
+        return class_types.issubset(subclass_types)
 
-        subclass_types = set(subclass._type_params)
-        class_types = set(cls._type_params)
-
-        return subclass_types.issubset(class_types)
-
+def get_typ_params_or_empty_set(bopClass):
+    types = (
+        set(bopClass._type_params) 
+        if hasattr(bopClass, "_type_params") 
+        else set()
+    )
+    return types
 
 class BoP(metaclass=BoPMeta):
     def get_types(self) -> set:
