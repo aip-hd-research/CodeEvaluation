@@ -6,19 +6,19 @@ from bop import BoP, castBoPtype, StringColumn, IntegerColumn
 # === Test Types === #
 class ID(IntegerColumn):
     """Represents a unique identifier for a code sample."""
-    _name = "id"
+    name = "id"
 
 class CodeJava(StringColumn):
     """Represents an error or status message."""
-    _name= "codeJava"
+    name= "codeJava"
 
 class Status(StringColumn):
     """Represents a status message."""
-    _name = "status"
+    name = "status"
 
 class AnotherType(IntegerColumn):
     """A completely unrelated type for testing."""
-    _name="anotherType"
+    name="anotherType"
 
 # === Test: isinstance() Behavior === #
 def test_isinstance_exact_match():
@@ -180,5 +180,5 @@ def test_bop_unique_registration():
 
 def test_bop_missing_attributes():
     """❌ Ensure that BoP raises a TypeError if a BoPColumn is missing _name or _datatype."""
-    with pytest.raises(TypeError, match="Invalid BoPColumn implementation: IntegerColumn must define '_name' and '_datatype'."):
+    with pytest.raises(TypeError, match="Invalid BoPColumn implementation: IntegerColumn must define 'name' and 'datatype'."):
         BoP[IntegerColumn]()
