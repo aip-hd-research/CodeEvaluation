@@ -1,0 +1,49 @@
+{% set pyproject = load_file_data("../pyproject.toml", from_recipe_dir=True) %}
+{% set name = pyproject["project"]["name"] %}
+{% set version = pyproject["project"]["version"] %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+requirements:
+    build:
+        - python
+        - pip
+    run:
+        - python
+
+
+about:
+  home: https://github.com/aip-hd-research/CodeEvaluation
+  license: GPL-3.0
+  license_family: GPL
+  license_file: LICENSE
+  summary: Modular library to evaluate language models in the domain of code.
+  description: |
+    Modular library to evaluate language models in the domain of code.
+  doc_url: https://github.com/aip-hd-research/CodeEvaluation
+  dev_url: https://github.com/aip-hd-research/CodeEvaluation
+
+extra:
+  recipe-maintainers:
+    - lestoe11
+
+source:
+  path: ..
+
+build:
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
+
+test:
+  source_files:
+    - tests
+  requires:
+    - pytest
+    - pyyaml
+  commands:
+    - pytest tests
+    - conda env export | grep -Ev "^prefix|^name|{{ name|lower }}|{{ name }}" > environment.test.yaml
+
