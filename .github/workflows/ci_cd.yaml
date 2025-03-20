@@ -1,0 +1,32 @@
+name: build_and_test
+
+on: [push]
+
+jobs:
+  build-test-linux:
+    defaults:
+      run:
+        shell: bash -l {0}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: CodeEvaluation
+          environment-file: environment.dev.yaml
+          auto-activate-base: false
+      - name: Lint with flake8
+        run: flake8 .
+      - name: Build and test conda package
+        run: . ./build_and_test.sh
+      - name: Archive conda package
+        uses: actions/upload-artifact@v4
+        with:
+          name: CodeEvaluation.conda.zip
+          path: '**conda'
+      - name: Archive test environment
+        uses: actions/upload-artifact@v4
+        with:
+          name: environment.test.yaml.zip
+          path: environment.test.yaml
