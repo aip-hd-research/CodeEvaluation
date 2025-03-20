@@ -23,10 +23,10 @@ jobs:
       - name: Archive conda package
         uses: actions/upload-artifact@v4
         with:
-          name: CodeEvaluation.conda
+          name: CodeEvaluation.conda.zip
           path: '**conda'
       - name: Archive test environment
         uses: actions/upload-artifact@v4
         with:
-          name: environment.test.yaml
+          name: environment.test.yaml.zip
           path: environment.test.yaml
