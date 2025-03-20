@@ -18,3 +18,15 @@ jobs:
           auto-activate-base: false
       - name: Lint with flake8
         run: flake8 .
+      - name: Build and test conda package
+        run: ./build_and_test.sh
+      - name: Archive conda package
+        uses: actions/upload-artifact@v4
+        with:
+          name: CodeEvaluation.conda
+          path: '**conda'
+      - name: Archive test environment
+        uses: actions/upload-artifact@v4
+        with:
+          name: environment.test.yaml
+          path: environment.test.yaml
