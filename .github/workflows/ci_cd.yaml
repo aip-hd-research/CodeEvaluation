@@ -16,8 +16,10 @@ jobs:
           activate-environment: CodeEvaluation
           environment-file: environment.dev.yaml
           auto-activate-base: false
-      - name: Lint with flake8
+      - name: Lint
         run: flake8 .
+      - name: Typecheck
+        run: mypy .
       - name: Build and test conda package
         run: . ./build_and_test.sh
       - name: Archive conda package
