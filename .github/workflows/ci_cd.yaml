@@ -18,10 +18,12 @@ jobs:
           auto-activate-base: false
       - name: Lint
         run: flake8 .
-      - name: Typecheck
-        run: mypy .
       - name: Build and test conda package
         run: . ./build_and_test.sh
+      - name: Update conda environment
+        run: conda env update -n $ENV_NAME -f environment.test.yaml
+      - name: Typecheck
+        run: mypy .
       - name: Archive conda package
         uses: actions/upload-artifact@v4
         with:
