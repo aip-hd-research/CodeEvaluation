@@ -2,7 +2,7 @@
 The only thing you need to start is a working installation of Conda.
 
 # How To Start
-Clone this repository and execute the script `setup.sh` while at the root of the repository (e.g. `bash -i ./setup.sh`).
+Clone this repository and execute the script `setup.sh` while at the root of the repository (e.g. `bash -i setup.sh`).
 
 This will create a Conda environment called **CodeEvaluation**, verify that the build process works, and install the git-hooks.
 
