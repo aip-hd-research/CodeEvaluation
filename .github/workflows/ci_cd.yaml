@@ -21,7 +21,7 @@ jobs:
       - name: Build and test conda package
         run: . ./build_and_test.sh
       - name: Update conda environment
-        run: conda env update -n $ENV_NAME -f environment.test.yaml
+        run: conda env update -n CodeEvaluation -f environment.test.yaml
       - name: Typecheck
         run: mypy .
       - name: Archive conda package
