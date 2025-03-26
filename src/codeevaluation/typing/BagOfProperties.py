@@ -24,23 +24,10 @@ class BoPColumn(ABC):
         """Returns the column datatype."""
         ...
 
-
-class StringColumn(BoPColumn):
-    """A string-based column."""
-
-    datatype = str
-
-
-class IntegerColumn(BoPColumn):
-    """An integer-based column."""
-
-    datatype = int
-
-
-class BoolColumn(BoPColumn):
-    """An integer-based column."""
-
-    datatype = bool
+    @classmethod
+    def create(cls, name: str, datatype: Type):
+        """Creates a new column subclass dynamically."""
+        return type(name, (cls,), {"name": name, "datatype": datatype})
 
 
 class BoPMeta(type):

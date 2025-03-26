@@ -1,35 +1,12 @@
-from codeevaluation.typing.BagOfProperties import (
-    BoP,
-    castBoPtype,
-    StringColumn,
-    IntegerColumn,
-)
+from codeevaluation.typing.BagOfProperties import BoP, castBoPtype, BoPColumn
 import pytest
 
 
 # === Test Types === #
-class ID(IntegerColumn):
-    """Represents a unique identifier for a code sample."""
-
-    name = "id"
-
-
-class CodeJava(StringColumn):
-    """Represents an error or status message."""
-
-    name = "codeJava"
-
-
-class Status(StringColumn):
-    """Represents a status message."""
-
-    name = "status"
-
-
-class AnotherType(IntegerColumn):
-    """A completely unrelated type for testing."""
-
-    name = "anotherType"
+ID = BoPColumn.create("id", int)
+CodeJava = BoPColumn.create("codeJava", str)
+Status = BoPColumn.create("status", str)
+AnotherType = BoPColumn.create("anotherType", int)
 
 
 # === Test: isinstance() Behavior === #
@@ -199,6 +176,10 @@ def test_bop_unique_registration():
 
 def test_bop_missing_attributes():
     """❌ Ensure that BoP raises a TypeError if a BoPColumn is missing _name or _datatype."""
+
+    class IntegerColumn(BoPColumn):
+        datatype = int
+
     with pytest.raises(
         TypeError,
         match="Invalid BoPColumn implementation: IntegerColumn must define 'name' and 'datatype'.",
