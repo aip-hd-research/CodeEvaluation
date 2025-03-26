@@ -135,6 +135,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Is dynamically generated
 environment.test.yaml
 
 # Spyder project settings
@@ -170,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Conda packages
+*conda
+
+# VS Code
+.vscode
