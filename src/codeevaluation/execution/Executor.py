@@ -1,10 +1,10 @@
-from codeevaluation.typing import BagOfProperties
+from codeevaluation.typing.BagOfProperties import BoP
 
 
 class Executor:
     def __init__(self):
-        self.bop = BagOfProperties
+        self.bop = BoP
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print("blah")
