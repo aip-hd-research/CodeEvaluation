@@ -12,6 +12,7 @@ requirements:
         - pip
     run:
         - python
+        - polars
 
 
 about:
