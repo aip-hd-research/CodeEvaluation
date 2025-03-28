@@ -4,6 +4,7 @@ from abc import ABC, abstractmethod
 import json
 
 import polars as pl
+from datasets import Dataset, DatasetDict, load_dataset
 
 
 class BoPColumn(ABC):
@@ -134,6 +135,27 @@ class BoP(metaclass=BoPMeta):
     def from_dicts(cls, data: List[Dict]) -> "BoP":
         """Initializes a BoP instance from a list of dictionaries."""
         return cls(data)
+
+    @classmethod
+    def from_huggingface_dataset(cls, dataset: Dataset) -> "BoP":
+        """Loads data from a Hugging Face dataset."""
+
+        if not isinstance(dataset, Dataset):
+            raise ValueError("Provided dataset must be a Hugging Face Dataset.")
+
+        return cls(dataset.to_list())
+
+    @classmethod
+    def load_from_huggingface(cls, path: str) -> "BoP":
+        """Loads a dataset from Hugging Face using the provided path."""
+
+        dataset = load_dataset(path)
+
+        # If it's a DatasetDict, default to the 'train' split
+        if isinstance(dataset, DatasetDict):
+            dataset = dataset["train"]
+
+        return cls.from_huggingface_dataset(dataset)
 
     def create_dataframe(self, data: Union[List[Dict], None] = None) -> pl.DataFrame:
         """
