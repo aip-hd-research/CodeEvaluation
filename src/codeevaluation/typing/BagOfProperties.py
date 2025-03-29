@@ -56,17 +56,17 @@ class BoPMeta(type):
                 raise TypeError(
                     f"Invalid BoPColumn implementation: {typ.__name__} must define 'name' and 'datatype'."
                 )
-        key = frozenset(typesTuple)  # Make it order-invariant
+        typesSet = frozenset(typesTuple)  # Make it order-invariant
 
-        if (cls, key) in cls._registry:
-            return cls._registry[(cls, key)]
+        if (cls, typesSet) in cls._registry:
+            return cls._registry[(cls, typesSet)]
 
         new_class = type(
-            f"{cls.__name__}[{', '.join(t.__name__ for t in sorted(typesTuple, key=lambda x: x.__name__))}]",
+            f"{cls.__name__}[{', '.join(t.__name__ for t in typesSet)}]",
             (cls,),
-            {"_type_params": typesTuple},
+            {"_type_params": typesSet},
         )
-        cls._registry[(cls, key)] = new_class
+        cls._registry[(cls, typesSet)] = new_class
         return new_class
 
     def __instancecheck__(cls, instance):
@@ -104,7 +104,7 @@ class BoP(metaclass=BoPMeta):
     Handling structured data storage in a Polars DataFrame.
     """
 
-    _type_params: Tuple = tuple()
+    _type_params: frozenset = frozenset()
 
     def __init__(self, data: Union[List[Dict], None] = None):
         """Initialize the BoP instance with a Polars DataFrame."""
@@ -184,6 +184,32 @@ class BoP(metaclass=BoPMeta):
     def show(self):
         """Print the DataFrame."""
         print(self.df)
+
+    def join(self, other: "BoP", on: str = "id", how: str = "inner") -> "BoP":
+        """
+        Joins the current BoP instance with another BoP instance on the specified column (default: 'id').
+        The join operation is done using Polars' join functionality.
+
+        Args:
+            other (BoP): The other BoP instance to join with.
+            on (str): The column name on which to join. Defaults to 'id'.
+            how (str): The type of join. Defaults to "inner". Other options: "left", "right", "outer".
+
+        Returns:
+            BoP: A new BoP instance containing the joined DataFrame.
+        """
+        if on not in self.df.columns or on not in other.df.columns:
+            raise ValueError(
+                f"The column '{on}' must exist in both DataFrames for joining."
+            )
+
+        # Perform the join using Polars' join method
+        joined_df = self.df.join(other.df, on=on, how=how)
+
+        # Create a new BoP instance with the joined DataFrame and the same type parameters
+        joined_bop = BoP[*self._type_params, *other._type_params]()
+        joined_bop.df = joined_df
+        return joined_bop
 
 
 def castBoPtype(func: Callable) -> Callable:
