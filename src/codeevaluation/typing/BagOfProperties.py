@@ -1,4 +1,4 @@
-from typing import Dict, Tuple, Type, Callable, List, Union, get_type_hints
+from typing import Dict, Tuple, Type, Callable, List, Union, get_type_hints, Literal
 from abc import ABC, abstractmethod
 
 import json
@@ -21,14 +21,9 @@ class BoPColumn(ABC):
 
     @property
     @abstractmethod
-    def datatype(self) -> Type:
+    def datatype(self) -> type:
         """Returns the column datatype."""
         ...
-
-    @classmethod
-    def create(cls, name: str, datatype: Type):
-        """Creates a new column subclass dynamically."""
-        return type(name, (cls,), {"name": name, "datatype": datatype})
 
 
 class BoPMeta(type):
@@ -36,7 +31,7 @@ class BoPMeta(type):
 
     _registry: Dict[Tuple[Type, frozenset], Type] = {}
 
-    def __getitem__(cls, item):
+    def __getitem__(cls, item) -> Type["BoP"]:
         """
         Handles BoP[*] objects.
         Ensures only BoPColumn-based types are allowed.
@@ -51,25 +46,25 @@ class BoPMeta(type):
                 )
             if not (
                 isinstance(getattr(typ, "name", None), str)
-                and isinstance(getattr(typ, "datatype", None), Type)
+                and isinstance(getattr(typ, "datatype", None), type)
             ):
                 raise TypeError(
                     f"Invalid BoPColumn implementation: {typ.__name__} must define 'name' and 'datatype'."
                 )
-        key = frozenset(typesTuple)  # Make it order-invariant
+        typesSet = frozenset(typesTuple)  # Make it order-invariant
 
-        if (cls, key) in cls._registry:
-            return cls._registry[(cls, key)]
+        if (cls, typesSet) in cls._registry:
+            return cls._registry[(cls, typesSet)]
 
         new_class = type(
-            f"{cls.__name__}[{', '.join(t.__name__ for t in sorted(typesTuple, key=lambda x: x.__name__))}]",
+            f"{cls.__name__}[{', '.join(t.__name__ for t in typesSet)}]",
             (cls,),
-            {"_type_params": typesTuple},
+            {"_type_params": typesSet},
         )
-        cls._registry[(cls, key)] = new_class
+        cls._registry[(cls, typesSet)] = new_class
         return new_class
 
-    def __instancecheck__(cls, instance):
+    def __instancecheck__(cls, instance) -> bool:
         """Allow isinstance(boP, BoP) and BoP[ID, CodeJava] checking."""
         instance_cls = type(instance)
 
@@ -81,7 +76,7 @@ class BoPMeta(type):
 
         return class_types.issubset(instance_types)
 
-    def __subclasscheck__(cls, subclass):
+    def __subclasscheck__(cls, subclass) -> bool:
         """Allow subset checking in issubclass."""
 
         if not isinstance(subclass, BoPMeta):
@@ -93,7 +88,7 @@ class BoPMeta(type):
         return class_types.issubset(subclass_types)
 
 
-def get_typ_params_or_empty_set(bopClass):
+def get_typ_params_or_empty_set(bopClass) -> set:
     types = set(bopClass._type_params) if hasattr(bopClass, "_type_params") else set()
     return types
 
@@ -104,9 +99,9 @@ class BoP(metaclass=BoPMeta):
     Handling structured data storage in a Polars DataFrame.
     """
 
-    _type_params: Tuple = tuple()
+    _type_params: frozenset = frozenset()
 
-    def __init__(self, data: Union[List[Dict], None] = None):
+    def __init__(self, data: Union[List[Dict], None] = None) -> None:
         """Initialize the BoP instance with a Polars DataFrame."""
         self.df = self.create_dataframe(data)
 
@@ -181,9 +176,34 @@ class BoP(metaclass=BoPMeta):
         """Retrieve the stored generic types of this instance."""
         return set(getattr(type(self), "_type_params", ()))
 
-    def show(self):
+    def show(self) -> None:
         """Print the DataFrame."""
         print(self.df)
+
+    def join(
+        self,
+        other: "BoP",
+        on: str = "id",
+        how: Literal[
+            "inner", "left", "right", "full", "semi", "anti", "cross", "outer"
+        ] = "inner",
+    ) -> "BoP":
+        """
+        Joins the current BoP instance with another BoP instance on the specified column (default: 'id').
+        The join operation is done using Polars' join functionality.
+        """
+        if on not in self.df.columns or on not in other.df.columns:
+            raise ValueError(
+                f"The column '{on}' must exist in both DataFrames for joining."
+            )
+
+        # Perform the join using Polars' join method
+        joined_df = self.df.join(other.df, on=on, how=how)
+
+        # Create a new BoP instance with the joined DataFrame and the same type parameters
+        joined_bop = BoP[*self._type_params, *other._type_params]()
+        joined_bop.df = joined_df
+        return joined_bop
 
 
 def castBoPtype(func: Callable) -> Callable:
