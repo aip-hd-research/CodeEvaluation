@@ -3,6 +3,7 @@ import json
 import shutil
 from tqdm import tqdm
 import subprocess
+from typing import Tuple
 
 from codeevaluation.typing.BagOfProperties import BoP
 from codeevaluation.typing.column_types import ID, DExecutable, Success, Error
@@ -27,7 +28,7 @@ def execute_d_tests(
     return execute_d_tests_from_workspace(workspace_dir)
 
 
-def workspace_setup(file_contents: BoP[ID, DExecutable], workspace_dir):
+def workspace_setup(file_contents: BoP[ID, DExecutable], workspace_dir: str) -> None:
     # clear workspace of old junk
     if os.path.isdir(workspace_dir):
         shutil.rmtree(workspace_dir, ignore_errors=True)
@@ -50,13 +51,14 @@ def execute_d_tests_from_workspace(workspace_dir) -> BoP[ID, Success, Error]:
     results_list = []
     for file_name in tqdm(files_to_test):
         full_path = os.path.join(sample_dir, file_name)
+        id = file_name.removesuffix(".d")
         os.makedirs(run_dir, exist_ok=True)
         try:
             correct, total = execute_single_test_from_path(full_path, run_dir)
         except Exception as e:
             results_list.append(
                 {
-                    "id": file_name.removesuffix(".d"),
+                    "id": id,
                     "success": False,
                     "error": str(e),
                 }
@@ -66,7 +68,7 @@ def execute_d_tests_from_workspace(workspace_dir) -> BoP[ID, Success, Error]:
 
         results_list.append(
             {
-                "id": file_name.removesuffix(".d"),
+                "id": id,
                 "success": correct == total,
                 "error": "Correctness" if correct != total else "No",
             }
@@ -81,7 +83,7 @@ def execute_d_tests_from_workspace(workspace_dir) -> BoP[ID, Success, Error]:
     return BoP[ID, Success, Error].from_dicts(results_list)
 
 
-def execute_single_test_from_path(path, run_dir):
+def execute_single_test_from_path(path, run_dir) -> Tuple[int, int]:
     file = os.path.split(path)[-1]
     source_code_file = os.path.join(run_dir, file)
     bin_file = os.path.join(run_dir, file.split(".")[-1])
@@ -90,11 +92,11 @@ def execute_single_test_from_path(path, run_dir):
     return run_program(bin_file)
 
 
-def make_accessible(path):
+def make_accessible(path: str) -> None:
     os.system(f"chmod 0777 {path}")
 
 
-def build_program(path, bin_path):
+def build_program(path: str, bin_path: str) -> None:
     result = subprocess.run(
         f"ldc2 -of={bin_path} {path}",
         shell=True,
@@ -106,7 +108,7 @@ def build_program(path, bin_path):
         raise CompilationError(result.stderr)
 
 
-def run_program(path):
+def run_program(path: str) -> Tuple[int, int]:
     os.system(f"chmod +x {path}")
     result = subprocess.run(
         path, capture_output=True, text=True, timeout=RUN_TIMEOUT_D_EXECUTION
@@ -116,6 +118,4 @@ def run_program(path):
     if "#Results:" not in result.stdout:
         raise TestRuntimeError(f"Result does not conform to pattern: '{result.stdout}'")
     correct, total = result.stdout.split("#Results:")[-1].split(", ")
-    correct = int(correct)
-    total = int(total)
-    return correct, total
+    return int(correct), int(total)

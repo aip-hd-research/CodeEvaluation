@@ -21,12 +21,12 @@ class BoPColumn(ABC):
 
     @property
     @abstractmethod
-    def datatype(self) -> Type:
+    def datatype(self) -> type:
         """Returns the column datatype."""
         ...
 
     @classmethod
-    def create(cls, name: str, datatype: Type):
+    def create(cls, name: str, datatype: type) -> Type["BoPColumn"]:
         """Creates a new column subclass dynamically."""
         return type(name, (cls,), {"name": name, "datatype": datatype})
 
@@ -36,7 +36,7 @@ class BoPMeta(type):
 
     _registry: Dict[Tuple[Type, frozenset], Type] = {}
 
-    def __getitem__(cls, item):
+    def __getitem__(cls, item) -> Type["BoP"]:
         """
         Handles BoP[*] objects.
         Ensures only BoPColumn-based types are allowed.
@@ -51,7 +51,7 @@ class BoPMeta(type):
                 )
             if not (
                 isinstance(getattr(typ, "name", None), str)
-                and isinstance(getattr(typ, "datatype", None), Type)
+                and isinstance(getattr(typ, "datatype", None), type)
             ):
                 raise TypeError(
                     f"Invalid BoPColumn implementation: {typ.__name__} must define 'name' and 'datatype'."
@@ -69,7 +69,7 @@ class BoPMeta(type):
         cls._registry[(cls, typesSet)] = new_class
         return new_class
 
-    def __instancecheck__(cls, instance):
+    def __instancecheck__(cls, instance) -> bool:
         """Allow isinstance(boP, BoP) and BoP[ID, CodeJava] checking."""
         instance_cls = type(instance)
 
@@ -81,7 +81,7 @@ class BoPMeta(type):
 
         return class_types.issubset(instance_types)
 
-    def __subclasscheck__(cls, subclass):
+    def __subclasscheck__(cls, subclass) -> bool:
         """Allow subset checking in issubclass."""
 
         if not isinstance(subclass, BoPMeta):
@@ -93,7 +93,7 @@ class BoPMeta(type):
         return class_types.issubset(subclass_types)
 
 
-def get_typ_params_or_empty_set(bopClass):
+def get_typ_params_or_empty_set(bopClass) -> set:
     types = set(bopClass._type_params) if hasattr(bopClass, "_type_params") else set()
     return types
 
@@ -106,7 +106,7 @@ class BoP(metaclass=BoPMeta):
 
     _type_params: frozenset = frozenset()
 
-    def __init__(self, data: Union[List[Dict], None] = None):
+    def __init__(self, data: Union[List[Dict], None] = None) -> None:
         """Initialize the BoP instance with a Polars DataFrame."""
         self.df = self.create_dataframe(data)
 
@@ -181,7 +181,7 @@ class BoP(metaclass=BoPMeta):
         """Retrieve the stored generic types of this instance."""
         return set(getattr(type(self), "_type_params", ()))
 
-    def show(self):
+    def show(self) -> None:
         """Print the DataFrame."""
         print(self.df)
 
