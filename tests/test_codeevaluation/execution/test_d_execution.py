@@ -13,7 +13,7 @@ from codeevaluation.config_variables import REPLACEMENT_MARKER
 import polars as pl
 
 
-def test_d_evaluation():
+def test_d_evaluation() -> None:
     dWithParamsData: BoP[ID, DWithParams] = BoP[ID, DWithParams].load_from_huggingface(
         "AIP-Heidelberg/test_code_d_with_params"
     )
