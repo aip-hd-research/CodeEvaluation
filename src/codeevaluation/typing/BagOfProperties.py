@@ -1,4 +1,4 @@
-from typing import Dict, Tuple, Type, Callable, List, Union, get_type_hints
+from typing import Dict, Tuple, Type, Callable, List, Union, get_type_hints, Literal
 from abc import ABC, abstractmethod
 
 import json
@@ -24,11 +24,6 @@ class BoPColumn(ABC):
     def datatype(self) -> type:
         """Returns the column datatype."""
         ...
-
-    @classmethod
-    def create(cls, name: str, datatype: type) -> Type["BoPColumn"]:
-        """Creates a new column subclass dynamically."""
-        return type(name, (cls,), {"name": name, "datatype": datatype})
 
 
 class BoPMeta(type):
@@ -185,18 +180,17 @@ class BoP(metaclass=BoPMeta):
         """Print the DataFrame."""
         print(self.df)
 
-    def join(self, other: "BoP", on: str = "id", how: str = "inner") -> "BoP":
+    def join(
+        self,
+        other: "BoP",
+        on: str = "id",
+        how: Literal[
+            "inner", "left", "right", "full", "semi", "anti", "cross", "outer"
+        ] = "inner",
+    ) -> "BoP":
         """
         Joins the current BoP instance with another BoP instance on the specified column (default: 'id').
         The join operation is done using Polars' join functionality.
-
-        Args:
-            other (BoP): The other BoP instance to join with.
-            on (str): The column name on which to join. Defaults to 'id'.
-            how (str): The type of join. Defaults to "inner". Other options: "left", "right", "outer".
-
-        Returns:
-            BoP: A new BoP instance containing the joined DataFrame.
         """
         if on not in self.df.columns or on not in other.df.columns:
             raise ValueError(
