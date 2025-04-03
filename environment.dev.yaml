@@ -2,10 +2,10 @@ name: CodeEvaluation
 channels:
   - conda-forge
 dependencies:
-  - python=3.10
+  - python=3.11
   - conda-build
   - conda-verify
   - pre-commit
   - flake8
   - black
-  - mypy
+  - pyright

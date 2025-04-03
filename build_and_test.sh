@@ -3,7 +3,7 @@
 OUTPUT_FOLDER="${1:-$PWD}"
 ENV_NAME="CodeEvaluation_Build_And_Test"
 
-conda create -y -n $ENV_NAME python=3.10 conda-build conda-verify
+conda create -y -n $ENV_NAME python=3.11 conda-build conda-verify
 conda activate $ENV_NAME
 mkdir -p $OUTPUT_FOLDER
 conda-build . --keep-old-work -c conda-forge | tee $OUTPUT_FOLDER/test.log

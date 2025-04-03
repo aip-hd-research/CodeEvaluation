@@ -8,10 +8,10 @@ package:
 
 requirements:
     build:
-        - python
+        - python=3.11
         - pip
     run:
-        - python
+        - python=3.11
         - polars
 
 
@@ -45,6 +45,7 @@ test:
     - pytest
     - pyyaml
   commands:
-    - pytest tests
     - conda env export | grep -Ev "^prefix|^name|{{ name|lower }}|{{ name }}" > environment.test.yaml
+    - pytest tests
+
 

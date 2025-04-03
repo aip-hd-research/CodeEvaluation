@@ -23,7 +23,7 @@ jobs:
       - name: Update conda environment
         run: conda env update -n CodeEvaluation -f environment.test.yaml
       - name: Typecheck
-        run: mypy .
+        run: pyright .
       - name: Archive conda package
         uses: actions/upload-artifact@v4
         with:
