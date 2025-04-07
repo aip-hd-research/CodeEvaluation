@@ -4,7 +4,6 @@ channels:
 dependencies:
   - python=3.12
   - conda-build
-  - conda-verify
   - pre-commit
   - flake8
   - black
