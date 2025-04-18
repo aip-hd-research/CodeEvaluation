@@ -4,7 +4,7 @@ from typing import Type
 
 from codeevaluation.typing.BagOfProperties import (
     BagOfProperties,
-    castBoPtype,
+    SliceBoPType,
     BagOfPropertiesFactory,
 )
 
@@ -92,25 +92,25 @@ def test_missing_keys_handled():
     assert boP.df.null_count().sum_horizontal().sum() > 0  # some nulls expected
 
 
-# === Decorator casting === #
-@castBoPtype
+# === Decorator slicing === #
+@SliceBoPType
 def func_expects_codeJava_only(bop: BagOfProperties[id, codeJava]):
     return bop.df.columns
 
 
-def test_castBoPtype_casts_correctly():
+def test_SliceBoPType_slices_correctly():
     bop_full = BagOfPropertiesFactory[id, codeJava, status].from_dicts(extradata)
     result = func_expects_codeJava_only(bop_full)
     assert result == ["id", "codeJava"]
 
 
 # === Decorator skips if exact match === #
-@castBoPtype
+@SliceBoPType
 def func_expects_full(bop: BagOfProperties[id, codeJava, status]):
     return bop.df.columns
 
 
-def test_castBoPtype_noop_on_exact_match():
+def test_SliceBoPType_noop_on_exact_match():
     bop = BagOfPropertiesFactory[id, codeJava, status].from_dicts(extradata)
     assert func_expects_full(bop) == ["id", "codeJava", "status"]
 

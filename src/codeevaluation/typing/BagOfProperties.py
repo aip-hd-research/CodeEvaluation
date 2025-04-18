@@ -103,9 +103,9 @@ class BagOfPropertiesFactory[*T]:
         return _BagOfPropertiesBase[Union[*myargs]](data)
 
 
-def castBoPtype(func: Callable) -> Callable:
+def SliceBoPType(func: Callable) -> Callable:
     """
-    A decorator to cast BoP[X, Y, Z] to BoP[Y] inside the function,
+    A decorator to slice BagOfProperties[X, Y, Z] to BagOfProperties[Y] inside the function,
     if the function expects BoP[Y] as its parameter.
     This also updates the `df` (Polars DataFrame) accordingly.
     """
@@ -126,12 +126,12 @@ def castBoPtype(func: Callable) -> Callable:
 
                         if required_types.issubset(actual_types):
                             # Create a new BoP subclass with only the required columns
-                            casted_class = _BagOfPropertiesBase[Union[*required_types]]
-                            casted_instance = casted_class()
+                            Sliced_class = _BagOfPropertiesBase[Union[*required_types]]
+                            sliced_instance = Sliced_class()
 
                             # Filter the DataFrame to match only the required columns
                             required_columns = {col.__name__ for col in required_types}
-                            casted_instance.df = arg.df.select(
+                            sliced_instance.df = arg.df.select(
                                 [
                                     col
                                     for col in arg.df.columns
@@ -139,12 +139,14 @@ def castBoPtype(func: Callable) -> Callable:
                                 ]
                             )
 
-                            # Replace the original argument with the casted instance
+                            # Replace the original argument with the sliced instance
                             args = list(args)
-                            args[i] = casted_instance
+                            args[i] = sliced_instance
                             break
                         else:
-                            raise TypeError("Fields missing for BagOfProperties cast")
+                            raise TypeError(
+                                "Fields missing for BagOfProperties slicing"
+                            )
 
         return func(*args, **kwargs)
 
