@@ -1,5 +1,6 @@
 from typing import (
     TypeVar,
+    Tuple,
     Union,
     List,
     Dict,
@@ -10,6 +11,7 @@ from typing import (
     Set,
     get_origin,
     get_args,
+    Literal,
 )
 
 import json
@@ -17,6 +19,9 @@ import polars as pl
 from datasets import Dataset, DatasetDict, load_dataset
 
 T = TypeVar("T", contravariant=True)
+
+# Type alias for convenience
+type BagOfProperties[*T] = _BagOfPropertiesBase[Union[*T]]
 
 
 class _BagOfPropertiesBase[T]:
@@ -58,9 +63,35 @@ class _BagOfPropertiesBase[T]:
         ]
         return pl.DataFrame(processed_data)
 
+    def join(
+        self,
+        other: BagOfProperties,
+        on: str = "id",
+        how: Literal[
+            "inner", "left", "right", "full", "semi", "anti", "cross", "outer"
+        ] = "inner",
+    ) -> BagOfProperties:
+        """
+        Joins the current BoP instance with another BoP instance on the specified column (default: 'id').
+        The join operation is done using Polars' join functionality.
+        """
+        if on not in self.df.columns or on not in other.df.columns:
+            raise ValueError(
+                f"The column '{on}' must exist in both DataFrames for joining."
+            )
 
-# Type alias for convenience
-type BagOfProperties[*T] = _BagOfPropertiesBase[Union[*T]]
+        # Perform the join using Polars' join method
+        joined_df = self.df.join(other.df, on=on, how=how)
+
+        # Create a new BoP instance with the joined DataFrame and the same type parameters
+        own_args = cast(List[type], getattr(self.__class__, "__type_args__", None))
+        other_types = getTypes(other)
+
+        new_types = set(own_args) | set(other_types)
+
+        joined_bop = BagOfPropertiesFactory[*new_types].new()
+        joined_bop.df = joined_df
+        return joined_bop
 
 
 class BagOfPropertiesFactory[*T]:
@@ -122,6 +153,10 @@ class BagOfPropertiesFactory[*T]:
         dataset = cast(Dataset, dataset)
 
         return cls.from_huggingface_dataset(dataset)
+
+
+def getTypes(boP: BagOfProperties) -> Set[Type]:
+    return set(cast(Tuple[Type], getattr(type(boP), "__type_args__", None)))
 
 
 def SliceBoPType(func: Callable) -> Callable:
