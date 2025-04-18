@@ -47,7 +47,7 @@ test:
     - pytest
     - pyyaml
     - typeguard
-    - nodejs=14
+    - nodejs>=14
   commands:
     - conda env export | grep -Ev "^prefix|^name|{{ name|lower }}|{{ name }}" > environment.test.yaml
     - pytest tests
