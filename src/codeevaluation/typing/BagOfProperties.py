@@ -14,6 +14,7 @@ from typing import (
 
 import json
 import polars as pl
+from datasets import Dataset, DatasetDict, load_dataset
 
 T = TypeVar("T", contravariant=True)
 
@@ -101,6 +102,26 @@ class BagOfPropertiesFactory[*T]:
     def from_dicts(cls, data: List[Dict]) -> BagOfProperties[*T]:
         myargs = getattr(cls, "__type_args__", None)
         return _BagOfPropertiesBase[Union[*myargs]](data)
+
+    @classmethod
+    def from_huggingface_dataset(cls, dataset: Dataset) -> BagOfProperties[*T]:
+        """Loads data from a Hugging Face dataset."""
+        myargs = getattr(cls, "__type_args__", None)
+        return _BagOfPropertiesBase[Union[*myargs]](dataset.to_list())
+
+    @classmethod
+    def load_from_huggingface(cls, path: str) -> BagOfProperties[*T]:
+        """Loads a dataset from Hugging Face using the provided path."""
+
+        dataset = load_dataset(path)
+
+        # If it's a DatasetDict, default to the 'train' split
+        if isinstance(dataset, DatasetDict):
+            dataset = dataset["train"]
+
+        dataset = cast(Dataset, dataset)
+
+        return cls.from_huggingface_dataset(dataset)
 
 
 def SliceBoPType(func: Callable) -> Callable:
