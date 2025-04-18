@@ -7,7 +7,7 @@ repos:
       rev: 7.0.0
       hooks:
       -   id: flake8
-  -   repo: https://github.com/pre-commit/mirrors-mypy
-      rev: v1.8.0
+  -   repo: https://github.com/RobertCraigie/pyright-python
+      rev: v1.1.398
       hooks:
-      -   id: mypy
+      - id: pyright
