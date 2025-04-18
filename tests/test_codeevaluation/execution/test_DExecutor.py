@@ -16,9 +16,13 @@ from codeevaluation.execution.DExecutor import execute_d_tests
 from hydra import initialize, compose
 import polars as pl
 
+from pathlib import Path
+
+config_path = str((Path(__file__).parent / "../../../conf").resolve())
+
 
 def test_d_evaluation() -> None:
-    with initialize(config_path="../../../conf"):
+    with initialize(config_path=config_path):
         cfg = compose(config_name="config")
     dWithParamsData: BagOfProperties[id, d_with_params] = BagOfPropertiesFactory[
         id, d_with_params
