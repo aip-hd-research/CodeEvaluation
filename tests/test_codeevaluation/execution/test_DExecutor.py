@@ -11,9 +11,10 @@ from codeevaluation.typing.types import (
     success,
     error,
 )
-from codeevaluation.execution.DExecutor import execute_d_tests
-
-import polars as pl
+from codeevaluation.execution.DExecutor import (
+    execute_d_tests,
+    fill_d_functions_into_tests,
+)
 from omegaconf import OmegaConf
 
 
@@ -40,36 +41,10 @@ def test_d_evaluation() -> None:
     assert dWithParamsData.df.shape == (600, 2)
     assert dTranslationsData.df.shape == (600, 2)
 
-    dCodeData: BagOfProperties[id, d_with_params, d_translations] = (
-        dWithParamsData.join(dTranslationsData)
+    dCodeExecutableData = fill_d_functions_into_tests(
+        cfg, dWithParamsData, dTranslationsData
     )
-
-    assert getTypes(dCodeData) == set((id, d_with_params, d_translations))
-
-    assert dCodeData.df.shape == (600, 3)
-
-    # Check if the REPLACEMENT_MARKER is in any row of `d_with_params`. If not, raise an error.
-    missing_to_fill = dCodeData.df.filter(
-        ~pl.col("d_with_params").str.contains(cfg.REPLACEMENT_MARKER.d)
-    ).height
-
-    if missing_to_fill > 0:
-        raise ValueError(
-            "Some rows in 'd_with_params' are missing the REPLACEMENT_MARKER."
-        )
-
-    dCodeExecutableData = BagOfPropertiesFactory[
-        id, d_with_params, d_translations, d_executable
-    ].new()
-
-    # Replace REPLACEMENT_MARKER with the corresponding value from `d_translations`
-    dCodeExecutableData.df = dCodeData.df.with_columns(
-        (
-            pl.col("d_with_params")
-            .str.replace_all(cfg.REPLACEMENT_MARKER.d, pl.col("d_translations"))
-            .alias("d_executable")
-        )
-    ).head(10)
+    dCodeExecutableData.df = dCodeExecutableData.df.head(10)
 
     assert dCodeExecutableData.df.shape == (10, 4)
     assert getTypes(dCodeExecutableData) == set(

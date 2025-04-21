@@ -6,12 +6,20 @@ import subprocess
 from typing import Tuple
 from omegaconf import DictConfig
 import tempfile
+import polars as pl
 
 from codeevaluation.typing.BagOfProperties import (
     BagOfProperties,
     BagOfPropertiesFactory,
 )
-from codeevaluation.typing.types import id, d_executable, success, error
+from codeevaluation.typing.types import (
+    id,
+    d_executable,
+    success,
+    error,
+    d_translations,
+    d_with_params,
+)
 
 
 class CompilationError(Exception):
@@ -20,6 +28,41 @@ class CompilationError(Exception):
 
 class TestRuntimeError(Exception):
     pass
+
+
+def fill_d_functions_into_tests(
+    cfg: DictConfig,
+    dTestCodeWithoutFunctions: BagOfProperties[id, d_with_params],
+    dFunctions: BagOfProperties[id, d_translations],
+) -> BagOfProperties[id, d_with_params, d_translations, d_executable]:
+    dCodeData: BagOfProperties[
+        id, d_with_params, d_translations
+    ] = dTestCodeWithoutFunctions.join(dFunctions)
+
+    # Check if the REPLACEMENT_MARKER is in any row of `d_with_params`. If not, raise an error.
+    missing_to_fill = dCodeData.df.filter(
+        ~pl.col("d_with_params").str.contains(cfg.REPLACEMENT_MARKER.d)
+    ).height
+
+    if missing_to_fill > 0:
+        raise ValueError(
+            "Some rows in 'd_with_params' are missing the REPLACEMENT_MARKER."
+        )
+
+    dCodeExecutableData = BagOfPropertiesFactory[
+        id, d_with_params, d_translations, d_executable
+    ].new()
+
+    # Replace REPLACEMENT_MARKER with the corresponding value from `d_translations`
+    dCodeExecutableData.df = dCodeData.df.with_columns(
+        (
+            pl.col("d_with_params")
+            .str.replace_all(cfg.REPLACEMENT_MARKER.d, pl.col("d_translations"))
+            .alias("d_executable")
+        )
+    ).head(10)
+
+    return dCodeExecutableData
 
 
 def execute_d_tests(
@@ -69,7 +112,7 @@ def execute_d_tests_from_workspace(
                 {
                     "id": code_id,
                     "success": False,
-                    "error": str(e),
+                    "error": repr(e),
                 }
             )
             shutil.rmtree(run_dir, ignore_errors=True)
