@@ -13,13 +13,23 @@ from codeevaluation.typing.types import (
 )
 from codeevaluation.execution.DExecutor import execute_d_tests
 
-from hydra import initialize, compose
 import polars as pl
+from omegaconf import OmegaConf
 
 
 def test_d_evaluation() -> None:
-    with initialize(config_path="../../../conf"):
-        cfg = compose(config_name="config")
+    # Temporary, use hydra once it works
+    cfg_dict = {
+        "REPLACEMENT_MARKER": {
+            "d": "//TOFILL//",
+        },
+        "COMPILATION_TIMEOUT_D_EXECUTION": 30,
+        "RUN_TIMEOUT_D_EXECUTION": 15,
+        "workspace_dir": "workspace",
+    }
+
+    cfg = OmegaConf.create(cfg_dict)
+    ###
     dWithParamsData: BagOfProperties[id, d_with_params] = BagOfPropertiesFactory[
         id, d_with_params
     ].load_from_huggingface("AIP-Heidelberg/test_code_d_with_params")
@@ -30,9 +40,9 @@ def test_d_evaluation() -> None:
     assert dWithParamsData.df.shape == (600, 2)
     assert dTranslationsData.df.shape == (600, 2)
 
-    dCodeData: BagOfProperties[
-        id, d_with_params, d_translations
-    ] = dWithParamsData.join(dTranslationsData)
+    dCodeData: BagOfProperties[id, d_with_params, d_translations] = (
+        dWithParamsData.join(dTranslationsData)
+    )
 
     assert getTypes(dCodeData) == set((id, d_with_params, d_translations))
 
