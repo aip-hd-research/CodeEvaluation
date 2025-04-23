@@ -31,22 +31,22 @@ def test_d_evaluation() -> None:
 
     cfg = OmegaConf.create(cfg_dict)
     ###
+
     dWithParamsData: BagOfProperties[id, d_with_params] = BagOfPropertiesFactory[
         id, d_with_params
-    ].load_from_huggingface("AIP-Heidelberg/test_code_d_with_params")
+    ].from_csv("tests/resources/tests_d.csv")
     dTranslationsData: BagOfProperties[id, d_translations] = BagOfPropertiesFactory[
         id, d_translations
-    ].load_from_huggingface("AIP-Heidelberg/test_code_d_translations")
+    ].from_csv("tests/resources/translations_d.csv")
 
-    assert dWithParamsData.df.shape == (600, 2)
-    assert dTranslationsData.df.shape == (600, 2)
+    assert dWithParamsData.df.shape == (4, 2)
+    assert dTranslationsData.df.shape == (4, 2)
 
     dCodeExecutableData = fill_d_functions_into_tests(
         cfg, dWithParamsData, dTranslationsData
     )
-    dCodeExecutableData.df = dCodeExecutableData.df.head(10)
 
-    assert dCodeExecutableData.df.shape == (10, 4)
+    assert dCodeExecutableData.df.shape == (4, 4)
     assert getTypes(dCodeExecutableData) == set(
         (
             id,
@@ -60,4 +60,4 @@ def test_d_evaluation() -> None:
         cfg, dCodeExecutableData
     )
 
-    assert results.df.shape == (10, 3)
+    assert results.df.shape == (4, 3)
