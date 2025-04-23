@@ -22,3 +22,12 @@ class success:
 
 class error:
     datatype = str
+
+
+# For clustering
+class query:
+    datatype = str
+
+
+class cluster:
+    datatype = int
