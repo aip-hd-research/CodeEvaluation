@@ -31,3 +31,11 @@ class query:
 
 class cluster:
     datatype = int
+
+
+class short_name:
+    datatype = str
+
+
+class size:
+    datatype = int

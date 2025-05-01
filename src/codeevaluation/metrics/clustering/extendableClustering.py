@@ -3,7 +3,7 @@ from codeevaluation.typing.BagOfProperties import (
     BagOfPropertiesFactory,
     BagOfProperties,
 )
-from codeevaluation.typing.types import id, query, cluster
+from codeevaluation.typing.types import id, query, cluster, short_name, size
 import polars as pl
 
 
@@ -58,3 +58,14 @@ class ExtendableClusterer:
             new_rows.append(row)
 
         self.data.df = self.data.df.vstack(pl.DataFrame(new_rows))
+
+    def get_cluster_metrics(self) -> BagOfProperties[cluster, short_name, size]:
+        data = []
+        for cluster_id, queries in self.clusters.items():
+            name = queries[0][:50]
+            cluster_size = len(queries)
+            data.append(
+                {"cluster": cluster_id, "short_name": name, "size": cluster_size}
+            )
+
+        return BagOfPropertiesFactory[cluster, short_name, size].from_dicts(data)
