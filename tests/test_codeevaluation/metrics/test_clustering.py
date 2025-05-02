@@ -4,6 +4,7 @@ from codeevaluation.metrics.clustering.extendableClustering import (
     ExtendableClusterer,
     jaccard_ngrams,
 )
+from codeevaluation.metrics.clustering.fixedSizeClustering import FixedSizeClusterer
 from codeevaluation.metrics.clustering.util import getQueriesForClustering
 
 # Load the data once
@@ -77,3 +78,13 @@ def test_threshold_effect():
 
     # With a high threshold, there should generally be fewer clusters
     assert num_clusters_high <= num_clusters_low
+
+
+def test_fixedSizeClusterer():
+    clusterer = FixedSizeClusterer(queries_bag_0)
+
+    # After adding, we should have as many entries as in the queries_0
+    assert clusterer.data.df.height == queries_bag_0.df.height
+
+    # All assigned clusters should be integers
+    assert all(isinstance(val, int) for val in clusterer.data.df["cluster"].to_list())
