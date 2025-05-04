@@ -6,6 +6,11 @@ from codeevaluation.metrics.clustering.extendableClustering import (
 )
 from codeevaluation.metrics.clustering.fixedSizeClustering import FixedSizeClusterer
 from codeevaluation.metrics.clustering.util import getQueriesForClustering
+from codeevaluation.metrics.clustering.compareClusterings import (
+    targetClusterAccuracy,
+    specificityScore,
+    destructivenessScore,
+)
 
 # Load the data once
 results_bag_0 = BagOfPropertiesFactory[id, error].from_json(
@@ -88,3 +93,63 @@ def test_fixedSizeClusterer():
 
     # All assigned clusters should be integers
     assert all(isinstance(val, int) for val in clusterer.data.df["cluster"].to_list())
+
+
+def test_targetClusterAccuracy_on_itself():
+    clusterer = FixedSizeClusterer(queries_bag_0)
+    accuracy = targetClusterAccuracy(clusterer.data, clusterer.data, 0, 0)
+
+    assert accuracy == 1
+
+    accuracy = targetClusterAccuracy(clusterer.data, clusterer.data, 1, 0)
+
+    assert accuracy == 0
+
+
+def test_targetClusterAccuracy_on_two_clusterings():
+    # Only one cluster
+    clusterer1 = ExtendableClusterer(threshold=1.0)
+    clusterer1.add_queries(queries_bag_0)
+
+    clusterer2 = FixedSizeClusterer(queries_bag_0)
+    accuracy = targetClusterAccuracy(clusterer1.data, clusterer2.data, 0, 0)
+
+    # 345 Successful samples in test queries_bag_0
+    assert accuracy == 345 / 600
+
+
+def test_specificityScore_on_itself():
+    clusterer = FixedSizeClusterer(queries_bag_0)
+    specificity = specificityScore(clusterer.data, clusterer.data, 5, 0)
+
+    assert specificity == 1
+
+
+def test_specificityScore_on_two_clusterings():
+    # Only one cluster
+    clusterer1 = ExtendableClusterer(threshold=0.9)
+    clusterer1.add_queries(queries_bag_0)
+
+    clusterer2 = FixedSizeClusterer(queries_bag_0)
+    specificity = specificityScore(clusterer1.data, clusterer2.data, 1, 0)
+
+    assert 0 < specificity < 1
+
+
+def test_destructiveness_on_itself():
+    clusterer = FixedSizeClusterer(queries_bag_0)
+    destructiveness = destructivenessScore(clusterer.data, clusterer.data, 0)
+
+    assert destructiveness == 0
+
+
+def test_destructiveness_on_two_clustering():
+    # Only one cluster
+    clusterer1 = ExtendableClusterer(threshold=1.0)
+    clusterer1.add_queries(queries_bag_0)
+
+    clusterer2 = FixedSizeClusterer(queries_bag_0)
+    destructiveness = destructivenessScore(clusterer1.data, clusterer2.data, 0)
+
+    # 345 Successful samples in test queries_bag_0
+    assert destructiveness == 0.425  # 1 - (345 / 600)
