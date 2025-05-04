@@ -49,6 +49,7 @@ test:
     - typeguard
     - nodejs>=14
     - scikit-learn
+    - tree_sitter
   commands:
     - conda env export | grep -Ev "^prefix|^name|{{ name|lower }}|{{ name }}" > environment.test.yaml
     - pytest tests

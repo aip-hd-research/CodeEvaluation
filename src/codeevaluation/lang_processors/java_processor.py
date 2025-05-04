@@ -7,11 +7,7 @@
 import re
 from pathlib import Path
 
-from .tree_sitter_processor import (
-    NEW_LINE,
-    TreeSitterLangProcessor,
-    TREE_SITTER_ROOT
-)
+from .tree_sitter_processor import NEW_LINE, TreeSitterLangProcessor, TREE_SITTER_ROOT
 from .tokenization_utils import (
     NEWLINE_TOKEN,
     ind_iter,
@@ -33,9 +29,7 @@ JAVA_TOKEN2CHAR = {
     "STOKEN12": r"\"",
     "STOKEN13": r"\\",
 }
-JAVA_CHAR2TOKEN = {
-    value: " " + key + " " for key, value in JAVA_TOKEN2CHAR.items()
-}
+JAVA_CHAR2TOKEN = {value: " " + key + " " for key, value in JAVA_TOKEN2CHAR.items()}
 
 
 class JavaProcessor(TreeSitterLangProcessor):
@@ -86,8 +80,7 @@ class JavaProcessor(TreeSitterLangProcessor):
                 if token == ")" and (
                     tokens_no_newline[0] == "{"
                     or (
-                        tokens_no_newline[0] == "throws"
-                        and tokens_no_newline[2] == "{"
+                        tokens_no_newline[0] == "throws" and tokens_no_newline[2] == "{"
                     )
                 ):
                     # go previous until the start of function
@@ -144,8 +137,7 @@ class JavaProcessor(TreeSitterLangProcessor):
                             except StopIteration:
                                 break
                         if (
-                            "static"
-                            in function[0 : function.index("{")]  # noqa: E203
+                            "static" in function[0 : function.index("{")]  # noqa: E203
                         ):  # noqa: E203
                             functions_standalone.append(
                                 self.remove_annotation(" ".join(function))

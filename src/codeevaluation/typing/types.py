@@ -4,6 +4,10 @@ class id:
 
 
 # For D test data
+class raw_d_translations:
+    datatype = str
+
+
 class d_translations:
     datatype = str
 

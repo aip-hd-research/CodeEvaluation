@@ -7,6 +7,7 @@
 import re
 
 from sacrebleu.tokenizers.tokenizer_intl import TokenizerV14International
+
 tokenize_v14_international = TokenizerV14International()
 
 # IMPORTED
@@ -31,9 +32,7 @@ class ind_iter:
 
 
 # IMPORTED
-def process_string(
-    tok, char2tok, tok2char, is_comment, do_whole_processing=True
-):
+def process_string(tok, char2tok, tok2char, is_comment, do_whole_processing=True):
     if not (do_whole_processing or is_comment):
         return tok.replace("\n", "\\n").replace("\r", "")
 

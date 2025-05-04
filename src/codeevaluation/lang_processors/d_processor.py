@@ -54,9 +54,7 @@ class DProcessor(TreeSitterLangProcessor):
         )
 
         if tokenized:
-            class_funcs = [
-                " ".join(self.tokenize_code(f)) for f in class_funcs
-            ]
+            class_funcs = [" ".join(self.tokenize_code(f)) for f in class_funcs]
             standalone_funcs = [
                 " ".join(self.tokenize_code(f)) for f in standalone_funcs
             ]
@@ -85,9 +83,7 @@ class DProcessor(TreeSitterLangProcessor):
         return class_funcs, standalone_funcs
 
     def get_function_name(self, function):
-        return self.get_first_non_bracket_token_before_first_parenthesis(
-            function
-        )
+        return self.get_first_non_bracket_token_before_first_parenthesis(function)
 
 
 def is_class_func(node):
@@ -149,10 +145,7 @@ def has_body_longer_than(node, length):
 def is_standalone_func(node):
     return (
         is_func(node)
-        and (
-            not (has_struct_parent(node) or has_class_parent(node))
-            or is_static(node)
-        )
+        and (not (has_struct_parent(node) or has_class_parent(node)) or is_static(node))
     ) or is_func_literal(
         node
     )  # can never be part of a class or struct

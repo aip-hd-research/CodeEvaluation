@@ -46,9 +46,7 @@ class TreeSitterLangProcessor(LangProcessor):
     def create_treesiter_parser(self):
         if self.parser is None:
             lib_path = self.root_folder.joinpath(f"{self.language}.so")
-            repo_path = self.root_folder.joinpath(
-                f"tree-sitter-{self.language}"
-            )
+            repo_path = self.root_folder.joinpath(f"tree-sitter-{self.language}")
             self.ensure_treesitter_installed(repo_path)
             if not lib_path.exists():
                 assert repo_path.is_dir(), repo_path
@@ -77,9 +75,7 @@ class TreeSitterLangProcessor(LangProcessor):
             + " not be found and will now be cloned"
         )
         treesitter_repo = (
-            "https://github.com/"
-            + self.__class__.TREESITTER_REPOSITORY
-            + ".git"
+            "https://github.com/" + self.__class__.TREESITTER_REPOSITORY + ".git"
         )
         git_clone_command = ["git", "clone", treesitter_repo, str(repo_path)]
         subprocess.run(git_clone_command)
@@ -110,9 +106,7 @@ class TreeSitterLangProcessor(LangProcessor):
                     token = token.replace("NEW_LINENEW_LINE", "NEW_LINE")
                 tokenized_code.append(token)
             elif token_type == "docstring":
-                skip_next_new_line = (
-                    True  # make sure we remove extraline in python
-                )
+                skip_next_new_line = True  # make sure we remove extraline in python
         return tokenized_code
 
     def get_tokens_and_types(self, code):
@@ -133,9 +127,7 @@ class TreeSitterLangProcessor(LangProcessor):
 
     def dfs(self, code, node, tokens, tokens_type):
         if len(node.children) == 0 or node.type in self.ast_nodes_type_string:
-            snippet = code[
-                node.start_byte : node.end_byte  # noqa: E203
-            ].strip(b" ")
+            snippet = code[node.start_byte : node.end_byte].strip(b" ")  # noqa: E203
             if isinstance(snippet, bytes):
                 snippet = snippet.decode("utf8")
             if len(snippet) > 0:
