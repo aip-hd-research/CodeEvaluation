@@ -32,7 +32,7 @@ def extract_answer_function(answer: str) -> str:
         code_end = answer.find("```", code_start)
     code = answer[code_start:code_end]
 
-    functions, class_functions = d_proc.extract_functions(code, tokenized=False)
+    functions, class_functions = d_proc.extract_functions(code)
     if len(functions) > 0:
         return functions[0]
     if len(class_functions) > 0:

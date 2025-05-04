@@ -26,6 +26,9 @@ COMMENT_TYPES = {"comment", "line_comment", "block_comment", "docstring"}
 
 
 class TreeSitterLangProcessor(LangProcessor):
+    TREESITTER_REPOSITORY: str
+    parser: Parser
+
     def __init__(
         self,
         language,
@@ -39,8 +42,6 @@ class TreeSitterLangProcessor(LangProcessor):
         self.stokens_to_chars = stokens_to_chars
         self.chars_to_stokens = chars_to_stokens
         self.root_folder = Path(root_folder)
-        self.root_folder.is_dir(), f"{self.root_folder} is not a directory."
-        self.parser = None
         self.create_treesiter_parser()
 
     def create_treesiter_parser(self):
@@ -56,11 +57,10 @@ class TreeSitterLangProcessor(LangProcessor):
                     # Include one or more languages
                     [str(repo_path)],
                 )
-            language = Language(lib_path, self.language)
-            self.parser = Parser()
-            self.parser.set_language(language)
+            language = Language(str(lib_path), str(self.language))
+            self.parser = Parser(language=language)
 
-    def ensure_treesitter_installed(self, repo_path: str):
+    def ensure_treesitter_installed(self, repo_path: Path):
         """Lazy load the Treesitter parser for the given language.
 
         Each subclass of TreeSitterLangProcessor must provide the attribute

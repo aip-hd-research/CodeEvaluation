@@ -50,7 +50,7 @@ class JavaProcessor(TreeSitterLangProcessor):
             root_folder=root_folder,
         )
 
-    def extract_functions(self, tokenized_code):
+    def extract_functions_from_tokenized(self, tokenized_code):
         """Extract functions from tokenized Java code."""
         if isinstance(tokenized_code, str):
             tokens = self.tokenize_code(tokenized_code)

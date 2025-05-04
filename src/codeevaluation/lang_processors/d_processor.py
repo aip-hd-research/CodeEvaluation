@@ -39,38 +39,26 @@ class DProcessor(TreeSitterLangProcessor):
         )
 
     def extract_functions(
-        self, code: tp.Union[str, tp.List[str]], tokenized: bool = True
+        self, code: tp.Union[str, tp.List[str]]
     ) -> tp.Tuple[tp.List[str], tp.List[str]]:
-        if isinstance(code, list):
-            code = " ".join(code)
-        if tokenized:
-            code = self.detokenize_code(code)
-        if isinstance(code, str):
-            code = bytes(code, "utf-8")
-        ast = self.get_ast(code)
+        code_str = " ".join(code) if isinstance(code, list) else code
+        code_bytes = bytes(code_str, "utf-8")
 
-        class_funcs, standalone_funcs = self._get_functions_from_ast(
-            code, ast.root_node
-        )
+        ast = self.get_ast(code_bytes)
 
-        if tokenized:
-            class_funcs = [" ".join(self.tokenize_code(f)) for f in class_funcs]
-            standalone_funcs = [
-                " ".join(self.tokenize_code(f)) for f in standalone_funcs
-            ]
-
-        return standalone_funcs, class_funcs
+        return self._get_functions_from_ast(code_str, ast.root_node)
 
     def _get_functions_from_ast(
         self, code: str, node: ts.Node
     ) -> tp.Tuple[tp.List[str], tp.List[str]]:
         class_funcs = []
         standalone_funcs = []
+        node_text = node.text or bytes("", "utf-8")
 
         if is_class_func(node):
-            class_funcs.append(node.text.decode("utf-8"))
+            class_funcs.append(node_text.decode("utf-8"))
         elif is_standalone_func(node):
-            standalone_funcs.append(node.text.decode("utf-8"))
+            standalone_funcs.append(node_text.decode("utf-8"))
 
         for child in node.children:
             (
@@ -83,7 +71,7 @@ class DProcessor(TreeSitterLangProcessor):
         return class_funcs, standalone_funcs
 
     def get_function_name(self, function):
-        return self.get_first_non_bracket_token_before_first_parenthesis(function)
+        return self.get_first_token_before_first_parenthesis(function)
 
 
 def is_class_func(node):
