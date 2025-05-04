@@ -9,7 +9,7 @@ import subprocess
 from logging import getLogger
 from pathlib import Path
 
-from tree_sitter import Language, Parser
+from tree_sitter import Parser
 
 from .lang_processor import LangProcessor
 from .tokenization_utils import (
@@ -46,19 +46,21 @@ class TreeSitterLangProcessor(LangProcessor):
 
     def create_treesiter_parser(self):
         if self.parser is None:
-            lib_path = self.root_folder.joinpath(f"{self.language}.so")
-            repo_path = self.root_folder.joinpath(f"tree-sitter-{self.language}")
-            self.ensure_treesitter_installed(repo_path)
-            if not lib_path.exists():
-                assert repo_path.is_dir(), repo_path
-                Language.build_library(
-                    # Store the library in the `build` directory
-                    str(lib_path),
-                    # Include one or more languages
-                    [str(repo_path)],
-                )
-            language = Language(str(lib_path), str(self.language))
-            self.parser = Parser(language=language)
+            ...
+            # Issue: Currently not working because Tree Sitter Version Incompatability
+            # lib_path = self.root_folder.joinpath(f"{self.language}.so")
+            # repo_path = self.root_folder.joinpath(f"tree-sitter-{self.language}")
+            # self.ensure_treesitter_installed(repo_path)
+            # if not lib_path.exists():
+            #     assert repo_path.is_dir(), repo_path
+            #     Language.build_library(
+            #         # Store the library in the `build` directory
+            #         str(lib_path),
+            #         # Include one or more languages
+            #         [str(repo_path)],
+            #     )
+            # language = Language(str(lib_path), str(self.language))
+            # self.parser = Parser(language=language)
 
     def ensure_treesitter_installed(self, repo_path: Path):
         """Lazy load the Treesitter parser for the given language.

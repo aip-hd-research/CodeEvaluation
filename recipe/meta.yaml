@@ -15,6 +15,9 @@ requirements:
         - polars
         - datasets
         - hydra-core
+        - tree_sitter
+        - scikit-learn
+        - sacrebleu
 
 
 about:
@@ -48,8 +51,6 @@ test:
     - pyyaml
     - typeguard
     - nodejs>=14
-    - scikit-learn
-    - tree_sitter
   commands:
     - conda env export | grep -Ev "^prefix|^name|{{ name|lower }}|{{ name }}" > environment.test.yaml
     - pytest tests
