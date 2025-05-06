@@ -115,7 +115,7 @@ def test_targetClusterAccuracy_on_two_clusterings():
     accuracy = targetClusterAccuracy(clusterer1.data, clusterer2.data, 0, 0)
 
     # 345 Successful samples in test queries_bag_0
-    assert accuracy == 345 / 600
+    assert accuracy == 0.575  # 345 / 600
 
 
 def test_specificityScore_on_itself():
@@ -148,7 +148,8 @@ def test_destructiveness_on_two_clustering():
     clusterer1 = ExtendableClusterer(threshold=1.0)
     clusterer1.add_queries(queries_bag_0)
 
-    clusterer2 = FixedSizeClusterer(queries_bag_0)
+    clusterer2 = ExtendableClusterer(threshold=0.1)
+    clusterer2.add_queries(queries_bag_0)
     destructiveness = destructivenessScore(clusterer1.data, clusterer2.data, 0)
 
     # 345 Successful samples in test queries_bag_0

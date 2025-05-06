@@ -1,4 +1,4 @@
-from typing import Callable, List, Dict
+from typing import Callable, List, Dict, Optional
 from codeevaluation.metrics.clustering.baseClusterer import BaseClusterer
 from codeevaluation.typing.BagOfProperties import (
     BagOfPropertiesFactory,
@@ -19,22 +19,22 @@ def jaccard_ngrams(s1: str, s2: str, n=3) -> float:
 class ExtendableClusterer(BaseClusterer):
     def __init__(
         self,
-        existing_clustering: BagOfProperties[
-            id, query, cluster
-        ] = BagOfPropertiesFactory[id, query, cluster].new(),
+        existing_clustering: Optional[BagOfProperties[id, query, cluster]] = None,
         threshold: float = 0.5,
         distance_func: Callable[[str, str], float] = jaccard_ngrams,
     ):
         self._threshold = threshold
         self._distance_func = distance_func
-        self.data: BagOfProperties[id, query, cluster] = existing_clustering
+        self.data: BagOfProperties[id, query, cluster] = (
+            existing_clustering or BagOfPropertiesFactory[id, query, cluster].new()
+        )
         self.cluster_id_counter = (
-            existing_clustering.df.select(pl.col("cluster").max()).to_numpy()[0][0]
-            if existing_clustering.df.height > 0
+            self.data.df.select(pl.col("cluster").max()).to_numpy()[0][0]
+            if self.data.df.height > 0
             else 0
         )
         self._clusters: Dict[int, List[str]] = {}
-        for row in existing_clustering.df.iter_rows(named=True):
+        for row in self.data.df.iter_rows(named=True):
             cluster_id = row["cluster"]
             if cluster_id not in self._clusters:
                 self._clusters[cluster_id] = []
