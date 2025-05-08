@@ -25,20 +25,23 @@ class ExtendableClusterer(BaseClusterer):
     ):
         self._threshold = threshold
         self._distance_func = distance_func
-        self.data: BagOfProperties[id, query, cluster] = (
-            existing_clustering or BagOfPropertiesFactory[id, query, cluster].new()
-        )
-        self.cluster_id_counter = (
-            self.data.df.select(pl.col("cluster").max()).to_numpy()[0][0]
-            if self.data.df.height > 0
-            else 0
-        )
+        self.data: BagOfProperties[id, query, cluster] = BagOfPropertiesFactory[
+            id, query, cluster
+        ].new()
+        self.cluster_id_counter = 0
         self._clusters: Dict[int, List[str]] = {}
-        for row in self.data.df.iter_rows(named=True):
-            cluster_id = row["cluster"]
-            if cluster_id not in self._clusters:
-                self._clusters[cluster_id] = []
-            self._clusters[cluster_id].append(row["query"])
+
+        if existing_clustering:
+            self.cluster_id_counter = (
+                self.data.df.select(pl.col("cluster").max()).to_numpy()[0][0]
+                if self.data.df.height > 0
+                else 0
+            )
+            for row in existing_clustering.df.iter_rows(named=True):
+                cluster_id = row["cluster"]
+                if cluster_id not in self._clusters:
+                    self._clusters[cluster_id] = []
+                self._clusters[cluster_id].append(row["query"])
 
     def _assign_cluster(self, string: str) -> int:
         for cid, items in self._clusters.items():
