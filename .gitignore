@@ -181,3 +181,5 @@ cython_debug/
 
 # Tree Sitter Cache
 tree-sitter-cache
+
+demo_results
