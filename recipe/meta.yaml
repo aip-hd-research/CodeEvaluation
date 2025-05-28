@@ -18,6 +18,7 @@ requirements:
         - tree_sitter
         - scikit-learn
         - sacrebleu
+        - ldc
 
 
 about:

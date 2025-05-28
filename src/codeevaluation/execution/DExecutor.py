@@ -60,7 +60,7 @@ def fill_d_functions_into_tests(
             .str.replace_all(cfg.REPLACEMENT_MARKER.d, pl.col("d_translations"))
             .alias("d_executable")
         )
-    ).head(10)
+    )
 
     return dCodeExecutableData
 

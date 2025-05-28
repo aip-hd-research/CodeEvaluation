@@ -32,7 +32,7 @@ class _BagOfPropertiesBase[T]:
             for _type in type_list:
                 if not isinstance(getattr(_type, "datatype", None), Type):
                     raise TypeError(
-                        "BagOfPropertiesBase type args need the datatype entry"
+                        "_BagOfPropertiesBase type args need the datatype entry"
                     )
 
             class Typed(cls):
