@@ -1,0 +1,45 @@
+# Universal usage
+class id:
+    datatype = str
+
+
+# For D test data
+class raw_d_translations:
+    datatype = str
+
+
+class d_translations:
+    datatype = str
+
+
+class d_with_params:
+    datatype = str
+
+
+class d_executable:
+    datatype = str
+
+
+class success:
+    datatype = bool
+
+
+class error:
+    datatype = str
+
+
+# For clustering
+class query:
+    datatype = str
+
+
+class cluster:
+    datatype = int
+
+
+class short_name:
+    datatype = str
+
+
+class size:
+    datatype = int

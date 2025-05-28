@@ -1,0 +1,10 @@
+REPLACEMENT_MARKER:
+  java: "//FILL_ME//"
+  cpp: "//FILL_ME//"
+  python: "##FILL_ME##"
+  d: "//TOFILL//"
+
+COMPILATION_TIMEOUT_D_EXECUTION: 30
+RUN_TIMEOUT_D_EXECUTION: 15
+
+workspace_dir: "workspace"

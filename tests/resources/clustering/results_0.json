@@ -1,0 +1,3060 @@
+[
+    {
+        "success": true,
+        "error": "No",
+        "id": "PRIMALITY_TEST_SET_1_INTRODUCTION_AND_SCHOOL_METHOD"
+    },
+    {
+        "error": "run_dir/COUNT_SORTED_ROWS_MATRIX.d(6): Error: instead of C-style syntax, use D-style `int[][] mat`\n",
+        "success": false,
+        "id": "COUNT_SORTED_ROWS_MATRIX"
+    },
+    {
+        "error": "run_dir/FIND_MINIMUM_NUMBER_DIVIDED_MAKE_NUMBER_PERFECT_SQUARE.d(13): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "FIND_MINIMUM_NUMBER_DIVIDED_MAKE_NUMBER_PERFECT_SQUARE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_DISTINCT_NON_NEGATIVE_PAIRS_X_Y_SATISFY_INEQUALITY_XX_YY_N_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SEARCH_AN_ELEMENT_IN_AN_ARRAY_WHERE_DIFFERENCE_BETWEEN_ADJACENT_ELEMENTS_IS_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "DISTRIBUTING_M_ITEMS_CIRCLE_SIZE_N_STARTING_K_TH_POSITION"
+    },
+    {
+        "correct": 7,
+        "total": 7,
+        "success": true,
+        "error": "No",
+        "id": "DOUBLE_FACTORIAL_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "EFFICIENT_SEARCH_IN_AN_ARRAY_WHERE_DIFFERENCE_BETWEEN_ADJACENT_IS_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "N_TH_NUMBER_WHOSE_SUM_OF_DIGITS_IS_TEN_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_SUBSETS_SET_FORMED_FIRST_N_NATURAL_NUMBERS"
+    },
+    {
+        "error": "run_dir/MAXIMUM_POSSIBLE_SUM_WINDOW_ARRAY_ELEMENTS_WINDOW_ARRAY_UNIQUE.d(7): Error: found `>` when expecting `;` following statement `Set < (int)` on line run_dir/MAXIMUM_POSSIBLE_SUM_WINDOW_ARRAY_ELEMENTS_WINDOW_ARRAY_UNIQUE.d(7)\\nrun_dir/MAXIMUM_POSSIBLE_SUM_WINDOW_ARRAY_ELEMENTS_WINDOW_ARRAY_UNIQUE.d(7): Error: found `>` when expecting `;` following statement `mp = new HashSet < (int)` on line run_dir/MAXIMUM_POSSIBLE_SUM_WINDOW_ARRAY_ELEMENTS_WINDOW_ARRAY_UNIQUE.d(7)\\nrun_dir/MAXIMUM_POSSIBLE_SUM_WINDOW_ARRAY_ELEMENTS_WINDOW_ARRAY_UNIQUE.d(7): Error: expression expected, not `)`\\nrun_dir/MAXIMUM_POSSIBLE_SUM_WINDOW_ARRAY_ELEMENTS_WINDOW_ARRAY_UNIQUE.d(7): Error: found `;` when expecting `)`\\nrun_dir/MAXIMUM_POSSIBLE_SUM_WINDOW_ARRAY_ELEMENTS_WINDOW_ARRAY_UNIQUE.d(8): Error: found `int` when expecting `;` following statement `0` on line run_dir/MAXIMUM_POSSIBLE_SUM_WINDOW_ARRAY_ELEMENTS_WINDOW_ARRAY_UNIQUE.d(7)\n",
+        "success": false,
+        "id": "MAXIMUM_POSSIBLE_SUM_WINDOW_ARRAY_ELEMENTS_WINDOW_ARRAY_UNIQUE"
+    },
+    {
+        "error": "run_dir/DYNAMIC_PROGRAMMING_SET_37_BOOLEAN_PARENTHESIZATION_PROBLEM.d(6): Error: declaration expected, not `{`\\nrun_dir/DYNAMIC_PROGRAMMING_SET_37_BOOLEAN_PARENTHESIZATION_PROBLEM.d(8): Error: no identifier for declarator `T[i][j]`\\nrun_dir/DYNAMIC_PROGRAMMING_SET_37_BOOLEAN_PARENTHESIZATION_PROBLEM.d(8): Error: declaration expected, not `+=`\\nrun_dir/DYNAMIC_PROGRAMMING_SET_37_BOOLEAN_PARENTHESIZATION_PROBLEM.d(9): Error: unmatched closing brace\n",
+        "success": false,
+        "id": "DYNAMIC_PROGRAMMING_SET_37_BOOLEAN_PARENTHESIZATION_PROBLEM"
+    },
+    {
+        "error": "run_dir/CHECK_GIVEN_CIRCLE_LIES_COMPLETELY_INSIDE_RING_FORMED_TWO_CONCENTRIC_CIRCLES.d(7): Error: C style cast illegal, use `cast(int)sqrt(x1 * x1 + y1 * y1)`\n",
+        "success": false,
+        "id": "CHECK_GIVEN_CIRCLE_LIES_COMPLETELY_INSIDE_RING_FORMED_TWO_CONCENTRIC_CIRCLES"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NUMBER_SUBSEQUENCES_FORM_AI_BJ_CK"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_REPETITIVE_ELEMENT_1_N_1"
+    },
+    {
+        "error": "run_dir/SEQUENCES_GIVEN_LENGTH_EVERY_ELEMENT_EQUAL_TWICE_PREVIOUS_1.d(7): Error: instead of C-style syntax, use D-style `int[n + 1][m + 1] T`\n",
+        "success": false,
+        "id": "SEQUENCES_GIVEN_LENGTH_EVERY_ELEMENT_EQUAL_TWICE_PREVIOUS_1"
+    },
+    {
+        "error": "run_dir/FRIENDS_PAIRING_PROBLEM.d(7): Error: instead of C-style syntax, use D-style `int[n + 1] dp`\n",
+        "success": false,
+        "id": "FRIENDS_PAIRING_PROBLEM"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "POSSIBLE_TO_MAKE_A_DIVISIBLE_BY_3_NUMBER_USING_ALL_DIGITS_IN_AN_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NUMBER_JUMP_REQUIRED_GIVEN_LENGTH_REACH_POINT_FORM_D_0_ORIGIN_2D_PLANE"
+    },
+    {
+        "error": "run_dir/MULTIPLY_LARGE_INTEGERS_UNDER_LARGE_MODULO.d(10): Error: `1 > 0` must be surrounded by parentheses when next to operator `&`\n",
+        "success": false,
+        "id": "MULTIPLY_LARGE_INTEGERS_UNDER_LARGE_MODULO"
+    },
+    {
+        "error": "run_dir/MAXIMUM_SUBARRAY_SUM_USING_PREFIX_SUM.d(9): Error: instead of C-style syntax, use D-style `int[] prefixSum`\n",
+        "success": false,
+        "id": "MAXIMUM_SUBARRAY_SUM_USING_PREFIX_SUM"
+    },
+    {
+        "error": "run_dir/MAXIMUM_SUM_BITONIC_SUBARRAY.d(9): Error: undefined identifier `Integer`\n",
+        "success": false,
+        "id": "MAXIMUM_SUM_BITONIC_SUBARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NEXT_HIGHER_NUMBER_WITH_SAME_NUMBER_OF_SET_BITS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_CHECK_ARRAY_SORTED_NOT_ITERATIVE_RECURSIVE_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NUMBER_OF_TRIANGLES_IN_A_PLANE_IF_NO_MORE_THAN_TWO_POINTS_ARE_COLLINEAR"
+    },
+    {
+        "error": "run_dir/FIND_MAXIMUM_DOT_PRODUCT_TWO_ARRAYS_INSERTION_0S.d(7): Error: instead of C-style syntax, use D-style `int[m + 1][n + 1] dp`\n",
+        "success": false,
+        "id": "FIND_MAXIMUM_DOT_PRODUCT_TWO_ARRAYS_INSERTION_0S"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_THE_ELEMENT_THAT_APPEARS_ONCE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SMALLEST_POWER_OF_2_GREATER_THAN_OR_EQUAL_TO_N_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NUMBER_DIGITS_PRODUCT_TWO_NUMBERS"
+    },
+    {
+        "error": "run_dir/TOTAL_NUMBER_OF_NON_DECREASING_NUMBERS_WITH_N_DIGITS.d(7): Error: instead of C-style syntax, use D-style `int[n + 1][10] dp`\n",
+        "success": false,
+        "id": "TOTAL_NUMBER_OF_NON_DECREASING_NUMBERS_WITH_N_DIGITS"
+    },
+    {
+        "error": "run_dir/RECURSIVELY_BREAK_NUMBER_3_PARTS_GET_MAXIMUM_SUM_1.d(7): Error: instead of C-style syntax, use D-style `int[n + 1] dp`\n",
+        "success": false,
+        "id": "RECURSIVELY_BREAK_NUMBER_3_PARTS_GET_MAXIMUM_SUM_1"
+    },
+    {
+        "error": "run_dir/PERMUTE_TWO_ARRAYS_SUM_EVERY_PAIR_GREATER_EQUAL_K.d(7): Error: none of the overloads of template `std.algorithm.sorting.sort` are callable using argument types `!()(int[], void)`\\n/etc/../usr/include/dmd/phobos/std/algorithm/sorting.d(1925):        Candidate is: `sort(alias less = \"a < b\", SwapStrategy ss = SwapStrategy.unstable, Range)(Range r)`\n",
+        "success": false,
+        "id": "PERMUTE_TWO_ARRAYS_SUM_EVERY_PAIR_GREATER_EQUAL_K"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_FIBONACCI_NUMBERS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "GIVEN_A_SORTED_AND_ROTATED_ARRAY_FIND_IF_THERE_IS_A_PAIR_WITH_A_GIVEN_SUM"
+    },
+    {
+        "error": "run_dir/PRODUCT_NODES_K_TH_LEVEL_TREE_REPRESENTED_STRING.d(9): Error: cannot implicitly convert expression `tree.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "PRODUCT_NODES_K_TH_LEVEL_TREE_REPRESENTED_STRING"
+    },
+    {
+        "error": "run_dir/NUMBER_OF_SUBSTRINGS_WITH_ODD_DECIMAL_VALUE_IN_A_BINARY_STRING.d(7): Error: cannot implicitly convert expression `s.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "NUMBER_OF_SUBSTRINGS_WITH_ODD_DECIMAL_VALUE_IN_A_BINARY_STRING"
+    },
+    {
+        "error": "run_dir/CHECK_IF_STRING_REMAINS_PALINDROME_AFTER_REMOVING_GIVEN_NUMBER_OF_CHARACTERS.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "CHECK_IF_STRING_REMAINS_PALINDROME_AFTER_REMOVING_GIVEN_NUMBER_OF_CHARACTERS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_SUM_EVEN_INDEX_BINOMIAL_COEFFICIENTS_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NEXT_POWER_OF_2_1"
+    },
+    {
+        "error": "run_dir/MAXIMUM_DISTANCE_TWO_OCCURRENCES_ELEMENT_ARRAY.d(7): Error: identifier expected following comma\\nrun_dir/MAXIMUM_DISTANCE_TWO_OCCURRENCES_ELEMENT_ARRAY.d(7): Error: no identifier for declarator `int`\\nrun_dir/MAXIMUM_DISTANCE_TWO_OCCURRENCES_ELEMENT_ARRAY.d(7): Error: found `>` instead of statement\n",
+        "success": false,
+        "id": "MAXIMUM_DISTANCE_TWO_OCCURRENCES_ELEMENT_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_OPERATIONS_MAKE_GCD_ARRAY_MULTIPLE_K"
+    },
+    {
+        "error": "run_dir/COUNT_DIGITS_FACTORIAL_SET_1.d(11): Error: C style cast illegal, use `cast(int)floor(digits)`\n",
+        "success": false,
+        "id": "COUNT_DIGITS_FACTORIAL_SET_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_TIME_TO_FINISH_TASKS_WITHOUT_SKIPPING_TWO_CONSECUTIVE"
+    },
+    {
+        "error": "run_dir/STACK_PERMUTATIONS_CHECK_IF_AN_ARRAY_IS_STACK_PERMUTATION_OF_OTHER.d(7): Error: semicolon expected following auto declaration, not `>`\\nrun_dir/STACK_PERMUTATIONS_CHECK_IF_AN_ARRAY_IS_STACK_PERMUTATION_OF_OTHER.d(7): Error: found `>` instead of statement\\nrun_dir/STACK_PERMUTATIONS_CHECK_IF_AN_ARRAY_IS_STACK_PERMUTATION_OF_OTHER.d(11): Error: semicolon expected following auto declaration, not `>`\\nrun_dir/STACK_PERMUTATIONS_CHECK_IF_AN_ARRAY_IS_STACK_PERMUTATION_OF_OTHER.d(11): Error: found `>` instead of statement\\nrun_dir/STACK_PERMUTATIONS_CHECK_IF_AN_ARRAY_IS_STACK_PERMUTATION_OF_OTHER.d(15): Error: semicolon expected following auto declaration, not `>`\\nrun_dir/STACK_PERMUTATIONS_CHECK_IF_AN_ARRAY_IS_STACK_PERMUTATION_OF_OTHER.d(15): Error: found `>` instead of statement\n",
+        "success": false,
+        "id": "STACK_PERMUTATIONS_CHECK_IF_AN_ARRAY_IS_STACK_PERMUTATION_OF_OTHER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COMPUTE_AVERAGE_TWO_NUMBERS_WITHOUT_OVERFLOW"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_NUMBER_PAIRS_N_B_N_GCD_B_B"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "ADD_1_TO_A_GIVEN_NUMBER_1"
+    },
+    {
+        "correct": 12,
+        "total": 12,
+        "success": true,
+        "error": "No",
+        "id": "C_PROGRAM_FACTORIAL_NUMBER"
+    },
+    {
+        "correct": 5,
+        "total": 5,
+        "success": true,
+        "error": "No",
+        "id": "COUNT_NUMBER_OF_WAYS_TO_COVER_A_DISTANCE_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_REPETITIVE_ELEMENT_1_N_1_2"
+    },
+    {
+        "error": "run_dir/LONGEST_REPEATED_SUBSEQUENCE_1.d(8): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\\nrun_dir/LONGEST_REPEATED_SUBSEQUENCE_1.d(9): Error: variable `n` cannot be read at compile time\\nrun_dir/LONGEST_REPEATED_SUBSEQUENCE_1.d(25): Error: incompatible types for `(res) + (str[cast(ulong)(i - 1)])`: `string` and `immutable(char)`\\nrun_dir/LONGEST_REPEATED_SUBSEQUENCE_1.d(35): Error: cannot implicitly convert expression `res.length - 1LU` of type `ulong` to `int`\\nrun_dir/LONGEST_REPEATED_SUBSEQUENCE_1.d(36): Error: incompatible types for `(reverse) + (res[cast(ulong)k])`: `string` and `immutable(char)`\n",
+        "success": false,
+        "id": "LONGEST_REPEATED_SUBSEQUENCE_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_WHETHER_AN_ARRAY_IS_SUBSET_OF_ANOTHER_ARRAY_SET_1_1"
+    },
+    {
+        "error": "run_dir/NUMBER_N_DIGIT_STEPPING_NUMBERS.d(7): Error: instead of C-style syntax, use D-style `int[10][n + 1] dp`\n",
+        "success": false,
+        "id": "NUMBER_N_DIGIT_STEPPING_NUMBERS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "GIVEN_A_SORTED_AND_ROTATED_ARRAY_FIND_IF_THERE_IS_A_PAIR_WITH_A_GIVEN_SUM_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "ARRAY_ELEMENT_MOVED_K_USING_SINGLE_MOVES"
+    },
+    {
+        "correct": 7,
+        "total": 10,
+        "success": false,
+        "error": "Correctness",
+        "id": "PROGRAM_TO_FIND_THE_VOLUME_OF_A_TRIANGULAR_PRISM"
+    },
+    {
+        "error": "run_dir/MINIMUM_COST_CUT_BOARD_SQUARES.d(8): Error: undefined identifier `reverseOrder`\\nrun_dir/MINIMUM_COST_CUT_BOARD_SQUARES.d(9): Error: undefined identifier `reverseOrder`\n",
+        "success": false,
+        "id": "MINIMUM_COST_CUT_BOARD_SQUARES"
+    },
+    {
+        "error": "run_dir/CHECK_GIVEN_STRING_ROTATION_PALINDROME.d(8): Error: cannot implicitly convert expression `str.length - 1LU` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "CHECK_GIVEN_STRING_ROTATION_PALINDROME"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MEDIAN_OF_TWO_SORTED_ARRAYS"
+    },
+    {
+        "error": "run_dir/K_TH_DIGIT_RAISED_POWER_B.d(7): Error: can only `*` a pointer, not a `int`\n",
+        "success": false,
+        "id": "K_TH_DIGIT_RAISED_POWER_B"
+    },
+    {
+        "error": "run_dir/COUNT_OF_PAIRS_SATISFYING_THE_GIVEN_CONDITION.d(13): Error: cannot implicitly convert expression `cast(ulong)a * s.length` of type `ulong` to `int`\\nrun_dir/COUNT_OF_PAIRS_SATISFYING_THE_GIVEN_CONDITION.d(14): Error: cannot implicitly convert expression `cast(ulong)a * (s.length - 1LU)` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "COUNT_OF_PAIRS_SATISFYING_THE_GIVEN_CONDITION"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "ADD_TWO_NUMBERS_WITHOUT_USING_ARITHMETIC_OPERATORS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_NUMBER_OF_OCCURRENCES_OR_FREQUENCY_IN_A_SORTED_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SPLIT_N_MAXIMUM_COMPOSITE_NUMBERS"
+    },
+    {
+        "error": "run_dir/LONGEST_REPEATING_SUBSEQUENCE.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\\nrun_dir/LONGEST_REPEATING_SUBSEQUENCE.d(8): Error: variable `n` cannot be read at compile time\n",
+        "success": false,
+        "id": "LONGEST_REPEATING_SUBSEQUENCE"
+    },
+    {
+        "error": "run_dir/REMOVE_ARRAY_END_ELEMENT_MAXIMIZE_SUM_PRODUCT.d(6): Error: instead of C-style syntax, use D-style `int[][] dp`\\nrun_dir/REMOVE_ARRAY_END_ELEMENT_MAXIMIZE_SUM_PRODUCT.d(6): Error: instead of C-style syntax, use D-style `int[] a`\\nrun_dir/REMOVE_ARRAY_END_ELEMENT_MAXIMIZE_SUM_PRODUCT.d(28): Error: found `End of File` when expecting `}` following compound statement\n",
+        "success": false,
+        "id": "REMOVE_ARRAY_END_ELEMENT_MAXIMIZE_SUM_PRODUCT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_2"
+    },
+    {
+        "error": "CompilationError(\"run_dir/FORM_MINIMUM_NUMBER_FROM_GIVEN_SEQUENCE_1.d(14): Error: C style cast illegal, use `cast(int)'0'`\\nrun_dir/FORM_MINIMUM_NUMBER_FROM_GIVEN_SEQUENCE_1.d(14): Error: C style cast illegal, use `cast(char)(cast(int)'0' + count++)`\\n\")",
+        "success": false,
+        "id": "FORM_MINIMUM_NUMBER_FROM_GIVEN_SEQUENCE_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_POSSIBLE_WAYS_TO_CONSTRUCT_BUILDINGS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "TEMPLE_OFFERINGS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "HOW_TO_PRINT_MAXIMUM_NUMBER_OF_A_USING_GIVEN_FOUR_KEYS"
+    },
+    {
+        "error": "run_dir/CHECK_OCCURRENCES_CHARACTER_APPEAR_TOGETHER.d(8): Error: cannot implicitly convert expression `s.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "CHECK_OCCURRENCES_CHARACTER_APPEAR_TOGETHER"
+    },
+    {
+        "error": "run_dir/FIND_LARGEST_PRIME_FACTOR_NUMBER.d(12): Error: undefined identifier `Math`\n",
+        "success": false,
+        "id": "FIND_LARGEST_PRIME_FACTOR_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_IF_A_NUMBER_IS_POWER_OF_ANOTHER_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SMALLEST_OF_THREE_INTEGERS_WITHOUT_COMPARISON_OPERATORS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "C_PROGRAM_FIND_LARGEST_ELEMENT_ARRAY_1"
+    },
+    {
+        "error": "run_dir/COUNT_SUBARRAYS_EQUAL_NUMBER_1S_0S_1.d(7): Error: expression expected, not `)`\\nrun_dir/COUNT_SUBARRAYS_EQUAL_NUMBER_1S_0S_1.d(7): Error: found `;` when expecting `)`\\nrun_dir/COUNT_SUBARRAYS_EQUAL_NUMBER_1S_0S_1.d(8): Error: found `int` when expecting `;` following statement `Map < (int) , (int) > myMap = new HashMap < (int) , (int) > 0` on line run_dir/COUNT_SUBARRAYS_EQUAL_NUMBER_1S_0S_1.d(7)\n",
+        "success": false,
+        "id": "COUNT_SUBARRAYS_EQUAL_NUMBER_1S_0S_1"
+    },
+    {
+        "correct": 9,
+        "total": 9,
+        "success": true,
+        "error": "No",
+        "id": "DYNAMIC_PROGRAMMING_SET_36_CUT_A_ROPE_TO_MAXIMIZE_PRODUCT_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "AREA_SQUARE_CIRCUMSCRIBED_CIRCLE"
+    },
+    {
+        "error": "run_dir/GOOGLE_CASE_GIVEN_SENTENCE.d(7): Error: cannot implicitly convert expression `s.length` of type `ulong` to `int`\\nrun_dir/GOOGLE_CASE_GIVEN_SENTENCE.d(9): Error: undefined identifier `toLower`\\nrun_dir/GOOGLE_CASE_GIVEN_SENTENCE.d(12): Error: undefined identifier `toLower`\\nrun_dir/GOOGLE_CASE_GIVEN_SENTENCE.d(15): Error: undefined identifier `toUpper`\n",
+        "success": false,
+        "id": "GOOGLE_CASE_GIVEN_SENTENCE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NEXT_POWER_OF_2_2"
+    },
+    {
+        "error": "run_dir/DYNAMIC_PROGRAMMING_SET_17_PALINDROME_PARTITIONING.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\\nrun_dir/DYNAMIC_PROGRAMMING_SET_17_PALINDROME_PARTITIONING.d(8): Error: variable `n` cannot be read at compile time\\nrun_dir/DYNAMIC_PROGRAMMING_SET_17_PALINDROME_PARTITIONING.d(9): Error: variable `n` cannot be read at compile time\n",
+        "success": false,
+        "id": "DYNAMIC_PROGRAMMING_SET_17_PALINDROME_PARTITIONING"
+    },
+    {
+        "error": "run_dir/LENGTH_LONGEST_STRICT_BITONIC_SUBSEQUENCE.d(7): Error: identifier expected following comma\\nrun_dir/LENGTH_LONGEST_STRICT_BITONIC_SUBSEQUENCE.d(7): Error: no identifier for declarator `int`\\nrun_dir/LENGTH_LONGEST_STRICT_BITONIC_SUBSEQUENCE.d(7): Error: found `>` instead of statement\\nrun_dir/LENGTH_LONGEST_STRICT_BITONIC_SUBSEQUENCE.d(8): Error: identifier expected following comma\\nrun_dir/LENGTH_LONGEST_STRICT_BITONIC_SUBSEQUENCE.d(8): Error: no identifier for declarator `int`\\nrun_dir/LENGTH_LONGEST_STRICT_BITONIC_SUBSEQUENCE.d(8): Error: found `>` instead of statement\\nrun_dir/LENGTH_LONGEST_STRICT_BITONIC_SUBSEQUENCE.d(9): Error: instead of C-style syntax, use D-style `int[n] len_inc`\\nrun_dir/LENGTH_LONGEST_STRICT_BITONIC_SUBSEQUENCE.d(10): Error: instead of C-style syntax, use D-style `int[n] len_dcr`\n",
+        "success": false,
+        "id": "LENGTH_LONGEST_STRICT_BITONIC_SUBSEQUENCE"
+    },
+    {
+        "error": "run_dir/POSITION_OF_RIGHTMOST_SET_BIT.d(7): Error: C style cast illegal, use `cast(int)(log10(n & -n) / log10(2))`\n",
+        "success": false,
+        "id": "POSITION_OF_RIGHTMOST_SET_BIT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "LOWER_INSERTION_POINT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_DIFFERENCE_BETWEEN_SUMS_OF_TWO_DIAGONALS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MODULAR_EXPONENTIATION_POWER_IN_MODULAR_ARITHMETIC"
+    },
+    {
+        "error": "run_dir/LARGEST_SUBARRAY_WITH_EQUAL_NUMBER_OF_0S_AND_1S.d(28): Error: incompatible types for `(startIndex) + (\"to\")`: `int` and `string`\n",
+        "success": false,
+        "id": "LARGEST_SUBARRAY_WITH_EQUAL_NUMBER_OF_0S_AND_1S"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MULTIPLY_AN_INTEGER_WITH_3_5"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_SWAPS_REQUIRED_BRING_ELEMENTS_LESS_EQUAL_K_TOGETHER"
+    },
+    {
+        "error": "run_dir/PROGRAM_CALCULATE_VOLUME_OCTAHEDRON.d(7): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "PROGRAM_CALCULATE_VOLUME_OCTAHEDRON"
+    },
+    {
+        "error": "run_dir/COUNT_NUMBER_WAYS_REACH_GIVEN_SCORE_GAME.d(7): Error: instead of C-style syntax, use D-style `int[n + 1] table`\n",
+        "success": false,
+        "id": "COUNT_NUMBER_WAYS_REACH_GIVEN_SCORE_GAME"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "POSITION_OF_RIGHTMOST_SET_BIT_1"
+    },
+    {
+        "error": "run_dir/FIND_A_TRIPLET_THAT_SUM_TO_A_GIVEN_VALUE_2.d(8): Error: found `>` when expecting `;` following statement `HashSet < (int)` on line run_dir/FIND_A_TRIPLET_THAT_SUM_TO_A_GIVEN_VALUE_2.d(8)\\nrun_dir/FIND_A_TRIPLET_THAT_SUM_TO_A_GIVEN_VALUE_2.d(8): Error: found `>` when expecting `;` following statement `s = new HashSet < (int)` on line run_dir/FIND_A_TRIPLET_THAT_SUM_TO_A_GIVEN_VALUE_2.d(8)\\nrun_dir/FIND_A_TRIPLET_THAT_SUM_TO_A_GIVEN_VALUE_2.d(8): Error: expression expected, not `)`\\nrun_dir/FIND_A_TRIPLET_THAT_SUM_TO_A_GIVEN_VALUE_2.d(8): Error: found `;` when expecting `)`\\nrun_dir/FIND_A_TRIPLET_THAT_SUM_TO_A_GIVEN_VALUE_2.d(9): Error: found `int` when expecting `;` following statement `0` on line run_dir/FIND_A_TRIPLET_THAT_SUM_TO_A_GIVEN_VALUE_2.d(8)\n",
+        "success": false,
+        "id": "FIND_A_TRIPLET_THAT_SUM_TO_A_GIVEN_VALUE_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_NUMBER_SUBSETS_DISTINCT_ELEMENTS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COST_BALANCE_PARANTHESES"
+    },
+    {
+        "error": "run_dir/NUMBER_WAYS_NODE_MAKE_LOOP_SIZE_K_UNDIRECTED_COMPLETE_CONNECTED_GRAPH_N_NODES.d(9): Error: C style cast illegal, use `cast(int)((n - 1) * *k + p * (n - 1))`\n",
+        "success": false,
+        "id": "NUMBER_WAYS_NODE_MAKE_LOOP_SIZE_K_UNDIRECTED_COMPLETE_CONNECTED_GRAPH_N_NODES"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHOCOLATE_DISTRIBUTION_PROBLEM"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_SUBARRAY_WITH_GIVEN_SUM"
+    },
+    {
+        "correct": 4,
+        "total": 10,
+        "success": false,
+        "error": "Correctness",
+        "id": "FIND_SUM_NODES_GIVEN_PERFECT_BINARY_TREE_1"
+    },
+    {
+        "error": "run_dir/CHECK_LARGE_NUMBER_DIVISIBLE_13_NOT.d(7): Error: cannot implicitly convert expression `num.length` of type `ulong` to `int`\\nrun_dir/CHECK_LARGE_NUMBER_DIVISIBLE_13_NOT.d(10): Error: slice `num` is not mutable\\nrun_dir/CHECK_LARGE_NUMBER_DIVISIBLE_13_NOT.d(10):        did you mean to concatenate (`num ~= \"00\"`) instead ?\\nrun_dir/CHECK_LARGE_NUMBER_DIVISIBLE_13_NOT.d(14): Error: slice `num` is not mutable\\nrun_dir/CHECK_LARGE_NUMBER_DIVISIBLE_13_NOT.d(14):        did you mean to concatenate (`num ~= \"0\"`) instead ?\n",
+        "success": false,
+        "id": "CHECK_LARGE_NUMBER_DIVISIBLE_13_NOT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_WHETHER_ARITHMETIC_PROGRESSION_CAN_FORMED_GIVEN_ARRAY"
+    },
+    {
+        "error": "run_dir/MAXIMUM_NUMBER_SEGMENTS_LENGTHS_B_C.d(7): Error: instead of C-style syntax, use D-style `int[n + 10] dp`\n",
+        "success": false,
+        "id": "MAXIMUM_NUMBER_SEGMENTS_LENGTHS_B_C"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SMALLEST_OF_THREE_INTEGERS_WITHOUT_COMPARISON_OPERATORS_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_SUM_TWO_NUMBERS_FORMED_DIGITS_ARRAY_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_NEGATIVE_NUMBERS_IN_A_COLUMN_WISE_ROW_WISE_SORTED_MATRIX_1"
+    },
+    {
+        "error": "run_dir/PROGRAM_BINARY_DECIMAL_CONVERSION_1.d(9): Error: found `;` when expecting `)`\\nrun_dir/PROGRAM_BINARY_DECIMAL_CONVERSION_1.d(9): Error: found `)` when expecting `;` following statement `-1` on line run_dir/PROGRAM_BINARY_DECIMAL_CONVERSION_1.d(9)\n",
+        "success": false,
+        "id": "PROGRAM_BINARY_DECIMAL_CONVERSION_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_WHETHER_GIVEN_INTEGER_POWER_3_NOT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PIZZA_CUT_PROBLEM_CIRCLE_DIVISION_LINES"
+    },
+    {
+        "error": "run_dir/WILDCARD_CHARACTER_MATCHING.d(9): Error: no property `substring` for `first` of type `string`\\nrun_dir/WILDCARD_CHARACTER_MATCHING.d(9): Error: no property `substring` for `second` of type `string`\\nrun_dir/WILDCARD_CHARACTER_MATCHING.d(10): Error: no property `substring` for `first` of type `string`\\nrun_dir/WILDCARD_CHARACTER_MATCHING.d(10): Error: no property `substring` for `second` of type `string`\n",
+        "success": false,
+        "id": "WILDCARD_CHARACTER_MATCHING"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_WHETHER_A_GIVEN_NUMBER_IS_A_POWER_OF_4_OR_NOT"
+    },
+    {
+        "error": "run_dir/MINIMUM_COST_FOR_ACQUIRING_ALL_COINS_WITH_K_EXTRA_COINS_ALLOWED_WITH_EVERY_COIN.d(8): Error: C style cast illegal, use `cast(int)ceil(1.0 * n / (k + 1))`\n",
+        "success": false,
+        "id": "MINIMUM_COST_FOR_ACQUIRING_ALL_COINS_WITH_K_EXTRA_COINS_ALLOWED_WITH_EVERY_COIN"
+    },
+    {
+        "error": "run_dir/POLICEMEN_CATCH_THIEVES.d(8): Error: found `>` when expecting `;` following statement `List < (int)` on line run_dir/POLICEMEN_CATCH_THIEVES.d(8)\\nrun_dir/POLICEMEN_CATCH_THIEVES.d(8): Error: found `>` when expecting `;` following statement `thi = new List < (int)` on line run_dir/POLICEMEN_CATCH_THIEVES.d(8)\\nrun_dir/POLICEMEN_CATCH_THIEVES.d(8): Error: expression expected, not `)`\\nrun_dir/POLICEMEN_CATCH_THIEVES.d(8): Error: found `;` when expecting `)`\\nrun_dir/POLICEMEN_CATCH_THIEVES.d(9): Error: found `List` when expecting `;` following statement `0` on line run_dir/POLICEMEN_CATCH_THIEVES.d(8)\\nrun_dir/POLICEMEN_CATCH_THIEVES.d(9): Error: found `<` instead of statement\n",
+        "success": false,
+        "id": "POLICEMEN_CATCH_THIEVES"
+    },
+    {
+        "error": "run_dir/COUNT_PALINDROMIC_SUBSEQUENCE_GIVEN_STRING.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\\nrun_dir/COUNT_PALINDROMIC_SUBSEQUENCE_GIVEN_STRING.d(8): Error: variable `N` cannot be read at compile time\n",
+        "success": false,
+        "id": "COUNT_PALINDROMIC_SUBSEQUENCE_GIVEN_STRING"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "HOW_CAN_WE_SUM_THE_DIGITS_OF_A_GIVEN_NUMBER_IN_SINGLE_STATEMENT_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "WRITE_ONE_LINE_C_FUNCTION_TO_FIND_WHETHER_A_NO_IS_POWER_OF_TWO"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "HOW_TO_TURN_OFF_A_PARTICULAR_BIT_IN_A_NUMBER"
+    },
+    {
+        "error": "run_dir/CALCULATE_ANGLE_HOUR_HAND_MINUTE_HAND.d(9): Error: identifier or `new` expected following `.`, not `out`\\nrun_dir/CALCULATE_ANGLE_HOUR_HAND_MINUTE_HAND.d(11): Error: C style cast illegal, use `cast(int)(0.5 * (h * 60 + m))`\\nrun_dir/CALCULATE_ANGLE_HOUR_HAND_MINUTE_HAND.d(12): Error: C style cast illegal, use `cast(int)(6 * m)`\n",
+        "success": false,
+        "id": "CALCULATE_ANGLE_HOUR_HAND_MINUTE_HAND"
+    },
+    {
+        "error": "run_dir/FIND_THE_NUMBER_OCCURRING_ODD_NUMBER_OF_TIMES_1.d(7): Error: identifier expected following comma\\nrun_dir/FIND_THE_NUMBER_OCCURRING_ODD_NUMBER_OF_TIMES_1.d(7): Error: no identifier for declarator `int`\\nrun_dir/FIND_THE_NUMBER_OCCURRING_ODD_NUMBER_OF_TIMES_1.d(7): Error: found `>` instead of statement\\nrun_dir/FIND_THE_NUMBER_OCCURRING_ODD_NUMBER_OF_TIMES_1.d(15): Error: semicolon needed to end declaration of `a` instead of `)`\\nrun_dir/FIND_THE_NUMBER_OCCURRING_ODD_NUMBER_OF_TIMES_1.d(15): Error: expression expected, not `)`\\nrun_dir/FIND_THE_NUMBER_OCCURRING_ODD_NUMBER_OF_TIMES_1.d(15): Error: found `{` when expecting `;` following `for` condition\\nrun_dir/FIND_THE_NUMBER_OCCURRING_ODD_NUMBER_OF_TIMES_1.d(16): Error: expression expected, not `if`\\nrun_dir/FIND_THE_NUMBER_OCCURRING_ODD_NUMBER_OF_TIMES_1.d(16): Error: found `return` when expecting `)`\\nrun_dir/FIND_THE_NUMBER_OCCURRING_ODD_NUMBER_OF_TIMES_1.d(18): Error: declaration expected, not `return`\\nrun_dir/FIND_THE_NUMBER_OCCURRING_ODD_NUMBER_OF_TIMES_1.d(19): Error: unmatched closing brace\n",
+        "success": false,
+        "id": "FIND_THE_NUMBER_OCCURRING_ODD_NUMBER_OF_TIMES_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_NUMBER_OF_WAYS_TO_FILL_A_N_X_4_GRID_USING_1_X_4_TILES"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "ELEMENTS_TO_BE_ADDED_SO_THAT_ALL_ELEMENTS_OF_A_RANGE_ARE_PRESENT_IN_ARRAY"
+    },
+    {
+        "error": "run_dir/PERFECT_REVERSIBLE_STRING.d(7): Error: cannot implicitly convert expression `str.length - 1LU` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "PERFECT_REVERSIBLE_STRING"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_THREE_ELEMENT_FROM_DIFFERENT_THREE_ARRAYS_SUCH_THAT_THAT_A_B_C_K"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_NUMBERS_THAT_DONT_CONTAIN_3"
+    },
+    {
+        "error": "run_dir/UNIQUE_CELLS_BINARY_MATRIX.d(6): Error: instead of C-style syntax, use D-style `int[][] mat`\n",
+        "success": false,
+        "id": "UNIQUE_CELLS_BINARY_MATRIX"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_PAIRWISE_PRODUCTS_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_REMOVAL_FROM_ARRAY_WHEN_REMOVAL_TIME_WAITING_TIME"
+    },
+    {
+        "error": "run_dir/PROGRAM_PAGE_REPLACEMENT_ALGORITHMS_SET_2_FIFO.d(7): Error: semicolon expected following auto declaration, not `>`\\nrun_dir/PROGRAM_PAGE_REPLACEMENT_ALGORITHMS_SET_2_FIFO.d(7): Error: found `>` instead of statement\\nrun_dir/PROGRAM_PAGE_REPLACEMENT_ALGORITHMS_SET_2_FIFO.d(8): Error: semicolon expected following auto declaration, not `>`\\nrun_dir/PROGRAM_PAGE_REPLACEMENT_ALGORITHMS_SET_2_FIFO.d(8): Error: found `>` instead of statement\n",
+        "success": false,
+        "id": "PROGRAM_PAGE_REPLACEMENT_ALGORITHMS_SET_2_FIFO"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_MATRIX_ELEMENT_ELEMENT_INTEGER_DIVISION_ROW_COLUMN_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "ROUND_THE_GIVEN_NUMBER_TO_NEAREST_MULTIPLE_OF_10"
+    },
+    {
+        "error": "run_dir/CHECK_IF_A_NUMBER_IS_POWER_OF_ANOTHER_NUMBER_1.d(7): Error: C style cast illegal, use `cast(int)log(y)`\\nrun_dir/CHECK_IF_A_NUMBER_IS_POWER_OF_ANOTHER_NUMBER_1.d(7): Error: C style cast illegal, use `cast(int)log(x)`\n",
+        "success": false,
+        "id": "CHECK_IF_A_NUMBER_IS_POWER_OF_ANOTHER_NUMBER_1"
+    },
+    {
+        "error": "run_dir/FIND_NUMBER_TIMES_STRING_OCCURS_GIVEN_STRING_1.d(9): Error: instead of C-style syntax, use D-style `int[n + 1][m + 1] lookup`\n",
+        "success": false,
+        "id": "FIND_NUMBER_TIMES_STRING_OCCURS_GIVEN_STRING_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_INTEGER_OVERFLOW_MULTIPLICATION"
+    },
+    {
+        "error": "run_dir/CHECK_WHETHER_TWO_STRINGS_ARE_ANAGRAM_OF_EACH_OTHER.d(7): Error: cannot implicitly convert expression `str1.length` of type `ulong` to `int`\\nrun_dir/CHECK_WHETHER_TWO_STRINGS_ARE_ANAGRAM_OF_EACH_OTHER.d(8): Error: cannot implicitly convert expression `str2.length` of type `ulong` to `int`\\nrun_dir/CHECK_WHETHER_TWO_STRINGS_ARE_ANAGRAM_OF_EACH_OTHER.d(24): Error: function `CHECK_WHETHER_TWO_STRINGS_ARE_ANAGRAM_OF_EACH_OTHER.f_filled(string[] str1, string[] str2)` is not callable using argument types `(char[], char[])`\\nrun_dir/CHECK_WHETHER_TWO_STRINGS_ARE_ANAGRAM_OF_EACH_OTHER.d(24):        cannot pass argument `param0[cast(ulong)i]` of type `char[]` to parameter `string[] str1`\n",
+        "success": false,
+        "id": "CHECK_WHETHER_TWO_STRINGS_ARE_ANAGRAM_OF_EACH_OTHER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_MAXIMUM_AVERAGE_SUBARRAY_OF_K_LENGTH"
+    },
+    {
+        "error": "run_dir/MAXIMUM_BINOMIAL_COEFFICIENT_TERM_VALUE.d(7): Error: variable `n` cannot be read at compile time\\nrun_dir/MAXIMUM_BINOMIAL_COEFFICIENT_TERM_VALUE.d(9): Error: undefined identifier `Math`\\nrun_dir/MAXIMUM_BINOMIAL_COEFFICIENT_TERM_VALUE.d(15): Error: undefined identifier `Math`\n",
+        "success": false,
+        "id": "MAXIMUM_BINOMIAL_COEFFICIENT_TERM_VALUE"
+    },
+    {
+        "error": "run_dir/FIND_EQUAL_POINT_STRING_BRACKETS.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "FIND_EQUAL_POINT_STRING_BRACKETS"
+    },
+    {
+        "error": "run_dir/FUNCTION_COPY_STRING_ITERATIVE_RECURSIVE_1.d(6): Error: undefined identifier `String`, did you mean alias `string`?\n",
+        "success": false,
+        "id": "FUNCTION_COPY_STRING_ITERATIVE_RECURSIVE_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_INDEX_GIVEN_FIBONACCI_NUMBER_CONSTANT_TIME"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_OF_ALL_ELEMENTS_UP_TO_NTH_ROW_IN_A_PASCALS_TRIANGLE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_PAIRS_DIFFERENCE_EQUAL_K"
+    },
+    {
+        "error": "run_dir/FIND_A_ROTATION_WITH_MAXIMUM_HAMMING_DISTANCE.d(7): Error: instead of C-style syntax, use D-style `int[] brr`\n",
+        "success": false,
+        "id": "FIND_A_ROTATION_WITH_MAXIMUM_HAMMING_DISTANCE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_NUMBER_WAYS_TILE_FLOOR_SIZE_N_X_M_USING_1_X_M_SIZE_TILES"
+    },
+    {
+        "error": "run_dir/CALCULATE_VOLUME_DODECAHEDRON.d(7): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "CALCULATE_VOLUME_DODECAHEDRON"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "DETECT_IF_TWO_INTEGERS_HAVE_OPPOSITE_SIGNS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_TWO_GIVEN_CIRCLES_TOUCH_INTERSECT"
+    },
+    {
+        "error": "run_dir/MAXIMUM_CONSECUTIVE_REPEATING_CHARACTER_STRING.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "MAXIMUM_CONSECUTIVE_REPEATING_CHARACTER_STRING"
+    },
+    {
+        "correct": 11,
+        "total": 11,
+        "success": true,
+        "error": "No",
+        "id": "COUNT_NUMBER_BINARY_STRINGS_WITHOUT_CONSECUTIVE_1S"
+    },
+    {
+        "correct": 12,
+        "total": 12,
+        "success": true,
+        "error": "No",
+        "id": "C_PROGRAM_FACTORIAL_NUMBER_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "TRIANGULAR_NUMBERS"
+    },
+    {
+        "error": "run_dir/MAXIMUM_NUMBER_CHARACTERS_TWO_CHARACTER_STRING.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "MAXIMUM_NUMBER_CHARACTERS_TWO_CHARACTER_STRING"
+    },
+    {
+        "error": "run_dir/FIND_HARMONIC_MEAN_USING_ARITHMETIC_MEAN_GEOMETRIC_MEAN.d(10): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "FIND_HARMONIC_MEAN_USING_ARITHMETIC_MEAN_GEOMETRIC_MEAN"
+    },
+    {
+        "error": "run_dir/FIND_LAST_DIGIT_FACTORIAL_DIVIDES_FACTORIAL_B.d(11): Error: C style cast illegal, use `cast(int)(variable * (i % 10) % 10)`\n",
+        "success": false,
+        "id": "FIND_LAST_DIGIT_FACTORIAL_DIVIDES_FACTORIAL_B"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FINDING_POWER_PRIME_NUMBER_P_N_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_IF_X_CAN_GIVE_CHANGE_TO_EVERY_PERSON_IN_THE_QUEUE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "GCD_ELEMENTS_GIVEN_RANGE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_WHETHER_GIVEN_NUMBER_EVEN_ODD"
+    },
+    {
+        "error": "run_dir/MINIMUM_PERIMETER_N_BLOCKS.d(7): Error: C style cast illegal, use `cast(int)Math.sqrt(n)`\n",
+        "success": false,
+        "id": "MINIMUM_PERIMETER_N_BLOCKS"
+    },
+    {
+        "error": "run_dir/MAXIMUM_CONSECUTIVE_NUMBERS_PRESENT_ARRAY.d(7): Error: template instance `HashSet!int` template `HashSet` is not defined\n",
+        "success": false,
+        "id": "MAXIMUM_CONSECUTIVE_NUMBERS_PRESENT_ARRAY"
+    },
+    {
+        "error": "run_dir/LONGEST_SUBARRAY_COUNT_1S_ONE_COUNT_0S.d(7): Error: identifier expected following comma\\nrun_dir/LONGEST_SUBARRAY_COUNT_1S_ONE_COUNT_0S.d(7): Error: no identifier for declarator `int`\\nrun_dir/LONGEST_SUBARRAY_COUNT_1S_ONE_COUNT_0S.d(7): Error: found `>` instead of statement\n",
+        "success": false,
+        "id": "LONGEST_SUBARRAY_COUNT_1S_ONE_COUNT_0S"
+    },
+    {
+        "correct": 4,
+        "total": 10,
+        "success": false,
+        "error": "Correctness",
+        "id": "PROGRAM_CALCULATE_VOLUME_ELLIPSOID"
+    },
+    {
+        "error": "run_dir/CHECK_STRING_CAN_OBTAINED_ROTATING_ANOTHER_STRING_2_PLACES.d(10): Error: cannot implicitly convert expression `str2.length` of type `ulong` to `int`\\nrun_dir/CHECK_STRING_CAN_OBTAINED_ROTATING_ANOTHER_STRING_2_PLACES.d(11): Error: no property `substring` for `str2` of type `string`\\nrun_dir/CHECK_STRING_CAN_OBTAINED_ROTATING_ANOTHER_STRING_2_PLACES.d(11): Error: no property `substring` for `str2` of type `string`\\nrun_dir/CHECK_STRING_CAN_OBTAINED_ROTATING_ANOTHER_STRING_2_PLACES.d(12): Error: no property `substring` for `str2` of type `string`\\nrun_dir/CHECK_STRING_CAN_OBTAINED_ROTATING_ANOTHER_STRING_2_PLACES.d(12): Error: no property `substring` for `str2` of type `string`\n",
+        "success": false,
+        "id": "CHECK_STRING_CAN_OBTAINED_ROTATING_ANOTHER_STRING_2_PLACES"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_TRIPLET_SUM_ARRAY_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NUMBER_INDEXES_EQUAL_ELEMENTS_GIVEN_RANGE"
+    },
+    {
+        "error": "run_dir/COUNT_OF_OCCURRENCES_OF_A_101_PATTERN_IN_A_STRING.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "COUNT_OF_OCCURRENCES_OF_A_101_PATTERN_IN_A_STRING"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NUMBER_NON_NEGATIVE_INTEGRAL_SOLUTIONS_B_C_N"
+    },
+    {
+        "error": "run_dir/DYNAMIC_PROGRAMMING_SET_17_PALINDROME_PARTITIONING_1.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\\nrun_dir/DYNAMIC_PROGRAMMING_SET_17_PALINDROME_PARTITIONING_1.d(9): Error: variable `n` cannot be read at compile time\n",
+        "success": false,
+        "id": "DYNAMIC_PROGRAMMING_SET_17_PALINDROME_PARTITIONING_1"
+    },
+    {
+        "error": "run_dir/REMOVE_MINIMUM_NUMBER_ELEMENTS_NO_COMMON_ELEMENT_EXIST_ARRAY.d(7): Error: identifier expected following comma\\nrun_dir/REMOVE_MINIMUM_NUMBER_ELEMENTS_NO_COMMON_ELEMENT_EXIST_ARRAY.d(7): Error: no identifier for declarator `int`\\nrun_dir/REMOVE_MINIMUM_NUMBER_ELEMENTS_NO_COMMON_ELEMENT_EXIST_ARRAY.d(7): Error: found `>` instead of statement\\nrun_dir/REMOVE_MINIMUM_NUMBER_ELEMENTS_NO_COMMON_ELEMENT_EXIST_ARRAY.d(8): Error: identifier expected following comma\\nrun_dir/REMOVE_MINIMUM_NUMBER_ELEMENTS_NO_COMMON_ELEMENT_EXIST_ARRAY.d(8): Error: no identifier for declarator `int`\\nrun_dir/REMOVE_MINIMUM_NUMBER_ELEMENTS_NO_COMMON_ELEMENT_EXIST_ARRAY.d(8): Error: found `>` instead of statement\n",
+        "success": false,
+        "id": "REMOVE_MINIMUM_NUMBER_ELEMENTS_NO_COMMON_ELEMENT_EXIST_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_NUMBER_PLATFORMS_REQUIRED_RAILWAYBUS_STATION"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SQUARE_ROOT_OF_A_PERFECT_SQUARE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_CHECK_PLUS_PERFECT_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MIDDLE_OF_THREE_USING_MINIMUM_COMPARISONS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIBONACCI_MODULO_P"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_OF_ALL_ELEMENTS_UP_TO_NTH_ROW_IN_A_PASCALS_TRIANGLE_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_WHETHER_GIVEN_DEGREES_VERTICES_REPRESENT_GRAPH_TREE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_SUM_PAIRS_SPECIFIC_DIFFERENCE_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_THE_FIRST_MISSING_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_ARRAY_REPRESENTS_INORDER_BINARY_SEARCH_TREE_NOT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "DISTRIBUTING_ITEMS_PERSON_CANNOT_TAKE_TWO_ITEMS_TYPE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "K_TH_ELEMENT_TWO_SORTED_ARRAYS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "DIVISIBILITY_BY_7"
+    },
+    {
+        "error": "run_dir/MAXIMUM_SUM_2_X_N_GRID_NO_TWO_ELEMENTS_ADJACENT.d(6): Error: instead of C-style syntax, use D-style `int[][] grid`\n",
+        "success": false,
+        "id": "MAXIMUM_SUM_2_X_N_GRID_NO_TWO_ELEMENTS_ADJACENT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SMALLEST_SUM_CONTIGUOUS_SUBARRAY"
+    },
+    {
+        "error": "run_dir/BREAKING_NUMBER_FIRST_PART_INTEGRAL_DIVISION_SECOND_POWER_10.d(7): Error: cannot implicitly convert expression `N.length` of type `ulong` to `int`\\nrun_dir/BREAKING_NUMBER_FIRST_PART_INTEGRAL_DIVISION_SECOND_POWER_10.d(11): Error: no property `substring` for `N` of type `string`\\nrun_dir/BREAKING_NUMBER_FIRST_PART_INTEGRAL_DIVISION_SECOND_POWER_10.d(12): Error: cannot implicitly convert expression `s.length` of type `ulong` to `int`\\nrun_dir/BREAKING_NUMBER_FIRST_PART_INTEGRAL_DIVISION_SECOND_POWER_10.d(13): Error: no property `substring` for `N` of type `string`\n",
+        "success": false,
+        "id": "BREAKING_NUMBER_FIRST_PART_INTEGRAL_DIVISION_SECOND_POWER_10"
+    },
+    {
+        "error": "run_dir/PROGRAM_TO_CHECK_IF_A_GIVEN_NUMBER_IS_LUCKY_ALL_DIGITS_ARE_DIFFERENT.d(7): Error: instead of C-style syntax, use D-style `bool[10] arr`\n",
+        "success": false,
+        "id": "PROGRAM_TO_CHECK_IF_A_GIVEN_NUMBER_IS_LUCKY_ALL_DIGITS_ARE_DIFFERENT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_POSSIBLE_DIFFERENCE_TWO_SUBSETS_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_MAXIMUM_HEIGHT_PYRAMID_FROM_THE_GIVEN_ARRAY_OF_OBJECTS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_FIRST_NATURAL_NUMBER_WHOSE_FACTORIAL_DIVISIBLE_X"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "TILING_WITH_DOMINOES"
+    },
+    {
+        "error": "run_dir/CHECK_STRING_FOLLOWS_ANBN_PATTERN_NOT.d(7): Error: cannot implicitly convert expression `s.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "CHECK_STRING_FOLLOWS_ANBN_PATTERN_NOT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "QUERIES_COUNTS_ARRAY_ELEMENTS_VALUES_GIVEN_RANGE"
+    },
+    {
+        "error": "run_dir/HIGHWAY_BILLBOARD_PROBLEM.d(14): Error: undefined identifier `Math`\\nrun_dir/HIGHWAY_BILLBOARD_PROBLEM.d(15): Error: undefined identifier `Math`\n",
+        "success": false,
+        "id": "HIGHWAY_BILLBOARD_PROBLEM"
+    },
+    {
+        "error": "run_dir/COUNT_DISTINCT_OCCURRENCES_AS_A_SUBSEQUENCE.d(10): Error: instead of C-style syntax, use D-style `int[][] mat`\n",
+        "success": false,
+        "id": "COUNT_DISTINCT_OCCURRENCES_AS_A_SUBSEQUENCE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "DIVISIBILITY_9_USING_BITWISE_OPERATORS"
+    },
+    {
+        "error": "run_dir/NUMBER_OF_BINARY_TREES_FOR_GIVEN_PREORDER_SEQUENCE_LENGTH.d(7): Error: instead of C-style syntax, use D-style `int[n + 1] BT`\n",
+        "success": false,
+        "id": "NUMBER_OF_BINARY_TREES_FOR_GIVEN_PREORDER_SEQUENCE_LENGTH"
+    },
+    {
+        "error": "run_dir/SUM_SERIES_555555_N_TERMS.d(7): Error: C style cast illegal, use `cast(int)(0.6172 * (10.pow(n) - 1) - 0.55 * n)`\n",
+        "success": false,
+        "id": "SUM_SERIES_555555_N_TERMS"
+    },
+    {
+        "error": "run_dir/PROGRAM_FIND_STRING_START_END_GEEKS.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\\nrun_dir/PROGRAM_FIND_STRING_START_END_GEEKS.d(8): Error: cannot implicitly convert expression `corner.length` of type `ulong` to `int`\\nrun_dir/PROGRAM_FIND_STRING_START_END_GEEKS.d(10): Error: no property `substring` for `str` of type `string`\\nrun_dir/PROGRAM_FIND_STRING_START_END_GEEKS.d(10): Error: no property `substring` for `str` of type `string`\n",
+        "success": false,
+        "id": "PROGRAM_FIND_STRING_START_END_GEEKS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMIZE_THE_SUM_OF_DIGITS_OF_A_AND_B_SUCH_THAT_A_B_N"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "HOW_CAN_WE_SUM_THE_DIGITS_OF_A_GIVEN_NUMBER_IN_SINGLE_STATEMENT_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_SUBSEQUENCE_SUM_SUCH_THAT_NO_THREE_ARE_CONSECUTIVE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_SUM_SUBARRAY_REMOVING_ONE_ELEMENT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SWAP_TWO_NIBBLES_BYTE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_AREA_SQUARE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_POSSIBLE_SORT_ARRAY_CONDITIONAL_SWAPPING_ADJACENT_ALLOWED"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "POSSIBLE_FORM_TRIANGLE_ARRAY_VALUES"
+    },
+    {
+        "error": "run_dir/COUNT_PALINDROME_SUB_STRINGS_STRING.d(7): Error: instead of C-style syntax, use D-style `int[][] dp`\\nrun_dir/COUNT_PALINDROME_SUB_STRINGS_STRING.d(8): Error: instead of C-style syntax, use D-style `bool[][] P`\n",
+        "success": false,
+        "id": "COUNT_PALINDROME_SUB_STRINGS_STRING"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CEILING_IN_A_SORTED_ARRAY_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "LARGEST_SUM_CONTIGUOUS_SUBARRAY_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_MATRIX_ELEMENT_ABSOLUTE_DIFFERENCE_ROW_COLUMN_NUMBERS_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "HOW_TO_CHECK_IF_A_GIVEN_ARRAY_REPRESENTS_A_BINARY_HEAP_1"
+    },
+    {
+        "error": "run_dir/DECODE_MEDIAN_STRING_ORIGINAL_STRING.d(7): Error: cannot implicitly convert expression `s.length` of type `ulong` to `int`\\nrun_dir/DECODE_MEDIAN_STRING_ORIGINAL_STRING.d(12): Error: incompatible types for `(s1) += (cast(int)s[cast(ulong)i] + cast(int)s[cast(ulong)(i + 1)])`: `string` and `int`\\nrun_dir/DECODE_MEDIAN_STRING_ORIGINAL_STRING.d(15): Error: slice `s1` is not mutable\\nrun_dir/DECODE_MEDIAN_STRING_ORIGINAL_STRING.d(16): Error: incompatible types for `(s[cast(ulong)(i + 1)]) + (s1)`: `immutable(char)` and `string`\\nrun_dir/DECODE_MEDIAN_STRING_ORIGINAL_STRING.d(18): Error: slice `s1` is not mutable\n",
+        "success": false,
+        "id": "DECODE_MEDIAN_STRING_ORIGINAL_STRING"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_FIBONACCI_NUMBERS_GIVEN_RANGE_LOG_TIME"
+    },
+    {
+        "error": "run_dir/FIND_THREE_ELEMENT_FROM_DIFFERENT_THREE_ARRAYS_SUCH_THAT_THAT_A_B_C_K_1.d(7): Error: template instance `HashSet!int` template `HashSet` is not defined\\nrun_dir/FIND_THREE_ELEMENT_FROM_DIFFERENT_THREE_ARRAYS_SUCH_THAT_THAT_A_B_C_K_1.d(11): Error: template instance `ArrayList!int` template `ArrayList` is not defined\n",
+        "success": false,
+        "id": "FIND_THREE_ELEMENT_FROM_DIFFERENT_THREE_ARRAYS_SUCH_THAT_THAT_A_B_C_K_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_NUMBER_2X2_SQUARES_CAN_FIT_INSIDE_RIGHT_ISOSCELES_TRIANGLE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "STEINS_ALGORITHM_FOR_FINDING_GCD_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CONVERT_STRICTLY_INCREASING_ARRAY_MINIMUM_CHANGES"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_THE_MAXIMUM_SUBARRAY_XOR_IN_A_GIVEN_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_THE_MISSING_NUMBER_1"
+    },
+    {
+        "error": "run_dir/SUM_BINOMIAL_COEFFICIENTS.d(7): Error: instead of C-style syntax, use D-style `int[n + 1][n + 1] C`\n",
+        "success": false,
+        "id": "SUM_BINOMIAL_COEFFICIENTS"
+    },
+    {
+        "error": "run_dir/COUNT_WAYS_BUILD_STREET_GIVEN_CONSTRAINTS.d(7): Error: instead of C-style syntax, use D-style `long[n + 1][2] dp`\n",
+        "success": false,
+        "id": "COUNT_WAYS_BUILD_STREET_GIVEN_CONSTRAINTS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_FREQUENCY_K_MATRIX_SIZE_N_MATRIXI_J_IJ"
+    },
+    {
+        "error": "run_dir/MAXIMUM_VALUE_CHOICE_EITHER_DIVIDING_CONSIDERING.d(7): Error: instead of C-style syntax, use D-style `int[n + 1] res`\n",
+        "success": false,
+        "id": "MAXIMUM_VALUE_CHOICE_EITHER_DIVIDING_CONSIDERING"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_THE_MINIMUM_DISTANCE_BETWEEN_TWO_NUMBERS_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_MAXIMUM_PRODUCT_OF_A_TRIPLET_IN_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_PAIRWISE_PRODUCTS_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PAINTING_FENCE_ALGORITHM"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "EULERS_CRITERION_CHECK_IF_SQUARE_ROOT_UNDER_MODULO_P_EXISTS"
+    },
+    {
+        "error": "run_dir/TRIANGULAR_NUMBERS_1.d(13): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\\nrun_dir/TRIANGULAR_NUMBERS_1.d(14): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "TRIANGULAR_NUMBERS_1"
+    },
+    {
+        "error": "run_dir/LENGTH_OF_THE_LONGEST_ARITHMATIC_PROGRESSION_IN_A_SORTED_ARRAY.d(8): Error: instead of C-style syntax, use D-style `int[n][n] L`\n",
+        "success": false,
+        "id": "LENGTH_OF_THE_LONGEST_ARITHMATIC_PROGRESSION_IN_A_SORTED_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHANGE_BITS_CAN_MADE_ONE_FLIP"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_MATRIX_ELEMENT_ELEMENT_INTEGER_DIVISION_ROW_COLUMN"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PYTHON_PROGRAM_FIND_PERIMETER_CIRCUMFERENCE_SQUARE_RECTANGLE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "WRITE_ONE_LINE_C_FUNCTION_TO_FIND_WHETHER_A_NO_IS_POWER_OF_TWO_1"
+    },
+    {
+        "error": "run_dir/LEONARDO_NUMBER_1.d(7): Error: instead of C-style syntax, use D-style `int[n + 1] dp`\n",
+        "success": false,
+        "id": "LEONARDO_NUMBER_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_MINIMUM_NUMBER_SUBSETS_SUBSEQUENCES_CONSECUTIVE_NUMBERS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_STEPS_MINIMIZE_N_PER_GIVEN_CONDITION"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SWAP_ALL_ODD_AND_EVEN_BITS"
+    },
+    {
+        "correct": 7,
+        "total": 7,
+        "success": true,
+        "error": "No",
+        "id": "FRIENDS_PAIRING_PROBLEM_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_PROFIT_BY_BUYING_AND_SELLING_A_SHARE_AT_MOST_TWICE"
+    },
+    {
+        "error": "run_dir/COUNT_WORDS_APPEAR_EXACTLY_TWO_TIMES_ARRAY_WORDS.d(7): Error: identifier expected following comma\\nrun_dir/COUNT_WORDS_APPEAR_EXACTLY_TWO_TIMES_ARRAY_WORDS.d(7): Error: no identifier for declarator `int`\\nrun_dir/COUNT_WORDS_APPEAR_EXACTLY_TWO_TIMES_ARRAY_WORDS.d(7): Error: found `>` instead of statement\n",
+        "success": false,
+        "id": "COUNT_WORDS_APPEAR_EXACTLY_TWO_TIMES_ARRAY_WORDS"
+    },
+    {
+        "error": "run_dir/PAIR_WITH_GIVEN_PRODUCT_SET_1_FIND_IF_ANY_PAIR_EXISTS_1.d(7): Error: template instance `HashSet!int` template `HashSet` is not defined\n",
+        "success": false,
+        "id": "PAIR_WITH_GIVEN_PRODUCT_SET_1_FIND_IF_ANY_PAIR_EXISTS_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "EFFICIENT_WAY_CHECK_WHETHER_N_TH_FIBONACCI_NUMBER_MULTIPLE_10"
+    },
+    {
+        "error": "run_dir/PROGRAM_CALCULATE_AREA_OCTAGON.d(7): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "PROGRAM_CALCULATE_AREA_OCTAGON"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NUMBER_IS_DIVISIBLE_BY_29_OR_NOT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_COST_CONNECT_WEIGHTED_NODES_REPRESENTED_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "WRITE_AN_EFFICIENT_METHOD_TO_CHECK_IF_A_NUMBER_IS_MULTIPLE_OF_3"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_ARRAYS_CONSECUTIVE_ELEMENT_DIFFERENT_VALUES"
+    },
+    {
+        "error": "run_dir/AREA_OF_THE_CIRCLE_THAT_HAS_A_SQUARE_AND_A_CIRCLE_INSCRIBED_IN_IT.d(7): Error: C style cast illegal, use `cast(float)(3.14 * a * a)`\n",
+        "success": false,
+        "id": "AREA_OF_THE_CIRCLE_THAT_HAS_A_SQUARE_AND_A_CIRCLE_INSCRIBED_IN_IT"
+    },
+    {
+        "error": "run_dir/REMOVE_MINIMUM_ELEMENTS_EITHER_SIDE_2MIN_MAX.d(9): Error: identifier or `new` expected following `.`, not `int`\\nrun_dir/REMOVE_MINIMUM_ELEMENTS_EITHER_SIDE_2MIN_MAX.d(9): Error: identifier or `new` expected following `.`, not `int`\n",
+        "success": false,
+        "id": "REMOVE_MINIMUM_ELEMENTS_EITHER_SIDE_2MIN_MAX"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_FIND_SMALLEST_DIFFERENCE_ANGLES_TWO_PARTS_GIVEN_CIRCLE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MIDDLE_OF_THREE_USING_MINIMUM_COMPARISONS_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COMPUTE_AVERAGE_TWO_NUMBERS_WITHOUT_OVERFLOW_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COMPUTE_N_UNDER_MODULO_P"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAKING_ELEMENTS_OF_TWO_ARRAYS_SAME_WITH_MINIMUM_INCREMENTDECREMENT"
+    },
+    {
+        "error": "run_dir/SUM_LARGEST_PRIME_FACTOR_NUMBER_LESS_EQUAL_N.d(7): Error: instead of C-style syntax, use D-style `int[n + 1] prime`\n",
+        "success": false,
+        "id": "SUM_LARGEST_PRIME_FACTOR_NUMBER_LESS_EQUAL_N"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_HEIGHT_OF_TRIANGULAR_ARRANGEMENT_OF_ARRAY_VALUES"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "DIAGONALLY_DOMINANT_MATRIX"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "STOOGE_SORT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FINDING_POWER_PRIME_NUMBER_P_N"
+    },
+    {
+        "error": "run_dir/SUBARRAYS_DISTINCT_ELEMENTS.d(7): Error: found `>` when expecting `;` following statement `Set < (int)` on line run_dir/SUBARRAYS_DISTINCT_ELEMENTS.d(7)\\nrun_dir/SUBARRAYS_DISTINCT_ELEMENTS.d(7): Error: found `>` when expecting `;` following statement `s = new HashSet < (int)` on line run_dir/SUBARRAYS_DISTINCT_ELEMENTS.d(7)\\nrun_dir/SUBARRAYS_DISTINCT_ELEMENTS.d(7): Error: expression expected, not `)`\\nrun_dir/SUBARRAYS_DISTINCT_ELEMENTS.d(7): Error: found `;` when expecting `)`\\nrun_dir/SUBARRAYS_DISTINCT_ELEMENTS.d(8): Error: found `int` when expecting `;` following statement `0` on line run_dir/SUBARRAYS_DISTINCT_ELEMENTS.d(7)\n",
+        "success": false,
+        "id": "SUBARRAYS_DISTINCT_ELEMENTS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SEARCH_ALMOST_SORTED_ARRAY"
+    },
+    {
+        "error": "run_dir/MAXIMUM_PROFIT_BY_BUYING_AND_SELLING_A_SHARE_AT_MOST_K_TIMES_1.d(7): Error: variable `k` cannot be read at compile time\n",
+        "success": false,
+        "id": "MAXIMUM_PROFIT_BY_BUYING_AND_SELLING_A_SHARE_AT_MOST_K_TIMES_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_VALID_SEQUENCE_DIVISIBLE_M_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NUMBER_OF_PAIRS_IN_AN_ARRAY_HAVING_SUM_EQUAL_TO_PRODUCT"
+    },
+    {
+        "error": "run_dir/GIVEN_LARGE_NUMBER_CHECK_SUBSEQUENCE_DIGITS_DIVISIBLE_8.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "GIVEN_LARGE_NUMBER_CHECK_SUBSEQUENCE_DIGITS_DIVISIBLE_8"
+    },
+    {
+        "error": "run_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(8): Error: found `>` when expecting `;` following statement `HashSet < (int)` on line run_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(8)\\nrun_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(8): Error: found `>` when expecting `;` following statement `us = new HashSet < (int)` on line run_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(8)\\nrun_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(8): Error: expression expected, not `)`\\nrun_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(8): Error: found `;` when expecting `)`\\nrun_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(9): Error: found `for` when expecting `;` following statement `0` on line run_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(8)\\nrun_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(9): Error: unexpected identifier `i` in declarator\\nrun_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(9): Error: found `;` when expecting `)`\\nrun_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(9): Error: found `i` when expecting `;` following statement `(int) = 0` on line run_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(9)\\nrun_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(9): Error: found `<` instead of statement\\nrun_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(9): Error: found `)` when expecting `;` following statement `i++` on line run_dir/COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1.d(9)\n",
+        "success": false,
+        "id": "COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X_1"
+    },
+    {
+        "error": "run_dir/MINIMUM_SUM_SUBSEQUENCE_LEAST_ONE_EVERY_FOUR_CONSECUTIVE_ELEMENTS_PICKED.d(9): Error: undefined identifier `Math`\\nrun_dir/MINIMUM_SUM_SUBSEQUENCE_LEAST_ONE_EVERY_FOUR_CONSECUTIVE_ELEMENTS_PICKED.d(10): Error: undefined identifier `Math`\\nrun_dir/MINIMUM_SUM_SUBSEQUENCE_LEAST_ONE_EVERY_FOUR_CONSECUTIVE_ELEMENTS_PICKED.d(11): Error: undefined identifier `Math`\\nrun_dir/MINIMUM_SUM_SUBSEQUENCE_LEAST_ONE_EVERY_FOUR_CONSECUTIVE_ELEMENTS_PICKED.d(17): Error: undefined identifier `Math`\\nrun_dir/MINIMUM_SUM_SUBSEQUENCE_LEAST_ONE_EVERY_FOUR_CONSECUTIVE_ELEMENTS_PICKED.d(18): Error: undefined identifier `Math`\n",
+        "success": false,
+        "id": "MINIMUM_SUM_SUBSEQUENCE_LEAST_ONE_EVERY_FOUR_CONSECUTIVE_ELEMENTS_PICKED"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "TRIANGULAR_MATCHSTICK_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "WRITE_YOU_OWN_POWER_WITHOUT_USING_MULTIPLICATION_AND_DIVISION"
+    },
+    {
+        "error": "run_dir/FIND_WHETHER_AN_ARRAY_IS_SUBSET_OF_ANOTHER_ARRAY_SET_1.d(13): Error: undefined identifier `j`\n",
+        "success": false,
+        "id": "FIND_WHETHER_AN_ARRAY_IS_SUBSET_OF_ANOTHER_ARRAY_SET_1"
+    },
+    {
+        "error": "run_dir/NTH_EVEN_LENGTH_PALINDROME.d(8): Error: cannot implicitly convert expression `n.length - 1LU` of type `ulong` to `int`\\nrun_dir/NTH_EVEN_LENGTH_PALINDROME.d(9): Error: slice `res` is not mutable\n",
+        "success": false,
+        "id": "NTH_EVEN_LENGTH_PALINDROME"
+    },
+    {
+        "error": "run_dir/MULTIPLY_LARGE_NUMBERS_REPRESENTED_AS_STRINGS.d(7): Error: cannot implicitly convert expression `num1.length` of type `ulong` to `int`\\nrun_dir/MULTIPLY_LARGE_NUMBERS_REPRESENTED_AS_STRINGS.d(8): Error: cannot implicitly convert expression `num2.length` of type `ulong` to `int`\\nrun_dir/MULTIPLY_LARGE_NUMBERS_REPRESENTED_AS_STRINGS.d(27): Error: cannot implicitly convert expression `result.length - 1LU` of type `ulong` to `int`\\nrun_dir/MULTIPLY_LARGE_NUMBERS_REPRESENTED_AS_STRINGS.d(31): Error: incompatible types for `(s) += (result[cast(ulong)i--])`: `string` and `int`\n",
+        "success": false,
+        "id": "MULTIPLY_LARGE_NUMBERS_REPRESENTED_AS_STRINGS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_PAIRWISE_PRODUCTS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "STRING_K_DISTINCT_CHARACTERS_NO_CHARACTERS_ADJACENT"
+    },
+    {
+        "error": "run_dir/MINIMUM_SUM_TWO_NUMBERS_FORMED_DIGITS_ARRAY.d(9): Error: found `;` when expecting `)`\\nrun_dir/MINIMUM_SUM_TWO_NUMBERS_FORMED_DIGITS_ARRAY.d(9): Error: found `)` when expecting `;` following statement `i++` on line run_dir/MINIMUM_SUM_TWO_NUMBERS_FORMED_DIGITS_ARRAY.d(9)\n",
+        "success": false,
+        "id": "MINIMUM_SUM_TWO_NUMBERS_FORMED_DIGITS_ARRAY"
+    },
+    {
+        "error": "run_dir/WAYS_TRANSFORMING_ONE_STRING_REMOVING_0_CHARACTERS.d(11): Error: instead of C-style syntax, use D-style `int[n + 1][m + 1] dp`\n",
+        "success": false,
+        "id": "WAYS_TRANSFORMING_ONE_STRING_REMOVING_0_CHARACTERS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_TOTAL_SET_BITS_IN_ALL_NUMBERS_FROM_1_TO_N"
+    },
+    {
+        "error": "run_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(13): Error: found `>` when expecting `;` following statement `PriorityQueue < (int)` on line run_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(13)\\nrun_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(13): Error: found `>` when expecting `;` following statement `Q = new PriorityQueue < (int)` on line run_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(13)\\nrun_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(13): Error: expression expected, not `)`\\nrun_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(13): Error: found `;` when expecting `)`\\nrun_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(14): Error: found `for` when expecting `;` following statement `0` on line run_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(13)\\nrun_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(14): Error: unexpected identifier `i` in declarator\\nrun_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(14): Error: found `;` when expecting `)`\\nrun_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(14): Error: found `i` when expecting `;` following statement `(int) = 1` on line run_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(14)\\nrun_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(14): Error: found `<=` instead of statement\\nrun_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(14): Error: found `)` when expecting `;` following statement `i++` on line run_dir/K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY.d(14)\n",
+        "success": false,
+        "id": "K_TH_LARGEST_SUM_CONTIGUOUS_SUBARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "POSITION_ELEMENT_STABLE_SORT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NUMBER_RECTANGLES_NM_GRID"
+    },
+    {
+        "error": "run_dir/MAXIMUM_HEIGHT_OF_TRIANGULAR_ARRANGEMENT_OF_ARRAY_VALUES_1.d(7): Error: C style cast illegal, use `cast(int)Math.floor((-1 + Math.sqrt(1 + 8 * n)) / 2)`\n",
+        "success": false,
+        "id": "MAXIMUM_HEIGHT_OF_TRIANGULAR_ARRANGEMENT_OF_ARRAY_VALUES_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_IF_A_NUMBER_IS_JUMBLED_OR_NOT"
+    },
+    {
+        "error": "TestRuntimeError(\"Result does not conform to pattern: ''\")",
+        "error": "RuntimeError",
+        "success": false,
+        "id": "SUM_SERIES_0_6_0_06_0_006_0_0006_N_TERMS"
+    },
+    {
+        "correct": 0,
+        "total": 10,
+        "success": false,
+        "error": "Correctness",
+        "id": "COUNT_DISTINCT_NON_NEGATIVE_PAIRS_X_Y_SATISFY_INEQUALITY_XX_YY_N_2_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "LONGEST_SUBSEQUENCE_SUCH_THAT_DIFFERENCE_BETWEEN_ADJACENTS_IS_ONE"
+    },
+    {
+        "error": "run_dir/PROGRAM_FOR_SURFACE_AREA_OF_OCTAHEDRON.d(7): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "PROGRAM_FOR_SURFACE_AREA_OF_OCTAHEDRON"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_SUBARRAYS_WITH_SAME_EVEN_AND_ODD_ELEMENTS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_NEGATIVE_NUMBERS_IN_A_COLUMN_WISE_ROW_WISE_SORTED_MATRIX"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_MATRIX_ELEMENT_ABSOLUTE_DIFFERENCE_ROW_COLUMN_NUMBERS_1"
+    },
+    {
+        "error": "run_dir/HEIGHT_COMPLETE_BINARY_TREE_HEAP_N_NODES.d(7): Error: C style cast illegal, use `cast(int)ceil(log2(N + 1))`\n",
+        "success": false,
+        "id": "HEIGHT_COMPLETE_BINARY_TREE_HEAP_N_NODES"
+    },
+    {
+        "error": "run_dir/PROGRAM_PRINT_IDENTITY_MATRIX_1.d(6): Error: instead of C-style syntax, use D-style `int[][] mat`\n",
+        "success": false,
+        "id": "PROGRAM_PRINT_IDENTITY_MATRIX_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "INTEGER_POSITIVE_VALUE_POSITIVE_NEGATIVE_VALUE_ARRAY_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_POSSIBLE_DECODINGS_GIVEN_DIGIT_SEQUENCE_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_ENTRIES_EQUAL_TO_X_IN_A_SPECIAL_MATRIX"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_MINIMUM_DIFFERENCE_PAIR"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_TO_FIND_REMAINDER_WITHOUT_USING_MODULO_OR_OPERATOR_1"
+    },
+    {
+        "correct": 9,
+        "total": 9,
+        "success": true,
+        "error": "No",
+        "id": "COUNT_POSSIBLE_PATHS_TOP_LEFT_BOTTOM_RIGHT_NXM_MATRIX_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_BINOMIAL_COEFFICIENTS_1"
+    },
+    {
+        "error": "run_dir/FIND_SUM_ODD_FACTORS_NUMBER.d(9): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "FIND_SUM_ODD_FACTORS_NUMBER"
+    },
+    {
+        "error": "run_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(7): Error: instead of C-style syntax, use D-style `char[][] keypad`\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(28): Error: found `void` when expecting `,`\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(28): Error: found `{` when expecting `,`\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(29): Error: unexpected identifier `results` in declarator\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(29): Error: found `;` when expecting `,`\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(30): Error: unexpected identifier `param0` in declarator\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(30): Error: found `;` when expecting `,`\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(31): Error: unexpected identifier `param1` in declarator\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(31): Error: found `;` when expecting `,`\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(33): Error: unexpected identifier `n_success` in declarator\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(33): Error: found `;` when expecting `,`\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(35): Error: expression expected, not `for`\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(35): Error: unexpected identifier `i` in declarator\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(35): Error: found `;` when expecting `)`\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(35): Error: found `i` when expecting `,`\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(35): Error: expression expected, not `<`\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(35): Error: found `param0` when expecting `,`\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(35): Error: found `;` when expecting `,`\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(35): Error: found `)` when expecting `,`\\nrun_dir/MOBILE_NUMERIC_KEYPAD_PROBLEM.d(40): Error: found `writefln` when expecting `,`\n",
+        "success": false,
+        "id": "MOBILE_NUMERIC_KEYPAD_PROBLEM"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_XOR_VALUE_PAIR"
+    },
+    {
+        "error": "run_dir/MINIMUM_TIME_WRITE_CHARACTERS_USING_INSERT_DELETE_COPY_OPERATION.d(9): Error: instead of C-style syntax, use D-style `int[N + 1] dp`\n",
+        "success": false,
+        "id": "MINIMUM_TIME_WRITE_CHARACTERS_USING_INSERT_DELETE_COPY_OPERATION"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CONVERTING_ONE_STRING_USING_APPEND_DELETE_LAST_OPERATIONS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_TRIPLET_SUM_ARRAY_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_PAIRS_WHOSE_PRODUCTS_EXIST_IN_ARRAY"
+    },
+    {
+        "error": "run_dir/LONGEST_PALINDROME_SUBSEQUENCE_SPACE.d(7): Error: cannot implicitly convert expression `s.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "LONGEST_PALINDROME_SUBSEQUENCE_SPACE"
+    },
+    {
+        "error": "run_dir/MAXIMUM_XOR_VALUE_MATRIX.d(6): Error: instead of C-style syntax, use D-style `int[][] mat`\n",
+        "success": false,
+        "id": "MAXIMUM_XOR_VALUE_MATRIX"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_SUM_IARRI_AMONG_ROTATIONS_GIVEN_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_DIVISORS_1_N_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "HEXAGONAL_NUMBER"
+    },
+    {
+        "error": "run_dir/MINIMUM_ROTATIONS_REQUIRED_GET_STRING.d(7): Error: invalid array operation `str + str` (possible missing [])\\nrun_dir/MINIMUM_ROTATIONS_REQUIRED_GET_STRING.d(7):        did you mean to concatenate (`str ~ str`) instead ?\\nrun_dir/MINIMUM_ROTATIONS_REQUIRED_GET_STRING.d(8): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\\nrun_dir/MINIMUM_ROTATIONS_REQUIRED_GET_STRING.d(10): Error: no property `substring` for `tmp` of type `string`\n",
+        "success": false,
+        "id": "MINIMUM_ROTATIONS_REQUIRED_GET_STRING"
+    },
+    {
+        "error": "run_dir/REPLACE_CHARACTER_C1_C2_C2_C1_STRING_S.d(6): Error: undefined identifier `String`, did you mean alias `string`?\\nrun_dir/REPLACE_CHARACTER_C1_C2_C2_C1_STRING_S.d(6): Error: undefined identifier `String`, did you mean alias `string`?\n",
+        "success": false,
+        "id": "REPLACE_CHARACTER_C1_C2_C2_C1_STRING_S"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_PAIRS_TWO_SORTED_ARRAYS_WHOSE_SUM_EQUAL_GIVEN_VALUE_X"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_FOR_FACTORIAL_OF_A_NUMBER"
+    },
+    {
+        "correct": 2,
+        "total": 10,
+        "success": false,
+        "error": "Correctness",
+        "id": "CHECK_WHETHER_TRIANGLE_VALID_NOT_SIDES_GIVEN"
+    },
+    {
+        "error": "run_dir/PRINT_MAXIMUM_SHORTEST_DISTANCE.d(7): Error: identifier expected following comma\\nrun_dir/PRINT_MAXIMUM_SHORTEST_DISTANCE.d(7): Error: no identifier for declarator `int`\\nrun_dir/PRINT_MAXIMUM_SHORTEST_DISTANCE.d(7): Error: found `>` instead of statement\n",
+        "success": false,
+        "id": "PRINT_MAXIMUM_SHORTEST_DISTANCE"
+    },
+    {
+        "error": "run_dir/COUNT_SUBARRAYS_EQUAL_NUMBER_1S_0S.d(7): Error: identifier expected following comma\\nrun_dir/COUNT_SUBARRAYS_EQUAL_NUMBER_1S_0S.d(7): Error: no identifier for declarator `int`\\nrun_dir/COUNT_SUBARRAYS_EQUAL_NUMBER_1S_0S.d(7): Error: found `>` instead of statement\\nrun_dir/COUNT_SUBARRAYS_EQUAL_NUMBER_1S_0S.d(14): Error: cannot declare `auto` loop variable, omit `auto` to still get type inference\n",
+        "success": false,
+        "id": "COUNT_SUBARRAYS_EQUAL_NUMBER_1S_0S"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "WAYS_REMOVE_ONE_ELEMENT_BINARY_STRING_XOR_BECOMES_ZERO"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_PRODUCT_OF_4_ADJACENT_ELEMENTS_IN_MATRIX"
+    },
+    {
+        "error": "run_dir/LEXICOGRAPHICAL_CONCATENATION_SUBSTRINGS_STRING.d(7): Error: cannot implicitly convert expression `s.length` of type `ulong` to `int`\\nrun_dir/LEXICOGRAPHICAL_CONCATENATION_SUBSTRINGS_STRING.d(13): Error: no property `substring` for `s` of type `string`\\nrun_dir/LEXICOGRAPHICAL_CONCATENATION_SUBSTRINGS_STRING.d(19): Error: slice `res` is not mutable\\nrun_dir/LEXICOGRAPHICAL_CONCATENATION_SUBSTRINGS_STRING.d(19):        did you mean to concatenate (`res ~= arr[cast(ulong)i]`) instead ?\n",
+        "success": false,
+        "id": "LEXICOGRAPHICAL_CONCATENATION_SUBSTRINGS_STRING"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_SUM_MODULO_K_FIRST_N_NATURAL_NUMBER_1"
+    },
+    {
+        "error": "run_dir/COUNT_NATURAL_NUMBERS_WHOSE_PERMUTATION_GREATER_NUMBER.d(9): Error: template instance `Stack!int` template `Stack` is not defined\\nrun_dir/COUNT_NATURAL_NUMBERS_WHOSE_PERMUTATION_GREATER_NUMBER.d(9): Error: template instance `Stack!int` template `Stack` is not defined\n",
+        "success": false,
+        "id": "COUNT_NATURAL_NUMBERS_WHOSE_PERMUTATION_GREATER_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_POINTS_INTERSECTION_N_CIRCLES"
+    },
+    {
+        "error": "run_dir/MAXIMUM_AREA_RECTANGLE_PICKING_FOUR_SIDES_ARRAY_1.d(7): Error: found `>` when expecting `;` following statement `Set < (int)` on line run_dir/MAXIMUM_AREA_RECTANGLE_PICKING_FOUR_SIDES_ARRAY_1.d(7)\\nrun_dir/MAXIMUM_AREA_RECTANGLE_PICKING_FOUR_SIDES_ARRAY_1.d(7): Error: found `>` when expecting `;` following statement `s = new HashSet < (int)` on line run_dir/MAXIMUM_AREA_RECTANGLE_PICKING_FOUR_SIDES_ARRAY_1.d(7)\\nrun_dir/MAXIMUM_AREA_RECTANGLE_PICKING_FOUR_SIDES_ARRAY_1.d(7): Error: expression expected, not `)`\\nrun_dir/MAXIMUM_AREA_RECTANGLE_PICKING_FOUR_SIDES_ARRAY_1.d(7): Error: found `;` when expecting `)`\\nrun_dir/MAXIMUM_AREA_RECTANGLE_PICKING_FOUR_SIDES_ARRAY_1.d(8): Error: found `int` when expecting `;` following statement `0` on line run_dir/MAXIMUM_AREA_RECTANGLE_PICKING_FOUR_SIDES_ARRAY_1.d(7)\n",
+        "success": false,
+        "id": "MAXIMUM_AREA_RECTANGLE_PICKING_FOUR_SIDES_ARRAY_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SEARCH_INSERT_AND_DELETE_IN_A_SORTED_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_WHETHER_A_GIVEN_NUMBER_IS_A_POWER_OF_4_OR_NOT_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_REVERSING_SUB_ARRAY_MAKE_ARRAY_SORTED"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_SERIES_12_32_52_2N_12"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "BASIC_AND_EXTENDED_EUCLIDEAN_ALGORITHMS_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FLOOR_IN_A_SORTED_ARRAY_1"
+    },
+    {
+        "error": "run_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(7): Error: found `>` when expecting `;` following statement `LinkedHashSet < (int)` on line run_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(7)\\nrun_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(7): Error: found `>` when expecting `;` following statement `s = new LinkedHashSet < (int)` on line run_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(7)\\nrun_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(7): Error: expression expected, not `)`\\nrun_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(7): Error: found `;` when expecting `)`\\nrun_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(8): Error: found `for` when expecting `;` following statement `0` on line run_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(7)\\nrun_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(8): Error: unexpected identifier `i` in declarator\\nrun_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(8): Error: found `;` when expecting `)`\\nrun_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(8): Error: found `i` when expecting `;` following statement `(int) = 0` on line run_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(8)\\nrun_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(8): Error: found `<` instead of statement\\nrun_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(8): Error: found `)` when expecting `;` following statement `i++` on line run_dir/K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE.d(8)\n",
+        "success": false,
+        "id": "K_TH_MISSING_ELEMENT_INCREASING_SEQUENCE_NOT_PRESENT_GIVEN_SEQUENCE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "RECURSIVELY_BREAK_NUMBER_3_PARTS_GET_MAXIMUM_SUM"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SEARCHING_ARRAY_ADJACENT_DIFFER_K"
+    },
+    {
+        "error": "run_dir/FIND_SUM_EVEN_INDEX_BINOMIAL_COEFFICIENTS.d(7): Error: instead of C-style syntax, use D-style `int[n + 1][n + 1] C`\n",
+        "success": false,
+        "id": "FIND_SUM_EVEN_INDEX_BINOMIAL_COEFFICIENTS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "TAIL_RECURSION_FIBONACCI"
+    },
+    {
+        "error": "run_dir/PROGRAM_TO_FIND_THE_AREA_OF_PENTAGON.d(8): Error: C style cast illegal, use `cast(float)(sqrt(5 * (5 + 2 * sqrt(5))) * a * a)`\n",
+        "success": false,
+        "id": "PROGRAM_TO_FIND_THE_AREA_OF_PENTAGON"
+    },
+    {
+        "error": "run_dir/FIND_VALUE_OF_Y_MOD_2_RAISED_TO_POWER_X.d(9): Error: C style cast illegal, use `cast(int)x`\n",
+        "success": false,
+        "id": "FIND_VALUE_OF_Y_MOD_2_RAISED_TO_POWER_X"
+    },
+    {
+        "correct": 9,
+        "total": 10,
+        "success": false,
+        "error": "Correctness",
+        "id": "PROGRAM_CIRCUMFERENCE_PARALLELOGRAM"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MODULUS_TWO_FLOAT_DOUBLE_NUMBERS"
+    },
+    {
+        "error": "run_dir/FIND_UNIT_DIGIT_X_RAISED_POWER_Y_1.d(9): Error: C style cast illegal, use `cast(int)pow(x, y)`\n",
+        "success": false,
+        "id": "FIND_UNIT_DIGIT_X_RAISED_POWER_Y_1"
+    },
+    {
+        "error": "run_dir/MAXIMUM_SUM_SUBSEQUENCE_LEAST_K_DISTANT_ELEMENTS.d(7): Error: instead of C-style syntax, use D-style `int[N] MS`\n",
+        "success": false,
+        "id": "MAXIMUM_SUM_SUBSEQUENCE_LEAST_K_DISTANT_ELEMENTS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FREQUENT_ELEMENT_ARRAY"
+    },
+    {
+        "correct": 7,
+        "total": 7,
+        "success": true,
+        "error": "No",
+        "id": "DYCK_PATH"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_PERIMETER_CYLINDER"
+    },
+    {
+        "error": "run_dir/FIND_EXPRESSION_DUPLICATE_PARENTHESIS_NOT.d(7): Error: found `>` when expecting `;` following statement `Stack < (char)` on line run_dir/FIND_EXPRESSION_DUPLICATE_PARENTHESIS_NOT.d(7)\n",
+        "success": false,
+        "id": "FIND_EXPRESSION_DUPLICATE_PARENTHESIS_NOT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "TOTAL_NUMBER_OF_NON_DECREASING_NUMBERS_WITH_N_DIGITS_1"
+    },
+    {
+        "error": "run_dir/MINIMUM_CHARACTERS_ADDED_FRONT_MAKE_STRING_PALINDROME.d(7): Error: cannot implicitly convert expression `s.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "MINIMUM_CHARACTERS_ADDED_FRONT_MAKE_STRING_PALINDROME"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_COUNT_OCCURRENCE_GIVEN_CHARACTER_STRING"
+    },
+    {
+        "error": "run_dir/MINIMUM_COST_SORT_MATRIX_NUMBERS_0_N2_1.d(6): Error: instead of C-style syntax, use D-style `int[][] mat`\n",
+        "success": false,
+        "id": "MINIMUM_COST_SORT_MATRIX_NUMBERS_0_N2_1"
+    },
+    {
+        "error": "run_dir/LONGEST_REPEATING_AND_NON_OVERLAPPING_SUBSTRING.d(8): Error: instead of C-style syntax, use D-style `int[][] LCSRe`\n",
+        "success": false,
+        "id": "LONGEST_REPEATING_AND_NON_OVERLAPPING_SUBSTRING"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "DYNAMIC_PROGRAMMING_HIGH_EFFORT_VS_LOW_EFFORT_TASKS_PROBLEM"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_FOR_FACTORIAL_OF_A_NUMBER_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_PAIR_WITH_GREATEST_PRODUCT_IN_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_LINE_PASSES_ORIGIN"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SQUARE_PYRAMIDAL_NUMBER_SUM_SQUARES"
+    },
+    {
+        "error": "run_dir/FIND_SUM_EVEN_FACTORS_NUMBER.d(10): Error: undefined identifier `Math`\n",
+        "success": false,
+        "id": "FIND_SUM_EVEN_FACTORS_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_SUM_MODULO_K_FIRST_N_NATURAL_NUMBER"
+    },
+    {
+        "correct": 4,
+        "total": 4,
+        "success": true,
+        "error": "No",
+        "id": "HORNERS_METHOD_POLYNOMIAL_EVALUATION"
+    },
+    {
+        "error": "run_dir/FIRST_ELEMENT_OCCURRING_K_TIMES_ARRAY.d(7): Error: identifier expected following comma\\nrun_dir/FIRST_ELEMENT_OCCURRING_K_TIMES_ARRAY.d(7): Error: no identifier for declarator `int`\\nrun_dir/FIRST_ELEMENT_OCCURRING_K_TIMES_ARRAY.d(7): Error: found `>` instead of statement\n",
+        "success": false,
+        "id": "FIRST_ELEMENT_OCCURRING_K_TIMES_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_LENGTH_SUBARRAY_SUM_GREATER_GIVEN_VALUE"
+    },
+    {
+        "error": "run_dir/SUM_MATRIX_ELEMENT_ABSOLUTE_DIFFERENCE_ROW_COLUMN_NUMBERS.d(7): Error: variable `n` cannot be read at compile time\n",
+        "success": false,
+        "id": "SUM_MATRIX_ELEMENT_ABSOLUTE_DIFFERENCE_ROW_COLUMN_NUMBERS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_TO_FIND_REMAINDER_WITHOUT_USING_MODULO_OR_OPERATOR_2"
+    },
+    {
+        "error": "run_dir/LONGEST_COMMON_SUBSTRING.d(7): Error: instead of C-style syntax, use D-style `int[][] LCStuff`\n",
+        "success": false,
+        "id": "LONGEST_COMMON_SUBSTRING"
+    },
+    {
+        "error": "run_dir/MAXIMUM_SUBARRAY_SUM_ARRAY_CREATED_REPEATED_CONCATENATION.d(8): Error: undefined identifier `minInt` in package `std.math`\n",
+        "success": false,
+        "id": "MAXIMUM_SUBARRAY_SUM_ARRAY_CREATED_REPEATED_CONCATENATION"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "ADD_1_TO_A_GIVEN_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_LENGTH_SUBARRAY_SUM_GREATER_GIVEN_VALUE_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SEARCH_INSERT_AND_DELETE_IN_AN_UNSORTED_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SQUARE_ROOT_OF_AN_INTEGER_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COIN_GAME_WINNER_EVERY_PLAYER_THREE_CHOICES"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_WHETHER_A_GIVEN_NUMBER_IS_A_POWER_OF_4_OR_NOT_1"
+    },
+    {
+        "correct": 12,
+        "total": 12,
+        "success": true,
+        "error": "No",
+        "id": "C_PROGRAM_FACTORIAL_NUMBER_1"
+    },
+    {
+        "correct": 7,
+        "total": 10,
+        "success": false,
+        "error": "Correctness",
+        "id": "CALCULATE_MAXIMUM_VALUE_USING_SIGN_TWO_NUMBERS_STRING"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_INDEX_OF_AN_EXTRA_ELEMENT_PRESENT_IN_ONE_SORTED_ARRAY"
+    },
+    {
+        "error": "run_dir/FIND_POSITION_GIVEN_NUMBER_AMONG_NUMBERS_MADE_4_7.d(9): Error: `switch` statement without a `default`; use `final switch` or add `default: assert(0);` or add `default: break;`\n",
+        "success": false,
+        "id": "FIND_POSITION_GIVEN_NUMBER_AMONG_NUMBERS_MADE_4_7"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_ROTATIONS_UNLOCK_CIRCULAR_LOCK"
+    },
+    {
+        "error": "run_dir/SUM_NODES_K_TH_LEVEL_TREE_REPRESENTED_STRING.d(9): Error: cannot implicitly convert expression `tree.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "SUM_NODES_K_TH_LEVEL_TREE_REPRESENTED_STRING"
+    },
+    {
+        "error": "run_dir/COUNT_STRINGS_ADJACENT_CHARACTERS_DIFFERENCE_ONE.d(7): Error: variable `n` cannot be read at compile time\n",
+        "success": false,
+        "id": "COUNT_STRINGS_ADJACENT_CHARACTERS_DIFFERENCE_ONE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "ANALYSIS_OF_ALGORITHMS_SET_2_ASYMPTOTIC_ANALYSIS"
+    },
+    {
+        "error": "run_dir/COMPUTE_NCR_P_SET_1_INTRODUCTION_AND_DYNAMIC_PROGRAMMING_SOLUTION.d(7): Error: instead of C-style syntax, use D-style `int[r + 1] C`\n",
+        "success": false,
+        "id": "COMPUTE_NCR_P_SET_1_INTRODUCTION_AND_DYNAMIC_PROGRAMMING_SOLUTION"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_SET_BITS_IN_AN_INTEGER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_TRIPLET_SUM_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_REVERSING_SUB_ARRAY_MAKE_ARRAY_SORTED_1"
+    },
+    {
+        "correct": 6,
+        "total": 10,
+        "success": false,
+        "error": "Correctness",
+        "id": "COUNT_CHARACTERS_POSITION_ENGLISH_ALPHABETS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_MINIMUM_ELEMENT_IN_A_SORTED_AND_ROTATED_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_FACTORIAL_NUMBERS_IN_A_GIVEN_RANGE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_COST_MAKE_ARRAY_SIZE_1_REMOVING_LARGER_PAIRS"
+    },
+    {
+        "error": "run_dir/PRINT_WORDS_STRING_REVERSE_ORDER.d(7): Error: cannot implicitly convert expression `str.length - 1LU` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "PRINT_WORDS_STRING_REVERSE_ORDER"
+    },
+    {
+        "error": "run_dir/MAXIMUM_WEIGHT_PATH_ENDING_ELEMENT_LAST_ROW_MATRIX.d(6): Error: instead of C-style syntax, use D-style `int[][] mat`\\nrun_dir/MAXIMUM_WEIGHT_PATH_ENDING_ELEMENT_LAST_ROW_MATRIX.d(7): Error: instead of C-style syntax, use D-style `int[][] dp`\n",
+        "success": false,
+        "id": "MAXIMUM_WEIGHT_PATH_ENDING_ELEMENT_LAST_ROW_MATRIX"
+    },
+    {
+        "error": "run_dir/SPACE_OPTIMIZED_SOLUTION_LCS.d(8): Error: instead of C-style syntax, use D-style `int[n + 1][2] L`\n",
+        "success": false,
+        "id": "SPACE_OPTIMIZED_SOLUTION_LCS"
+    },
+    {
+        "error": "run_dir/NUMBER_DAYS_TANK_WILL_BECOME_EMPTY.d(9): Error: C style cast illegal, use `cast(int)(ceil(eq_root) + l)`\n",
+        "success": false,
+        "id": "NUMBER_DAYS_TANK_WILL_BECOME_EMPTY"
+    },
+    {
+        "error": "run_dir/NUMBER_SUBSTRINGS_DIVISIBLE_4_STRING_INTEGERS.d(7): Error: cannot implicitly convert expression `s.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "NUMBER_SUBSTRINGS_DIVISIBLE_4_STRING_INTEGERS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_MAXIMUM_AVERAGE_SUBARRAY_OF_K_LENGTH_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "HOW_TO_AVOID_OVERFLOW_IN_MODULAR_MULTIPLICATION"
+    },
+    {
+        "error": "run_dir/BELL_NUMBERS_NUMBER_OF_WAYS_TO_PARTITION_A_SET.d(7): Error: variable `n` cannot be read at compile time\n",
+        "success": false,
+        "id": "BELL_NUMBERS_NUMBER_OF_WAYS_TO_PARTITION_A_SET"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMIZE_SUM_ARRII"
+    },
+    {
+        "error": "run_dir/REMAINDER_7_LARGE_NUMBERS.d(7): Error: instead of C-style syntax, use D-style `int[] series`\n",
+        "success": false,
+        "id": "REMAINDER_7_LARGE_NUMBERS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_DIFFERENCE_BETWEEN_SUMS_OF_TWO_DIAGONALS_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "BREAK_NUMBER_THREE_PARTS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PAIR_WITH_GIVEN_PRODUCT_SET_1_FIND_IF_ANY_PAIR_EXISTS"
+    },
+    {
+        "error": "run_dir/PROGRAM_CHECK_INPUT_INTEGER_STRING.d(7): Error: no identifier for declarator `char`\n",
+        "success": false,
+        "id": "PROGRAM_CHECK_INPUT_INTEGER_STRING"
+    },
+    {
+        "correct": 3,
+        "total": 8,
+        "success": false,
+        "error": "Correctness",
+        "id": "MAXIMUM_EQULIBRIUM_SUM_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_DECIMAL_BINARY_CONVERSION_2"
+    },
+    {
+        "error": "run_dir/SCHEDULE_JOBS_SERVER_GETS_EQUAL_LOAD.d(48): Error: missing closing `)` after `if (b[i]`\\nrun_dir/SCHEDULE_JOBS_SERVER_GETS_EQUAL_LOAD.d(63): Error: found `End of File` when expecting `}` following compound statement\n",
+        "success": false,
+        "id": "SCHEDULE_JOBS_SERVER_GETS_EQUAL_LOAD"
+    },
+    {
+        "error": "run_dir/FIND_LARGEST_D_IN_ARRAY_SUCH_THAT_A_B_C_D.d(24): Error: undefined identifier `Integer`\n",
+        "success": false,
+        "id": "FIND_LARGEST_D_IN_ARRAY_SUCH_THAT_A_B_C_D"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMIZE_SUM_CONSECUTIVE_DIFFERENCES_CIRCULAR_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "DYNAMIC_PROGRAMMING_SET_14_MAXIMUM_SUM_INCREASING_SUBSEQUENCE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_INDEX_0_REPLACED_1_GET_LONGEST_CONTINUOUS_SEQUENCE_1S_BINARY_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMIZE_VOLUME_CUBOID_GIVEN_SUM_SIDES_1"
+    },
+    {
+        "error": "run_dir/C_PROGRAM_CONCATENATE_STRING_GIVEN_NUMBER_TIMES.d(8): Error: slice `s` is not mutable\\nrun_dir/C_PROGRAM_CONCATENATE_STRING_GIVEN_NUMBER_TIMES.d(8):        did you mean to concatenate (`s ~= s1`) instead ?\n",
+        "success": false,
+        "id": "C_PROGRAM_CONCATENATE_STRING_GIVEN_NUMBER_TIMES"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_LENGTH_PREFIX_ONE_STRING_OCCURS_SUBSEQUENCE_ANOTHER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NUMBER_TRIANGLES_N_MOVES"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MARKOV_MATRIX"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "LONGEST_COMMON_INCREASING_SUBSEQUENCE_LCS_LIS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "TAIL_RECURSION"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SWAP_BITS_IN_A_GIVEN_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SQUARE_ROOT_OF_AN_INTEGER"
+    },
+    {
+        "error": "run_dir/FIND_MINIMUM_DIFFERENCE_PAIR_1.d(8): Error: undefined identifier `maxInt`\n",
+        "success": false,
+        "id": "FIND_MINIMUM_DIFFERENCE_PAIR_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PYTHAGOREAN_QUADRUPLE"
+    },
+    {
+        "error": "run_dir/MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO.d(9): Error: found `>` when expecting `;` following statement `Vector < (long)` on line run_dir/MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO.d(9)\\nrun_dir/MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO.d(9): Error: found `>` when expecting `;` following statement `s = new Vector < (long)` on line run_dir/MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO.d(9)\\nrun_dir/MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO.d(9): Error: expression expected, not `)`\\nrun_dir/MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO.d(9): Error: found `;` when expecting `)`\\nrun_dir/MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO.d(10): Error: found `for` when expecting `;` following statement `0` on line run_dir/MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO.d(9)\\nrun_dir/MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO.d(10): Error: found `;` when expecting `)`\\nrun_dir/MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO.d(10): Error: found `i` when expecting `;` following statement `i = 0 , j = n - 1` on line run_dir/MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO.d(10)\\nrun_dir/MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO.d(10): Error: found `<` instead of statement\\nrun_dir/MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO.d(10): Error: found `)` when expecting `;` following statement `i++ , j--` on line run_dir/MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO.d(10)\n",
+        "success": false,
+        "id": "MINIMUM_DIFFERENCE_BETWEEN_GROUPS_OF_SIZE_TWO"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_NUMBER_OF_SQUARES_THAT_CAN_BE_FIT_IN_A_RIGHT_ANGLE_ISOSCELES_TRIANGLE"
+    },
+    {
+        "correct": 7,
+        "total": 10,
+        "success": false,
+        "error": "Correctness",
+        "id": "CHECK_ARRAY_CONTAINS_CONTIGUOUS_INTEGERS_DUPLICATES_ALLOWED"
+    },
+    {
+        "error": "run_dir/MAXIMUM_LENGTH_SUBSEQUENCE_DIFFERENCE_ADJACENT_ELEMENTS_EITHER_0_1.d(11): Error: undefined identifier `Math`\n",
+        "success": false,
+        "id": "MAXIMUM_LENGTH_SUBSEQUENCE_DIFFERENCE_ADJACENT_ELEMENTS_EITHER_0_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_SMALLEST_VALUE_REPRESENTED_SUM_SUBSET_GIVEN_ARRAY"
+    },
+    {
+        "correct": 9,
+        "total": 10,
+        "success": false,
+        "error": "Correctness",
+        "id": "FIND_REPEATED_CHARACTER_PRESENT_FIRST_STRING"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_THE_NUMBER_OCCURRING_ODD_NUMBER_OF_TIMES"
+    },
+    {
+        "error": "run_dir/COUNT_SUM_OF_DIGITS_IN_NUMBERS_FROM_1_TO_N.d(9): Error: C style cast illegal, use `cast(int)Math.log10(n)`\\nrun_dir/COUNT_SUM_OF_DIGITS_IN_NUMBERS_FROM_1_TO_N.d(10): Error: instead of C-style syntax, use D-style `int[] a`\\nrun_dir/COUNT_SUM_OF_DIGITS_IN_NUMBERS_FROM_1_TO_N.d(13): Error: C style cast illegal, use `cast(int)Math.ceil(Math.pow(10, i - 1))`\\nrun_dir/COUNT_SUM_OF_DIGITS_IN_NUMBERS_FROM_1_TO_N.d(14): Error: C style cast illegal, use `cast(int)Math.ceil(Math.pow(10, d))`\n",
+        "success": false,
+        "id": "COUNT_SUM_OF_DIGITS_IN_NUMBERS_FROM_1_TO_N"
+    },
+    {
+        "error": "run_dir/CHECK_POSSIBLE_TRANSFORM_ONE_STRING_ANOTHER.d(9): Error: instead of C-style syntax, use D-style `bool[m + 1][n + 1] dp`\n",
+        "success": false,
+        "id": "CHECK_POSSIBLE_TRANSFORM_ONE_STRING_ANOTHER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_SET_BITS_IN_AN_INTEGER_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PRIMALITY_TEST_SET_5USING_LUCAS_LEHMER_SERIES"
+    },
+    {
+        "error": "run_dir/CIRCLE_LATTICE_POINTS.d(11): Error: C style cast illegal, use `cast(int)Math.sqrt(ySquare)`\n",
+        "success": false,
+        "id": "CIRCLE_LATTICE_POINTS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "N_TH_NUMBER_WHOSE_SUM_OF_DIGITS_IS_TEN"
+    },
+    {
+        "error": "run_dir/REMOVE_BRACKETS_ALGEBRAIC_STRING_CONTAINING_OPERATORS.d(10): Error: found `>` when expecting `;` following statement `Stack < (int)` on line run_dir/REMOVE_BRACKETS_ALGEBRAIC_STRING_CONTAINING_OPERATORS.d(10)\\nrun_dir/REMOVE_BRACKETS_ALGEBRAIC_STRING_CONTAINING_OPERATORS.d(10): Error: found `>` when expecting `;` following statement `s = new Stack < (int)` on line run_dir/REMOVE_BRACKETS_ALGEBRAIC_STRING_CONTAINING_OPERATORS.d(10)\\nrun_dir/REMOVE_BRACKETS_ALGEBRAIC_STRING_CONTAINING_OPERATORS.d(10): Error: expression expected, not `)`\\nrun_dir/REMOVE_BRACKETS_ALGEBRAIC_STRING_CONTAINING_OPERATORS.d(10): Error: found `;` when expecting `)`\\nrun_dir/REMOVE_BRACKETS_ALGEBRAIC_STRING_CONTAINING_OPERATORS.d(11): Error: found `s` when expecting `;` following statement `0` on line run_dir/REMOVE_BRACKETS_ALGEBRAIC_STRING_CONTAINING_OPERATORS.d(10)\n",
+        "success": false,
+        "id": "REMOVE_BRACKETS_ALGEBRAIC_STRING_CONTAINING_OPERATORS"
+    },
+    {
+        "error": "run_dir/DICE_THROW_PROBLEM.d(7): Error: variable `n` cannot be read at compile time\n",
+        "success": false,
+        "id": "DICE_THROW_PROBLEM"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_BINARY_DECIMAL_CONVERSION"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMUM_SUM_IARRI_AMONG_ROTATIONS_GIVEN_ARRAY_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "BASIC_AND_EXTENDED_EUCLIDEAN_ALGORITHMS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_SET_BITS_IN_AN_INTEGER_1"
+    },
+    {
+        "error": "run_dir/CHECK_WHETHER_NUMBER_DUCK_NUMBER_NOT.d(7): Error: cannot implicitly convert expression `num.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "CHECK_WHETHER_NUMBER_DUCK_NUMBER_NOT"
+    },
+    {
+        "error": "run_dir/LCS_FORMED_CONSECUTIVE_SEGMENTS_LEAST_LENGTH_K.d(9): Error: instead of C-style syntax, use D-style `int[][] lcs`\\nrun_dir/LCS_FORMED_CONSECUTIVE_SEGMENTS_LEAST_LENGTH_K.d(10): Error: instead of C-style syntax, use D-style `int[][] cnt`\n",
+        "success": false,
+        "id": "LCS_FORMED_CONSECUTIVE_SEGMENTS_LEAST_LENGTH_K"
+    },
+    {
+        "error": "run_dir/FIND_SUM_UNIQUE_SUB_ARRAY_SUM_GIVEN_ARRAY.d(8): Error: identifier expected following comma\\nrun_dir/FIND_SUM_UNIQUE_SUB_ARRAY_SUM_GIVEN_ARRAY.d(8): Error: no identifier for declarator `int`\\nrun_dir/FIND_SUM_UNIQUE_SUB_ARRAY_SUM_GIVEN_ARRAY.d(8): Error: found `>` instead of statement\\nrun_dir/FIND_SUM_UNIQUE_SUB_ARRAY_SUM_GIVEN_ARRAY.d(20): Error: cannot declare `auto` loop variable, omit `auto` to still get type inference\n",
+        "success": false,
+        "id": "FIND_SUM_UNIQUE_SUB_ARRAY_SUM_GIVEN_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_PAIRS_DIFFERENCE_EQUAL_K_1"
+    },
+    {
+        "error": "run_dir/MINIMUM_STEPS_TO_DELETE_A_STRING_AFTER_REPEATED_DELETION_OF_PALINDROME_SUBSTRINGS.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\\nrun_dir/MINIMUM_STEPS_TO_DELETE_A_STRING_AFTER_REPEATED_DELETION_OF_PALINDROME_SUBSTRINGS.d(8): Error: variable `N` cannot be read at compile time\n",
+        "success": false,
+        "id": "MINIMUM_STEPS_TO_DELETE_A_STRING_AFTER_REPEATED_DELETION_OF_PALINDROME_SUBSTRINGS"
+    },
+    {
+        "error": "run_dir/CHECK_GIVEN_SENTENCE_GIVEN_SET_SIMPLE_GRAMMER_RULES.d(14): Error: unterminated character constant\n",
+        "success": false,
+        "id": "CHECK_GIVEN_SENTENCE_GIVEN_SET_SIMPLE_GRAMMER_RULES"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NON_REPEATING_ELEMENT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "HOW_CAN_WE_SUM_THE_DIGITS_OF_A_GIVEN_NUMBER_IN_SINGLE_STATEMENT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_MANHATTAN_DISTANCES_PAIRS_POINTS"
+    },
+    {
+        "error": "run_dir/BINARY_REPRESENTATION_OF_NEXT_NUMBER.d(7): Error: cannot implicitly convert expression `num.length` of type `ulong` to `int`\\nrun_dir/BINARY_REPRESENTATION_OF_NEXT_NUMBER.d(11): Error: no property `substring` for `num` of type `string`\\nrun_dir/BINARY_REPRESENTATION_OF_NEXT_NUMBER.d(11): Error: no property `substring` for `num` of type `string`\\nrun_dir/BINARY_REPRESENTATION_OF_NEXT_NUMBER.d(14): Error: no property `substring` for `num` of type `string`\\nrun_dir/BINARY_REPRESENTATION_OF_NEXT_NUMBER.d(14): Error: no property `substring` for `num` of type `string`\n",
+        "success": false,
+        "id": "BINARY_REPRESENTATION_OF_NEXT_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MIDDLE_OF_THREE_USING_MINIMUM_COMPARISONS_1"
+    },
+    {
+        "error": "run_dir/COUNT_PAIRS_WHOSE_PRODUCTS_EXIST_IN_ARRAY_1.d(8): Error: template instance `HashSet!int` template `HashSet` is not defined\n",
+        "success": false,
+        "id": "COUNT_PAIRS_WHOSE_PRODUCTS_EXIST_IN_ARRAY_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_IF_ALL_THE_ELEMENTS_CAN_BE_MADE_OF_SAME_PARITY_BY_INVERTING_ADJACENT_ELEMENTS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "HYPERCUBE_GRAPH"
+    },
+    {
+        "error": "run_dir/NUMBER_UNIQUE_RECTANGLES_FORMED_USING_N_UNIT_SQUARES.d(8): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "NUMBER_UNIQUE_RECTANGLES_FORMED_USING_N_UNIT_SQUARES"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "K_TH_DISTINCT_OR_NON_REPEATING_ELEMENT_IN_AN_ARRAY"
+    },
+    {
+        "error": "run_dir/FIND_INDEX_GIVEN_FIBONACCI_NUMBER_CONSTANT_TIME_1.d(7): Error: undefined identifier `logf`, did you mean function `log`?\\nrun_dir/FIND_INDEX_GIVEN_FIBONACCI_NUMBER_CONSTANT_TIME_1.d(8): Error: cannot implicitly convert expression `round(cast(real)fibo)` of type `real` to `int`\n",
+        "success": false,
+        "id": "FIND_INDEX_GIVEN_FIBONACCI_NUMBER_CONSTANT_TIME_1"
+    },
+    {
+        "correct": 7,
+        "total": 7,
+        "success": true,
+        "error": "No",
+        "id": "COUNT_WAYS_DIVIDE_CIRCLE_USING_N_NON_INTERSECTING_CHORDS"
+    },
+    {
+        "error": "run_dir/DYNAMIC_PROGRAMMING_SET_28_MINIMUM_INSERTIONS_TO_FORM_A_PALINDROME.d(22): Error: function `DYNAMIC_PROGRAMMING_SET_28_MINIMUM_INSERTIONS_TO_FORM_A_PALINDROME.f_filled(string str, int l, int h)` is not callable using argument types `(char[], int, int)`\\nrun_dir/DYNAMIC_PROGRAMMING_SET_28_MINIMUM_INSERTIONS_TO_FORM_A_PALINDROME.d(22):        cannot pass argument `param0[cast(ulong)i]` of type `char[]` to parameter `string str`\n",
+        "success": false,
+        "id": "DYNAMIC_PROGRAMMING_SET_28_MINIMUM_INSERTIONS_TO_FORM_A_PALINDROME"
+    },
+    {
+        "error": "run_dir/N_TH_NUMBER_WHOSE_SUM_OF_DIGITS_IS_TEN_2.d(8): Error: C style cast illegal, use `cast(int)log10(nthElement)`\n",
+        "success": false,
+        "id": "N_TH_NUMBER_WHOSE_SUM_OF_DIGITS_IS_TEN_2"
+    },
+    {
+        "error": "run_dir/MAXIMUM_AREA_RECTANGLE_PICKING_FOUR_SIDES_ARRAY.d(7): Error: undefined identifier `reverseOrder`\n",
+        "success": false,
+        "id": "MAXIMUM_AREA_RECTANGLE_PICKING_FOUR_SIDES_ARRAY"
+    },
+    {
+        "error": "run_dir/CALCULATE_AREA_TETRAHEDRON.d(7): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "CALCULATE_AREA_TETRAHEDRON"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SEARCH_INSERT_AND_DELETE_IN_A_SORTED_ARRAY_1"
+    },
+    {
+        "error": "run_dir/MINIMUM_FLIP_REQUIRED_MAKE_BINARY_MATRIX_SYMMETRIC_1.d(6): Error: instead of C-style syntax, use D-style `int[][] mat`\n",
+        "success": false,
+        "id": "MINIMUM_FLIP_REQUIRED_MAKE_BINARY_MATRIX_SYMMETRIC_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_SUBARRAY_WITH_GIVEN_SUM_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_NUMBER_POWER_K_USING_BASE_CHANGING_METHOD"
+    },
+    {
+        "error": "run_dir/ARRAY_RANGE_QUERIES_ELEMENTS_FREQUENCY_VALUE.d(7): Error: expression expected, not `)`\\nrun_dir/ARRAY_RANGE_QUERIES_ELEMENTS_FREQUENCY_VALUE.d(7): Error: found `;` when expecting `)`\\nrun_dir/ARRAY_RANGE_QUERIES_ELEMENTS_FREQUENCY_VALUE.d(8): Error: found `for` when expecting `;` following statement `Map < (int) , (int) > mp = new HashMap < (int) , (int) > 0` on line run_dir/ARRAY_RANGE_QUERIES_ELEMENTS_FREQUENCY_VALUE.d(7)\\nrun_dir/ARRAY_RANGE_QUERIES_ELEMENTS_FREQUENCY_VALUE.d(8): Error: unexpected identifier `i` in declarator\\nrun_dir/ARRAY_RANGE_QUERIES_ELEMENTS_FREQUENCY_VALUE.d(8): Error: found `;` when expecting `)`\\nrun_dir/ARRAY_RANGE_QUERIES_ELEMENTS_FREQUENCY_VALUE.d(8): Error: found `i` when expecting `;` following statement `(int) = start` on line run_dir/ARRAY_RANGE_QUERIES_ELEMENTS_FREQUENCY_VALUE.d(8)\\nrun_dir/ARRAY_RANGE_QUERIES_ELEMENTS_FREQUENCY_VALUE.d(8): Error: found `<=` instead of statement\\nrun_dir/ARRAY_RANGE_QUERIES_ELEMENTS_FREQUENCY_VALUE.d(8): Error: found `)` when expecting `;` following statement `i++` on line run_dir/ARRAY_RANGE_QUERIES_ELEMENTS_FREQUENCY_VALUE.d(8)\n",
+        "success": false,
+        "id": "ARRAY_RANGE_QUERIES_ELEMENTS_FREQUENCY_VALUE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MULTIPLY_TWO_NUMBERS_WITHOUT_USING_MULTIPLY_DIVISION_BITWISE_OPERATORS_AND_NO_LOOPS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_INSERTIONS_SORT_ARRAY"
+    },
+    {
+        "error": "run_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(8): Error: found `>` when expecting `;` following statement `Set < (int)` on line run_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(8)\\nrun_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(8): Error: found `>` when expecting `;` following statement `s = new Set < (int)` on line run_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(8)\\nrun_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(8): Error: expression expected, not `)`\\nrun_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(8): Error: found `;` when expecting `)`\\nrun_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(9): Error: found `for` when expecting `;` following statement `0` on line run_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(8)\\nrun_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(9): Error: unexpected identifier `i` in declarator\\nrun_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(9): Error: found `;` when expecting `)`\\nrun_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(9): Error: found `i` when expecting `;` following statement `(int) = 0` on line run_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(9)\\nrun_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(9): Error: found `<` instead of statement\\nrun_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(9): Error: found `)` when expecting `;` following statement `i++` on line run_dir/FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY.d(9)\n",
+        "success": false,
+        "id": "FIND_SUM_NON_REPEATING_DISTINCT_ELEMENTS_ARRAY"
+    },
+    {
+        "error": "run_dir/SUM_SERIES_23_45_67_89_UPTO_N_TERMS.d(14): Error: C style cast illegal, use `cast(double)++i`\\nrun_dir/SUM_SERIES_23_45_67_89_UPTO_N_TERMS.d(18): Error: C style cast illegal, use `cast(double)++i`\n",
+        "success": false,
+        "id": "SUM_SERIES_23_45_67_89_UPTO_N_TERMS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_FOR_DEADLOCK_FREE_CONDITION_IN_OPERATING_SYSTEM"
+    },
+    {
+        "error": "run_dir/QUICK_WAY_CHECK_CHARACTERS_STRING.d(7): Error: cannot implicitly convert expression `s.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "QUICK_WAY_CHECK_CHARACTERS_STRING"
+    },
+    {
+        "error": "run_dir/PROGRAM_TO_CHECK_IF_A_MATRIX_IS_SYMMETRIC.d(6): Error: instead of C-style syntax, use D-style `int[][] mat`\n",
+        "success": false,
+        "id": "PROGRAM_TO_CHECK_IF_A_MATRIX_IS_SYMMETRIC"
+    },
+    {
+        "error": "run_dir/FIND_ONE_EXTRA_CHARACTER_STRING_1.d(8): Error: no identifier for declarator `char`\\nrun_dir/FIND_ONE_EXTRA_CHARACTER_STRING_1.d(10): Error: no identifier for declarator `char`\\nrun_dir/FIND_ONE_EXTRA_CHARACTER_STRING_1.d(12): Error: C style cast illegal, use `cast(char)res`\n",
+        "success": false,
+        "id": "FIND_ONE_EXTRA_CHARACTER_STRING_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "BREAK_NUMBER_THREE_PARTS_1"
+    },
+    {
+        "error": "run_dir/FIND_THE_ELEMENT_BEFORE_WHICH_ALL_THE_ELEMENTS_ARE_SMALLER_THAN_IT_AND_AFTER_WHICH_ALL_ARE_GREATER_THAN_IT.d(8): Error: undefined identifier `INT_MIN`\\nrun_dir/FIND_THE_ELEMENT_BEFORE_WHICH_ALL_THE_ELEMENTS_ARE_SMALLER_THAN_IT_AND_AFTER_WHICH_ALL_ARE_GREATER_THAN_IT.d(10): Error: undefined identifier `INT_MAX`\n",
+        "success": false,
+        "id": "FIND_THE_ELEMENT_BEFORE_WHICH_ALL_THE_ELEMENTS_ARE_SMALLER_THAN_IT_AND_AFTER_WHICH_ALL_ARE_GREATER_THAN_IT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_K_TH_GROUP_ODD_POSITIVE_NUMBERS_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_THE_MAXIMUM_ELEMENT_IN_AN_ARRAY_WHICH_IS_FIRST_INCREASING_AND_THEN_DECREASING"
+    },
+    {
+        "error": "run_dir/LEXICOGRAPHICALLY_MINIMUM_STRING_ROTATION.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\\nrun_dir/LEXICOGRAPHICALLY_MINIMUM_STRING_ROTATION.d(9): Error: invalid array operation `str + str` (possible missing [])\\nrun_dir/LEXICOGRAPHICALLY_MINIMUM_STRING_ROTATION.d(9):        did you mean to concatenate (`str ~ str`) instead ?\\nrun_dir/LEXICOGRAPHICALLY_MINIMUM_STRING_ROTATION.d(11): Error: no property `substring` for `concat` of type `string`\n",
+        "success": false,
+        "id": "LEXICOGRAPHICALLY_MINIMUM_STRING_ROTATION"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_NUMBER_OF_SOLUTIONS_OF_X2_1_MOD_P_IN_GIVEN_RANGE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MAXIMIZE_VOLUME_CUBOID_GIVEN_SUM_SIDES"
+    },
+    {
+        "error": "run_dir/PROGRAM_PRINT_SUM_GIVEN_NTH_TERM_1.d(7): Error: C style cast illegal, use `cast(int)pow(n, 2)`\n",
+        "success": false,
+        "id": "PROGRAM_PRINT_SUM_GIVEN_NTH_TERM_1"
+    },
+    {
+        "error": "run_dir/DECIMAL_REPRESENTATION_GIVEN_BINARY_STRING_DIVISIBLE_10_NOT.d(7): Error: cannot implicitly convert expression `bin.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "DECIMAL_REPRESENTATION_GIVEN_BINARY_STRING_DIVISIBLE_10_NOT"
+    },
+    {
+        "error": "run_dir/FIND_N_TH_ELEMENT_FROM_STERNS_DIATOMIC_SERIES.d(7): Error: instead of C-style syntax, use D-style `int[n + 1] DP`\n",
+        "success": false,
+        "id": "FIND_N_TH_ELEMENT_FROM_STERNS_DIATOMIC_SERIES"
+    },
+    {
+        "error": "run_dir/COUNT_SUBARRAYS_TOTAL_DISTINCT_ELEMENTS_ORIGINAL_ARRAY.d(7): Error: identifier expected following comma\\nrun_dir/COUNT_SUBARRAYS_TOTAL_DISTINCT_ELEMENTS_ORIGINAL_ARRAY.d(7): Error: no identifier for declarator `int`\\nrun_dir/COUNT_SUBARRAYS_TOTAL_DISTINCT_ELEMENTS_ORIGINAL_ARRAY.d(7): Error: found `>` instead of statement\n",
+        "success": false,
+        "id": "COUNT_SUBARRAYS_TOTAL_DISTINCT_ELEMENTS_ORIGINAL_ARRAY"
+    },
+    {
+        "error": "run_dir/MINIMUM_SUM_SUBSEQUENCE_LEAST_ONE_EVERY_FOUR_CONSECUTIVE_ELEMENTS_PICKED_1.d(7): Error: none of the overloads of template `std.algorithm.comparison.min` are callable using argument types `!()(int[])`\\n/etc/../usr/include/dmd/phobos/std/algorithm/comparison.d(1751):        Candidates are: `min(T...)(T args)`\\n  with `T = (int[])`\\n  must satisfy the following constraint:\\n`       T.length >= 2`\\n/etc/../usr/include/dmd/phobos/std/algorithm/comparison.d(1791):                        `min(T, U)(T a, U b)`\\nrun_dir/MINIMUM_SUM_SUBSEQUENCE_LEAST_ONE_EVERY_FOUR_CONSECUTIVE_ELEMENTS_PICKED_1.d(14): Error: none of the overloads of template `std.algorithm.comparison.min` are callable using argument types `!()(int[])`\\n/etc/../usr/include/dmd/phobos/std/algorithm/comparison.d(1751):        Candidates are: `min(T...)(T args)`\\n  with `T = (int[])`\\n  must satisfy the following constraint:\\n`       T.length >= 2`\\n/etc/../usr/include/dmd/phobos/std/algorithm/comparison.d(1791):                        `min(T, U)(T a, U b)`\\nrun_dir/MINIMUM_SUM_SUBSEQUENCE_LEAST_ONE_EVERY_FOUR_CONSECUTIVE_ELEMENTS_PICKED_1.d(15): Error: none of the overloads of template `std.algorithm.comparison.min` are callable using argument types `!()(int[])`\\n/etc/../usr/include/dmd/phobos/std/algorithm/comparison.d(1751):        Candidates are: `min(T...)(T args)`\\n  with `T = (int[])`\\n  must satisfy the following constraint:\\n`       T.length >= 2`\\n/etc/../usr/include/dmd/phobos/std/algorithm/comparison.d(1791):                        `min(T, U)(T a, U b)`\n",
+        "success": false,
+        "id": "MINIMUM_SUM_SUBSEQUENCE_LEAST_ONE_EVERY_FOUR_CONSECUTIVE_ELEMENTS_PICKED_1"
+    },
+    {
+        "error": "run_dir/STEINS_ALGORITHM_FOR_FINDING_GCD.d(10): Error: `1 == 0` must be surrounded by parentheses when next to operator `&`\\nrun_dir/STEINS_ALGORITHM_FOR_FINDING_GCD.d(14): Error: `1 == 0` must be surrounded by parentheses when next to operator `&`\\nrun_dir/STEINS_ALGORITHM_FOR_FINDING_GCD.d(16): Error: `1 == 0` must be surrounded by parentheses when next to operator `&`\n",
+        "success": false,
+        "id": "STEINS_ALGORITHM_FOR_FINDING_GCD"
+    },
+    {
+        "error": "run_dir/FIRST_UPPERCASE_LETTER_IN_A_STRING_ITERATIVE_AND_RECURSIVE.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "FIRST_UPPERCASE_LETTER_IN_A_STRING_ITERATIVE_AND_RECURSIVE"
+    },
+    {
+        "error": "CompilationError(\"run_dir/SUM_TWO_LARGE_NUMBERS.d(19): Error: C style cast illegal, use `cast(int)str1[i]`\\nrun_dir/SUM_TWO_LARGE_NUMBERS.d(19): Error: C style cast illegal, use `cast(int)str2[i]`\\nrun_dir/SUM_TWO_LARGE_NUMBERS.d(20): Error: C style cast illegal, use `cast(char)(sum % 10 + '0')`\\nrun_dir/SUM_TWO_LARGE_NUMBERS.d(24): Error: C style cast illegal, use `cast(int)str2[i]`\\nrun_dir/SUM_TWO_LARGE_NUMBERS.d(25): Error: C style cast illegal, use `cast(char)(sum % 10 + '0')`\\nrun_dir/SUM_TWO_LARGE_NUMBERS.d(28): Error: C style cast illegal, use `cast(char)(carry + '0')`\\n\")",
+        "success": false,
+        "id": "SUM_TWO_LARGE_NUMBERS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PADOVAN_SEQUENCE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CASSINIS_IDENTITY"
+    },
+    {
+        "correct": 8,
+        "total": 10,
+        "success": false,
+        "error": "Correctness",
+        "id": "COUNT_OPERATIONS_MAKE_STRINGAB_FREE"
+    },
+    {
+        "error": "run_dir/LARGEST_SUBARRAY_WITH_EQUAL_NUMBER_OF_0S_AND_1S_1.d(7): Error: identifier expected following comma\\nrun_dir/LARGEST_SUBARRAY_WITH_EQUAL_NUMBER_OF_0S_AND_1S_1.d(7): Error: no identifier for declarator `int`\\nrun_dir/LARGEST_SUBARRAY_WITH_EQUAL_NUMBER_OF_0S_AND_1S_1.d(7): Error: found `>` instead of statement\\nrun_dir/LARGEST_SUBARRAY_WITH_EQUAL_NUMBER_OF_0S_AND_1S_1.d(38): Error: identifier or `new` expected following `.`, not `out`\n",
+        "success": false,
+        "id": "LARGEST_SUBARRAY_WITH_EQUAL_NUMBER_OF_0S_AND_1S_1"
+    },
+    {
+        "error": "run_dir/CONSTRUCT_LEXICOGRAPHICALLY_SMALLEST_PALINDROME.d(26): Error: no property `toString` for `str` of type `char[]`\n",
+        "success": false,
+        "id": "CONSTRUCT_LEXICOGRAPHICALLY_SMALLEST_PALINDROME"
+    },
+    {
+        "error": "run_dir/COUNT_DERANGEMENTS_PERMUTATION_SUCH_THAT_NO_ELEMENT_APPEARS_IN_ITS_ORIGINAL_POSITION_1.d(7): Error: instead of C-style syntax, use D-style `int[n + 1] der`\n",
+        "success": false,
+        "id": "COUNT_DERANGEMENTS_PERMUTATION_SUCH_THAT_NO_ELEMENT_APPEARS_IN_ITS_ORIGINAL_POSITION_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NUMBER_ORDERED_PAIRS_AI_AJ_0"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SMALLEST_POWER_OF_2_GREATER_THAN_OR_EQUAL_TO_N"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COMPOSITE_NUMBER"
+    },
+    {
+        "error": "run_dir/SUM_OF_ALL_PROPER_DIVISORS_OF_A_NATURAL_NUMBER.d(8): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "SUM_OF_ALL_PROPER_DIVISORS_OF_A_NATURAL_NUMBER"
+    },
+    {
+        "error": "run_dir/K_TH_DISTINCT_OR_NON_REPEATING_ELEMENT_IN_AN_ARRAY_1.d(7): Error: identifier expected following comma\\nrun_dir/K_TH_DISTINCT_OR_NON_REPEATING_ELEMENT_IN_AN_ARRAY_1.d(7): Error: no identifier for declarator `int`\\nrun_dir/K_TH_DISTINCT_OR_NON_REPEATING_ELEMENT_IN_AN_ARRAY_1.d(7): Error: found `>` instead of statement\n",
+        "success": false,
+        "id": "K_TH_DISTINCT_OR_NON_REPEATING_ELEMENT_IN_AN_ARRAY_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_K_TH_GROUP_ODD_POSITIVE_NUMBERS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SEARCH_AN_ELEMENT_IN_A_SORTED_AND_PIVOTED_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NTH_MULTIPLE_NUMBER_FIBONACCI_SERIES"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_OCTAL_DECIMAL_CONVERSION"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROBABILITY_THREE_RANDOMLY_CHOSEN_NUMBERS_AP"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SQUARED_TRIANGULAR_NUMBER_SUM_CUBES"
+    },
+    {
+        "error": "run_dir/MAXIMUM_SUM_PAIRS_SPECIFIC_DIFFERENCE.d(7): Error: template argument expected following `!`\\nrun_dir/MAXIMUM_SUM_PAIRS_SPECIFIC_DIFFERENCE.d(8): Error: instead of C-style syntax, use D-style `int[N] dp`\n",
+        "success": false,
+        "id": "MAXIMUM_SUM_PAIRS_SPECIFIC_DIFFERENCE"
+    },
+    {
+        "error": "run_dir/UGLY_NUMBERS.d(7): Error: instead of C-style syntax, use D-style `int[n] ugly`\n",
+        "success": false,
+        "id": "UGLY_NUMBERS"
+    },
+    {
+        "error": "run_dir/NUMBER_SUBSEQUENCES_AB_STRING_REPEATED_K_TIMES.d(7): Error: cannot implicitly convert expression `s.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "NUMBER_SUBSEQUENCES_AB_STRING_REPEATED_K_TIMES"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "TURN_OFF_THE_RIGHTMOST_SET_BIT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_UNIT_DIGIT_X_RAISED_POWER_Y"
+    },
+    {
+        "error": "run_dir/COUNT_OFDIFFERENT_WAYS_EXPRESS_N_SUM_1_3_4.d(7): Error: instead of C-style syntax, use D-style `int[n + 1] DP`\n",
+        "success": false,
+        "id": "COUNT_OFDIFFERENT_WAYS_EXPRESS_N_SUM_1_3_4"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COMPUTE_MODULUS_DIVISION_BY_A_POWER_OF_2_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CEILING_IN_A_SORTED_ARRAY"
+    },
+    {
+        "error": "run_dir/MINIMUM_PRODUCT_SUBSET_ARRAY.d(33): Error: integer overflow\n",
+        "success": false,
+        "id": "MINIMUM_PRODUCT_SUBSET_ARRAY"
+    },
+    {
+        "error": "run_dir/DICE_THROW_PROBLEM_1.d(7): Error: variable `d` cannot be read at compile time\n",
+        "success": false,
+        "id": "DICE_THROW_PROBLEM_1"
+    },
+    {
+        "error": "run_dir/MAXIMUM_CONSECUTIVE_REPEATING_CHARACTER_STRING_1.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "MAXIMUM_CONSECUTIVE_REPEATING_CHARACTER_STRING_1"
+    },
+    {
+        "error": "run_dir/SUM_SEQUENCE_2_22_222.d(7): Error: `10.0` is not of integral type, it is a `double`\\nrun_dir/SUM_SEQUENCE_2_22_222.d(7): Error: `cast(double)(n - 1 - 9 * n)` is not of integral type, it is a `double`\n",
+        "success": false,
+        "id": "SUM_SEQUENCE_2_22_222"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_INVERSIONS_OF_SIZE_THREE_IN_A_GIVE_ARRAY_1"
+    },
+    {
+        "correct": 7,
+        "total": 7,
+        "success": true,
+        "error": "No",
+        "id": "DOUBLE_FACTORIAL"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_MINIMUM_SUM_FACTORS_NUMBER"
+    },
+    {
+        "error": "run_dir/DECIMAL_BINARY_CONVERSION_WITHOUT_USING_ARITHMETIC_OPERATORS.d(10): Error: invalid array operation `((n & 1) == 0 ? \"0\" : \"1\") + bin` (possible missing [])\\nrun_dir/DECIMAL_BINARY_CONVERSION_WITHOUT_USING_ARITHMETIC_OPERATORS.d(10):        did you mean to concatenate (`((n & 1) == 0 ? \"0\" : \"1\") ~ bin`) instead ?\n",
+        "success": false,
+        "id": "DECIMAL_BINARY_CONVERSION_WITHOUT_USING_ARITHMETIC_OPERATORS"
+    },
+    {
+        "error": "run_dir/MINIMUM_XOR_VALUE_PAIR_1.d(7): Error: no property `parallelSort` for `arr` of type `int[]`\n",
+        "success": false,
+        "id": "MINIMUM_XOR_VALUE_PAIR_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_TRAILING_ZEROES_FACTORIAL_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SMALLEST_POWER_OF_2_GREATER_THAN_OR_EQUAL_TO_N_1"
+    },
+    {
+        "error": "run_dir/LARGEST_SUBSEQUENCE_GCD_GREATER_1.d(8): Error: no property `stream` for `arr` of type `int[]`\\nrun_dir/LARGEST_SUBSEQUENCE_GCD_GREATER_1.d(14): Error: undefined identifier `Math`\n",
+        "success": false,
+        "id": "LARGEST_SUBSEQUENCE_GCD_GREATER_1"
+    },
+    {
+        "error": "run_dir/CENTER_ELEMENT_OF_MATRIX_EQUALS_SUMS_OF_HALF_DIAGONALS.d(6): Error: instead of C-style syntax, use D-style `int[][] mat`\n",
+        "success": false,
+        "id": "CENTER_ELEMENT_OF_MATRIX_EQUALS_SUMS_OF_HALF_DIAGONALS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMUM_INCREMENT_K_OPERATIONS_MAKE_ELEMENTS_EQUAL"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_FOR_FACTORIAL_OF_A_NUMBER_2"
+    },
+    {
+        "error": "run_dir/NUMBER_VISIBLE_BOXES_PUTTING_ONE_INSIDE_ANOTHER.d(7): Error: semicolon expected following auto declaration, not `>`\\nrun_dir/NUMBER_VISIBLE_BOXES_PUTTING_ONE_INSIDE_ANOTHER.d(7): Error: found `>` instead of statement\n",
+        "success": false,
+        "id": "NUMBER_VISIBLE_BOXES_PUTTING_ONE_INSIDE_ANOTHER"
+    },
+    {
+        "error": "run_dir/CHECK_EXIST_TWO_ELEMENTS_ARRAY_WHOSE_SUM_EQUAL_SUM_REST_ARRAY.d(15): Error: template instance `HashSet!int` template `HashSet` is not defined\n",
+        "success": false,
+        "id": "CHECK_EXIST_TWO_ELEMENTS_ARRAY_WHOSE_SUM_EQUAL_SUM_REST_ARRAY"
+    },
+    {
+        "error": "run_dir/SMALLEST_DIFFERENCE_PAIR_VALUES_TWO_UNSORTED_ARRAYS.d(10): Error: undefined identifier `maxInt`\n",
+        "success": false,
+        "id": "SMALLEST_DIFFERENCE_PAIR_VALUES_TWO_UNSORTED_ARRAYS"
+    },
+    {
+        "error": "run_dir/LONGEST_PREFIX_ALSO_SUFFIX_1.d(7): Error: cannot implicitly convert expression `s.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "LONGEST_PREFIX_ALSO_SUFFIX_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUM_SERIES_12_32_52_2N_12_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "ONE_LINE_FUNCTION_FOR_FACTORIAL_OF_A_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "HOW_TO_CHECK_IF_A_GIVEN_ARRAY_REPRESENTS_A_BINARY_HEAP"
+    },
+    {
+        "correct": 0,
+        "total": 10,
+        "success": false,
+        "error": "Correctness",
+        "id": "N_TH_TERM_SERIES_2_12_36_80_150"
+    },
+    {
+        "error": "run_dir/LEXICOGRAPHICAL_MAXIMUM_SUBSTRING_STRING.d(9): Error: no property `compareTo` for `mx` of type `string`\\nrun_dir/LEXICOGRAPHICAL_MAXIMUM_SUBSTRING_STRING.d(10): Error: no property `substring` for `str` of type `string`\n",
+        "success": false,
+        "id": "LEXICOGRAPHICAL_MAXIMUM_SUBSTRING_STRING"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_MAXIMUM_SUM_POSSIBLE_EQUAL_SUM_THREE_STACKS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "ZECKENDORFS_THEOREM_NON_NEIGHBOURING_FIBONACCI_REPRESENTATION"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_GIVEN_MATRIX_SPARSE_NOT"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NTH_NON_FIBONACCI_NUMBER"
+    },
+    {
+        "error": "run_dir/HARDY_RAMANUJAN_THEOREM.d(12): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "HARDY_RAMANUJAN_THEOREM"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_INDEX_PAIRS_EQUAL_ELEMENTS_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "WRITE_A_C_PROGRAM_TO_CALCULATE_POWXN"
+    },
+    {
+        "error": "run_dir/SUM_FACTORS_NUMBER.d(8): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "SUM_FACTORS_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_THE_MINIMUM_DISTANCE_BETWEEN_TWO_NUMBERS"
+    },
+    {
+        "error": "run_dir/COUNT_SUBSTRINGS_WITH_SAME_FIRST_AND_LAST_CHARACTERS.d(8): Error: cannot implicitly convert expression `s.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "COUNT_SUBSTRINGS_WITH_SAME_FIRST_AND_LAST_CHARACTERS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PRIMALITY_TEST_SET_1_INTRODUCTION_AND_SCHOOL_METHOD_1"
+    },
+    {
+        "error": "run_dir/GOLD_MINE_PROBLEM.d(7): Error: variable `m` cannot be read at compile time\n",
+        "success": false,
+        "id": "GOLD_MINE_PROBLEM"
+    },
+    {
+        "error": "run_dir/EVEN_FIBONACCI_NUMBERS_SUM.d(17): Error: C style cast illegal, use `cast(int)sum`\n",
+        "success": false,
+        "id": "EVEN_FIBONACCI_NUMBERS_SUM"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_STRINGS_CAN_FORMED_USING_B_C_GIVEN_CONSTRAINTS_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PYTHON_PROGRAM_FIND_PERIMETER_CIRCUMFERENCE_SQUARE_RECTANGLE_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_THE_MISSING_NUMBER_2"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_A_FIXED_POINT_IN_A_GIVEN_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "EFFICIENT_WAY_TO_MULTIPLY_WITH_7"
+    },
+    {
+        "error": "run_dir/PROGRAM_CENSOR_WORD_ASTERISKS_SENTENCE.d(7): Error: no property `split` for type `string`, perhaps `import std.array;` is needed?\\nrun_dir/PROGRAM_CENSOR_WORD_ASTERISKS_SENTENCE.d(11): Error: slice `stars` is not mutable\\nrun_dir/PROGRAM_CENSOR_WORD_ASTERISKS_SENTENCE.d(14): Error: no property `compareTo` for `i` of type `string`\\nrun_dir/PROGRAM_CENSOR_WORD_ASTERISKS_SENTENCE.d(19): Error: slice `result` is not mutable\\nrun_dir/PROGRAM_CENSOR_WORD_ASTERISKS_SENTENCE.d(19):        did you mean to concatenate (`result ~= i`) instead ?\n",
+        "success": false,
+        "id": "PROGRAM_CENSOR_WORD_ASTERISKS_SENTENCE"
+    },
+    {
+        "error": "run_dir/FORM_SMALLEST_NUMBER_USING_ONE_SWAP_OPERATION.d(7): Error: no property `toCharArray` for `str` of type `string`\\nrun_dir/FORM_SMALLEST_NUMBER_USING_ONE_SWAP_OPERATION.d(12): Error: cannot implicitly convert expression `n - 2LU` of type `ulong` to `int`\\nrun_dir/FORM_SMALLEST_NUMBER_USING_ONE_SWAP_OPERATION.d(13): Error: cannot implicitly convert expression `right` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "FORM_SMALLEST_NUMBER_USING_ONE_SWAP_OPERATION"
+    },
+    {
+        "correct": 16,
+        "total": 16,
+        "success": true,
+        "error": "No",
+        "id": "COUNT_EVEN_LENGTH_BINARY_SEQUENCES_WITH_SAME_SUM_OF_FIRST_AND_SECOND_HALF_BITS_1"
+    },
+    {
+        "error": "run_dir/COUNT_NUMBER_OF_WAYS_TO_PARTITION_A_SET_INTO_K_SUBSETS_1.d(7): Error: variable `n` cannot be read at compile time\n",
+        "success": false,
+        "id": "COUNT_NUMBER_OF_WAYS_TO_PARTITION_A_SET_INTO_K_SUBSETS_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_SET_BITS_IN_AN_INTEGER_3"
+    },
+    {
+        "error": "run_dir/MAXIMUM_AVERAGE_SUM_PARTITION_ARRAY.d(7): Error: cannot implicitly convert expression `A.length` of type `ulong` to `int`\\nrun_dir/MAXIMUM_AVERAGE_SUM_PARTITION_ARRAY.d(17): Error: undefined identifier `Math`\n",
+        "success": false,
+        "id": "MAXIMUM_AVERAGE_SUM_PARTITION_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "LONGEST_INCREASING_ODD_EVEN_SUBSEQUENCE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "WRITE_A_C_PROGRAM_TO_FIND_THE_PARITY_OF_AN_UNSIGNED_INTEGER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_NUMBER_IS_PERFECT_SQUARE_USING_ADDITIONSUBTRACTION"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_A_TRIPLET_THAT_SUM_TO_A_GIVEN_VALUE"
+    },
+    {
+        "error": "run_dir/COUNT_INDEX_PAIRS_EQUAL_ELEMENTS_ARRAY_1.d(7): Error: identifier expected following comma\\nrun_dir/COUNT_INDEX_PAIRS_EQUAL_ELEMENTS_ARRAY_1.d(7): Error: no identifier for declarator `int`\\nrun_dir/COUNT_INDEX_PAIRS_EQUAL_ELEMENTS_ARRAY_1.d(7): Error: found `>` instead of statement\\nrun_dir/COUNT_INDEX_PAIRS_EQUAL_ELEMENTS_ARRAY_1.d(13): Error: cannot declare `auto` loop variable, omit `auto` to still get type inference\n",
+        "success": false,
+        "id": "COUNT_INDEX_PAIRS_EQUAL_ELEMENTS_ARRAY_1"
+    },
+    {
+        "error": "run_dir/ELEMENTS_TO_BE_ADDED_SO_THAT_ALL_ELEMENTS_OF_A_RANGE_ARE_PRESENT_IN_ARRAY_1.d(7): Error: semicolon expected following auto declaration, not `>`\\nrun_dir/ELEMENTS_TO_BE_ADDED_SO_THAT_ALL_ELEMENTS_OF_A_RANGE_ARE_PRESENT_IN_ARRAY_1.d(7): Error: found `>` instead of statement\n",
+        "success": false,
+        "id": "ELEMENTS_TO_BE_ADDED_SO_THAT_ALL_ELEMENTS_OF_A_RANGE_ARE_PRESENT_IN_ARRAY_1"
+    },
+    {
+        "error": "run_dir/NUMBER_DIGITS_PRODUCT_TWO_NUMBERS_1.d(8): Error: C style cast illegal, use `cast(int)floor(log10(abs(a)) + log10(abs(b)))`\n",
+        "success": false,
+        "id": "NUMBER_DIGITS_PRODUCT_TWO_NUMBERS_1"
+    },
+    {
+        "error": "run_dir/SUM_FAI_AJ_PAIRS_ARRAY_N_INTEGERS.d(7): Error: expression expected, not `)`\\nrun_dir/SUM_FAI_AJ_PAIRS_ARRAY_N_INTEGERS.d(7): Error: found `;` when expecting `)`\\nrun_dir/SUM_FAI_AJ_PAIRS_ARRAY_N_INTEGERS.d(8): Error: found `int` when expecting `;` following statement `Map < (int) , (int) > cnt = new Map < (int) , (int) > 0` on line run_dir/SUM_FAI_AJ_PAIRS_ARRAY_N_INTEGERS.d(7)\n",
+        "success": false,
+        "id": "SUM_FAI_AJ_PAIRS_ARRAY_N_INTEGERS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "DIFFERENCE_BETWEEN_HIGHEST_AND_LEAST_FREQUENCIES_IN_AN_ARRAY"
+    },
+    {
+        "error": "run_dir/LEXICOGRAPHICALLY_NEXT_STRING.d(11): Error: C style cast illegal, use `cast(int)str[i]`\\nrun_dir/LEXICOGRAPHICALLY_NEXT_STRING.d(11): Error: C style cast illegal, use `cast(char)(cast(int)str[i] + 1)`\n",
+        "success": false,
+        "id": "LEXICOGRAPHICALLY_NEXT_STRING"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NTH_PENTAGONAL_NUMBER"
+    },
+    {
+        "error": "run_dir/MAXIMUM_NUMBER_CHOCOLATES_DISTRIBUTED_EQUALLY_AMONG_K_STUDENTS.d(7): Error: identifier expected following comma\\nrun_dir/MAXIMUM_NUMBER_CHOCOLATES_DISTRIBUTED_EQUALLY_AMONG_K_STUDENTS.d(7): Error: no identifier for declarator `int`\\nrun_dir/MAXIMUM_NUMBER_CHOCOLATES_DISTRIBUTED_EQUALLY_AMONG_K_STUDENTS.d(7): Error: found `>` instead of statement\n",
+        "success": false,
+        "id": "MAXIMUM_NUMBER_CHOCOLATES_DISTRIBUTED_EQUALLY_AMONG_K_STUDENTS"
+    },
+    {
+        "error": "run_dir/EULERIAN_NUMBER_1.d(7): Error: variable `n` cannot be read at compile time\n",
+        "success": false,
+        "id": "EULERIAN_NUMBER_1"
+    },
+    {
+        "error": "run_dir/MAXIMUM_PRODUCT_INCREASING_SUBSEQUENCE.d(8): Error: undefined identifier `Integer`\n",
+        "success": false,
+        "id": "MAXIMUM_PRODUCT_INCREASING_SUBSEQUENCE"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_INDEX_OF_AN_EXTRA_ELEMENT_PRESENT_IN_ONE_SORTED_ARRAY_1"
+    },
+    {
+        "error": "run_dir/NUMBER_SUBSTRINGS_STRING.d(7): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "NUMBER_SUBSTRINGS_STRING"
+    },
+    {
+        "error": "TestRuntimeError('core.exception.ArrayIndexError@run_dir/MAXIMUM_GAMES_PLAYED_WINNER.d(12): index [73] is out of bounds for array of length 73\n",
+        "error": "RuntimeError",
+        "success": false,
+        "id": "MAXIMUM_GAMES_PLAYED_WINNER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "COUNT_NUMBERS_CAN_CONSTRUCTED_USING_TWO_NUMBERS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PRIME_NUMBERS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_MAXIMUM_PRODUCT_OF_A_TRIPLET_IN_ARRAY_1"
+    },
+    {
+        "error": "run_dir/K_TH_PRIME_FACTOR_GIVEN_NUMBER.d(13): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "K_TH_PRIME_FACTOR_GIVEN_NUMBER"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NEXT_POWER_OF_2"
+    },
+    {
+        "error": "run_dir/MINIMUM_DIFFERENCE_MAX_MIN_K_SIZE_SUBSETS.d(7): Error: template argument expected following `!`\n",
+        "success": false,
+        "id": "MINIMUM_DIFFERENCE_MAX_MIN_K_SIZE_SUBSETS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "MINIMIZE_SUM_PRODUCT_TWO_ARRAYS_PERMUTATIONS_ALLOWED"
+    },
+    {
+        "error": "run_dir/COUNT_BINARY_STRINGS_K_TIMES_APPEARING_ADJACENT_TWO_SET_BITS.d(7): Error: instead of C-style syntax, use D-style `int[2][k + 1][n + 1] dp`\n",
+        "success": false,
+        "id": "COUNT_BINARY_STRINGS_K_TIMES_APPEARING_ADJACENT_TWO_SET_BITS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SUBSEQUENCES_SIZE_THREE_ARRAY_WHOSE_SUM_DIVISIBLE_M"
+    },
+    {
+        "error": "run_dir/STRING_CONTAINING_FIRST_LETTER_EVERY_WORD_GIVEN_STRING_SPACES.d(10): Error: unterminated character constant\\nrun_dir/STRING_CONTAINING_FIRST_LETTER_EVERY_WORD_GIVEN_STRING_SPACES.d(13): Error: unterminated character constant\n",
+        "success": false,
+        "id": "STRING_CONTAINING_FIRST_LETTER_EVERY_WORD_GIVEN_STRING_SPACES"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "BINARY_SEARCH"
+    },
+    {
+        "correct": 5,
+        "total": 10,
+        "success": false,
+        "error": "Correctness",
+        "id": "PROGRAM_FIND_SLOPE_LINE"
+    },
+    {
+        "error": "run_dir/AREA_OF_A_HEXAGON.d(7): Error: `std.math.algebraic.sqrt` called with argument types `(int)` matches both:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(186):     `std.math.algebraic.sqrt(float x)`\\nand:\\n/etc/../usr/include/dmd/phobos/std/math/algebraic.d(194):     `std.math.algebraic.sqrt(real x)`\n",
+        "success": false,
+        "id": "AREA_OF_A_HEXAGON"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "NUMBER_NON_NEGATIVE_INTEGRAL_SOLUTIONS_B_C_N_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "RECURSIVE_C_PROGRAM_LINEARLY_SEARCH_ELEMENT_GIVEN_ARRAY"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "PROGRAM_TO_FIND_REMAINDER_WITHOUT_USING_MODULO_OR_OPERATOR"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "CHECK_WHETHER_GIVEN_NUMBER_EVEN_ODD_1"
+    },
+    {
+        "error": "run_dir/MAXIMUM_DIFFERENCE_SUM_ELEMENTS_TWO_ROWS_MATRIX.d(6): Error: instead of C-style syntax, use D-style `int[][] mat`\\nrun_dir/MAXIMUM_DIFFERENCE_SUM_ELEMENTS_TWO_ROWS_MATRIX.d(7): Error: instead of C-style syntax, use D-style `int[] rowSum`\n",
+        "success": false,
+        "id": "MAXIMUM_DIFFERENCE_SUM_ELEMENTS_TWO_ROWS_MATRIX"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FIND_ROTATION_COUNT_ROTATED_SORTED_ARRAY_1"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "SEQUENCES_GIVEN_LENGTH_EVERY_ELEMENT_EQUAL_TWICE_PREVIOUS"
+    },
+    {
+        "error": "run_dir/ROW_WISE_COMMON_ELEMENTS_TWO_DIAGONALS_SQUARE_MATRIX.d(6): Error: instead of C-style syntax, use D-style `int[][] mat`\n",
+        "success": false,
+        "id": "ROW_WISE_COMMON_ELEMENTS_TWO_DIAGONALS_SQUARE_MATRIX"
+    },
+    {
+        "error": "run_dir/COUNT_CHARACTERS_STRING_DISTANCE_ENGLISH_ALPHABETS.d(8): Error: cannot implicitly convert expression `str.length` of type `ulong` to `int`\n",
+        "success": false,
+        "id": "COUNT_CHARACTERS_STRING_DISTANCE_ENGLISH_ALPHABETS"
+    },
+    {
+        "success": true,
+        "error": "No",
+        "id": "FAST_MULTIPLICATION_METHOD_WITHOUT_USING_MULTIPLICATION_OPERATOR_RUSSIAN_PEASANTS_ALGORITHM"
+    }
+]

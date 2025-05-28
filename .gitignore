@@ -178,3 +178,6 @@ cython_debug/
 
 # VS Code
 .vscode
+
+# Tree Sitter Cache
+tree-sitter-cache
